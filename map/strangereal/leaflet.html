@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Strangereal Atlas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css">
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/ardhi/Leaflet.MousePosition/master/src/L.Control.MousePosition.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js" type="text/javascript"></script>
+    <script src="https://cdn.rawgit.com/ardhi/Leaflet.MousePosition/master/src/L.Control.MousePosition.js"
+        type="text/javascript"></script>
+    <style>
+        html,
+        body,
+        #map {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            z-index: 1;
+            background: #ffffff;
+        }
+
+        #slider {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 5;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <input id="slider" type="range" min="0" max="1" step="0.1" value="1" oninput="layer.setOpacity(this.value)">
+    <script type="text/javascript">
+        var mapExtent = [0.00000000, -2059.00000000, 3580.00000000, 0.00000000];
+        var mapMinZoom = 0;
+        var mapMaxZoom = 4;
+        var mapMaxResolution = 1.00000000;
+        var mapMinResolution = Math.pow(2, mapMaxZoom) * mapMaxResolution;;
+        var tileExtent = [0.00000000, -2059.00000000, 3580.00000000, 0.00000000];
+        var crs = L.CRS.Simple;
+        crs.transformation = new L.Transformation(1, -tileExtent[0], -1, tileExtent[3]);
+        crs.scale = function (zoom) {
+            return Math.pow(2, zoom) / mapMinResolution;
+        };
+        crs.zoom = function (scale) {
+            return Math.log(scale * mapMinResolution) / Math.LN2;
+        };
+        var layer;
+        var map = new L.Map('map', {
+            maxZoom: mapMaxZoom,
+            minZoom: mapMinZoom,
+            crs: crs
+        });
+
+        layer = L.tileLayer('{z}/{x}/{y}.png', {
+            minZoom: mapMinZoom,
+            maxZoom: mapMaxZoom,
+            attribution: 'Rendered with <a href="https://www.maptiler.com/">MapTiler Desktop</a>',
+            noWrap: true,
+            tms: false
+        }).addTo(map);
+        map.fitBounds([
+            crs.unproject(L.point(mapExtent[2], mapExtent[3])),
+            crs.unproject(L.point(mapExtent[0], mapExtent[1]))
+        ]);
+        L.control.mousePosition().addTo(map)
+
+        // markers
+        var marker = L.marker([0, 0], {
+            draggable: true
+        }).addTo(map);
+        marker.bindPopup('');
+
+        // pixels
+        var marker_sandisland = L.marker(map.unproject([1456,939], map.getMaxZoom())).addTo(map);
+        marker_sandisland.bindPopup('Sand Island');
+        
+        var marker_oured = L.marker(map.unproject([2337,994], map.getMaxZoom())).addTo(map);
+        marker_oured.bindPopup('Oured');
+
+        var marker_selatapura = L.marker(map.unproject([3022,997], map.getMaxZoom())).addTo(map);
+        marker_selatapura.bindPopup('Selatapura');
+
+        marker.on('dragend', function(e) {
+            let latlng = marker.getLatLng();
+            let coord = [latlng.lng, -latlng.lat];
+            marker.getPopup().setContent('Clicked ' + coord + '<br/>' + latlng).openOn(map);
+            console.log(latlng);
+        });
+
+        // countries (store points on DB)
+        var polygonGebet = [
+            [-728,2368],
+            [-695,2384],
+            [-669,2387],
+            [-667,2413],
+            [-698,2482],
+            [-762,2516],
+            [-777,2516],
+            [-789,2507],
+            [-790,2453],
+            [-743,2420]];
+        L.polygon(polygonGebet).addTo(map);
+
+        var polygonYuke = [
+            [-1196, 843],
+            [-1164, 910],
+            [-1202, 962],
+            [-1211, 1030],
+            [-1221, 1061],
+            [-1265, 1127],
+            [-1259, 1130],
+            [-1258, 1124],
+            [-1248, 1127],
+            [-1248, 1116],
+            [-1244, 1121],
+            [-1239, 1114],
+            [-1233, 1122],
+            [-1230, 1119],
+            [-1230, 1106],
+            [-1229, 1104],
+            [-1226, 1109],
+            [-1216, 1100],
+            [-1216, 1113],
+            [-1219, 1119],
+            [-1218, 1120],
+            [-1210, 1113],
+            [-1206, 1113],
+            [-1210, 1121],
+            [-1207, 1129],
+            [-1203, 1124],
+            [-1199, 1126],
+            [-1195, 1117],
+            [-1194, 1126],
+            [-1192, 1130],
+            [-1189, 1133],
+            [-1189, 1140],
+            [-1201, 1134],
+            [-1203, 1135],
+            [-1203, 1143],
+            [-1211, 1147],
+            [-1216, 1147],
+            [-1222, 1142],
+            [-1228, 1141],
+            [-1231, 1145],
+            [-1229, 1152],
+            [-1237, 1158],
+            [-1234, 1163],
+            [-1221, 1157],
+            [-1224, 1162],
+            [-1222, 1168],
+            [-1217, 1164],
+            [-1215, 1166],
+            [-1208, 1183],
+            [-1094, 1234],
+            [-1108, 1316],
+            [-1080, 1316],
+            [-1008, 1262],
+            [-944, 1192],
+            [-910, 1194],
+            [-882, 1141],
+            [-839, 1269],
+            [-815, 1133],
+            [-774, 1193],
+            [-708, 1181],
+            [-685, 1137],
+            [-590, 852],
+            [-662, 556],
+            [-610, 448],
+            [-726, 322],
+            [-768, 364],
+            [-748, 426],
+            [-758, 446],
+            [-786, 482],
+            [-806, 488],
+            [-796, 544],
+            [-896, 664],
+            [-964, 730],
+            [-1072, 656],
+            [-1094, 702],
+            [-1070, 726],
+            [-1088, 826],
+            [-1142, 834]];
+        var polygon = L.polygon(polygonYuke).addTo(map);
+        map.fitBounds(polygon.getBounds());
+
+    </script>
+</body>
+
+</html>
