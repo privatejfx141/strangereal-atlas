@@ -1,12 +1,52 @@
 [
     {
-        "name": "Cinigrad",
+        "_id": "anchorhead",
+        "countryId": "erusea",
+        "name": "Anchorhead"
+    },
+    {
+        "_id": "anfang",
+        "countryId": "belka",
+        "name": "Anfang"
+    },
+    {
+        "_id": "banacity",
+        "countryId": "osea",
+        "name": "Bana City"
+    },
+    {
+        "_id": "cinigrad",
         "countryId": "yuktobania",
+        "name": "Cinigrad",
         "isCapital": true
     },
     {
-        "name": "Oured",
+        "_id": "dinsmark",
+        "countryId": "belka",
+        "name": "Dinsmark",
+        "isCapital": true
+    },
+    {
+        "_id": "directus",
+        "countryId": "ustio",
+        "name": "Directus",
+        "isCapital": true
+    },
+    {
+        "_id": "farbanti",
+        "countryId": "erusea",
+        "name": "Farbanti",
+        "isCapital": true 
+    },
+    {
+        "_id": "novembercity",
         "countryId": "osea",
+        "name": "November City"
+    },
+    {
+        "_id": "oured",
+        "countryId": "osea",
+        "name": "Oured",
         "isCapital": true
     }
 ]

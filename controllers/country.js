@@ -4,16 +4,32 @@
 /**
  * Module dependencies.
  */
+const fs = require('fs');
 const mongoose = require('mongoose');
 const CountryModel = mongoose.model('Country');
+
+// populate collection with dataset, if empty
+const COUNTRY_DATASET_PATH = './datasets/countries.json';
+CountryModel.countDocuments((err, count) => {
+    if (err) throw err;
+    if (count == 0) {
+        fs.readFile(COUNTRY_DATASET_PATH, (err, data) => {  
+            if (err) throw err;
+            CountryModel.insertMany(JSON.parse(data), function (err, doc) {
+                if (err) throw err;
+                console.log("Country dataset has been initialized.");
+            });
+        });
+    }
+});
 
 // size for pagination
 const COUNTRY_PAGE_SIZE = 10;
 
 // get paginated list of countries ids
+// GET /api/countries/[?page]
 exports.getCountries = function (req, res) {
     let page = parseInt(req.query.page) || 0;
-    let continent = req.query.continent;
     CountryModel.find({}, { _id: 1 })
         .skip(page * COUNTRY_PAGE_SIZE)
         .limit(COUNTRY_PAGE_SIZE)
@@ -24,11 +40,12 @@ exports.getCountries = function (req, res) {
 };
 
 // get specific country by id
+// GET /api/countries/:id/
 exports.getCountry = function (req, res) {
-    let countryId = req.params.id;
+    let countryId = req.params.id.toLowerCase();
     CountryModel.findOne({ _id: countryId }, function (err, country) {
         if (err) return res.status(500).end(err);
-        if (!country) return res.status(404).end(`country ${countryId} does not exist`);
+        if (!country) return res.status(404).end(`country '${countryId}' does not exist`);
         return res.json(country);
     });
 };

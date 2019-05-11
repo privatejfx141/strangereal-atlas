@@ -16,7 +16,10 @@ const CitySchema = new mongoose.Schema({
         type: Boolean,
         default: false,
     },
-    desc : {
+    location: {
+        type: [Number]
+    },
+    desc: {
         type: String,
     }
 });

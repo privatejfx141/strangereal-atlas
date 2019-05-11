@@ -1,187 +1,232 @@
 [
     {
+        "_id": "amber",
         "name": "Amber",
         "fullname": "Republic of Amber",
         "type": "Republic",
-        "continent": "Usea"
+        "location": "Usea"
     },
     {
+        "_id": "aurelia",
         "name": "Aurelia",
         "fullname": "Federal Republic of Aurelia",
         "type": "Federal republic",
         "capital": "Griswall",
-        "continent": "Osea"
+        "location": "Southern Osea"
     },
     {
+        "_id": "belka",
         "name": "Belka",
         "fullname": "Principality of Belka",
         "type": "Principality",
         "capital": "Dinsmark",
-        "continent": "Osea"
+        "location": "Eastern Osea",
+        "desc": "Belka is a major country on the Osean continent. Belka is best known for pioneering the use of aircraft in war, particularly with its legendary Belkan Air Force. The country has a massive industrial sector, which was utilized for a period of expansionism in the mid- to late-20th century."
     },
     {
+        "_id": "bulgurdarest",
         "name": "Bulgurdarest",
-        "continent": "Usea"
+        "location": "Usea"
     },
     {
+        "_id": "clavis",
         "name": "Clavis",
-        "continent": "Verusa"
+        "location": "Verusa"
     },
     {
+        "_id": "delarus",
         "name": "Delarus",
-        "continent": "Usea"
+        "location": "Usea"
     },
     {
+        "_id": "emmeria",
         "name": "Emmeria",
         "fullname": "Republic of Emmeria",
         "type": "Republic",
         "capital": "Gracemeria",
-        "continent": "Anea"
+        "location": "Anea"
     },
     {
+        "_id": "erusea",
         "name": "Erusea",
         "fullname": "Kingdom of Erusea",
         "type": "Monarchy",
         "capital": "Farbanti",
-        "continent": "Usea"
+        "location": "Usea",
+        "desc": "Erusea is a large nation located on the westernmost part of the Usean continent. The nation is known for its industrialism, militarism, and advancements in engineering and aeronautic technologies."
     },
     {
+        "_id": "estovakia",
         "name": "Estovakia",
         "fullname": "Federal Republic of Estovakia",
         "type": "Federal republic",
-        "continent": "Anea"
+        "location": "Anea"
     },
     {
+        "_id": "fato",
         "name": "FATO",
-        "continent": "Osea"
+        "location": "Eastern Osea"
     },
     {
+        "_id": "fcu",
         "name": "FCU",
         "fullname": "Federation of Central Usea",
         "type": "Federal state",
-        "continent": "Usea"
+        "location": "Usea"
     },
     {
+        "_id": "gebet",
         "name": "Gebet",
-        "continent": "Osea"
+        "location": "Eastern Osea"
     },
     {
+        "_id": "gratobie",
         "name": "Gratobie"
     },
     {
+        "_id": "gunther",
+        "name": "Gunther",
+        "type": "Trust territory",
+        "location": "Usea"
+    },
+    {
+        "_id": "isaf",
         "name": "ISAF",
         "fullname": "Independent State Allied Forces",
         "type": "Military alliance",
-        "continent": "Usea"
+        "location": "Usea"
     },
     {
+        "_id": "kaluga",
         "name": "Kaluga",
-        "continent": "Verusa"
+        "location": "Verusa"
     },
     {
+        "_id": "leasath",
         "name": "Leasath",
         "fullname": "Democratic Republic of Leasath",
         "type": "Republic",
         "capital": "Alendal",
-        "continent": "Osea"
+        "location": "Southern Osea"
     },
     {
+        "_id": "nordennavic",
         "name": "Nordennavic",
         "fullname": "Kingdom of Nordennavic",
         "type": "Monarchy",
-        "continent": "Anea"
+        "location": "Anea"
     },
     {
+        "_id": "nordlands",
         "name": "Nordlands",
-        "continent": "Osea"
+        "location": "Osea"
     },
     {
+        "_id": "northpoint",
         "name": "North Point",
         "capital": "North Point",
-        "continent": "Usea"
+        "location": "Usea"
     },
     {
+        "_id": "osea",
         "name": "Osea",
         "fullname": "Osean Federation",
         "type": "Federal presidential republic",
         "capital": "Oured",
-        "continent": "Osea"
+        "location": "Western Osea",
+        "desc": "Osea is a massive country and international superpower located on the Osean continent. Osea is a highly developed country that possesses a large population, an extensive infrastructure, a thriving economy, and a well-outfitted military force, the Osean Defense Forces. Osea is also considered one of the world's foremost leaders in aeronautics and space-exploration development."
     },
     {
+        "_id": "ratio",
         "name": "Ratio",
         "capital": "Centrum",
-        "continent": "Osea"
+        "location": "Eastern Osea"
     },
     {
+        "_id": "recta",
         "name": "Recta",
         "capital": "Cor",
-        "continent": "Osea"
+        "location": "Eastern Osea"
     },
     {
+        "_id": "romny",
         "name": "Romny",
-        "continent": "Verusa"
+        "location": "Verusa"
     },
     {
+        "_id": "sansalvacion",
         "name": "San Salvacion",
         "capital": "San Salvacion",
-        "continent": "Usea"
+        "location": "Usea"
     },
     {
+        "_id": "sapin",
         "name": "Sapin",
         "fullname": "Kingdom of Sapin",
         "type": "Monarchy",
         "capital": "Gran Rugido",
-        "continent": "Osea"
+        "location": "Eastern Osea"
     },
     {
+        "_id": "shilage",
         "name": "Shilage",
         "fullname": "Grand Duchy of Shilage",
         "type": "Grand duchy",
-        "continent": "Usea"
+        "location": "Usea"
     },
     {
+        "_id": "sotoa",
         "name": "Sotoa",
-        "continent": "Verusa"
+        "location": "Verusa"
     },
     {
+        "_id": "ugellas",
         "name": "Ugellas",
         "fullname": "Independent State of Ugellas",
-        "continent": "Usea"
+        "location": "Usea"
     },
     {
+        "_id": "ustio",
         "name": "Ustio",
         "fullname": "Republic of Ustio",
         "capital": "Directus",
-        "continent": "Osea"
+        "location": "Eastern Osea"
     },
     {
+        "_id": "valka",
         "name": "Valka",
         "fullname": "Kingdom of Valka",
-        "continent": "Verusa"
+        "location": "Verusa"
     },
     {
+        "_id": "verusa",
         "name": "Verusa",
-        "continent": "Verusa"
+        "location": "Verusa"
     },
     {
+        "_id": "voslage",
         "name": "Voslage",
         "fullname": "Republic of Voslage",
         "type": "Republic",
-        "continent": "Usea"
+        "location": "Usea"
     },
     {
+        "_id": "wellow",
         "name": "Wellow",
-        "continent": "Osea"
+        "location": "Northern Osea"
     },
     {
+        "_id": "wielvakia",
         "name": "Wielvakia",
-        "continent": "Osea"
+        "location": "Eastern Osea"
     },
     {
+        "_id": "yuktobania",
         "name": "Yuktobania",
         "fullname": "Union of Yuktobanian Republics",
         "type": "Federal parliamentary republic",
         "capital": "Cinigrad",
-        "continent": "Verusa"
+        "location": "Verusa",
+        "desc": "Yuktobania is a large nation and international superpower located on the Verusan continent. It is a highly developed nation that possesses a large population, industrialized economy, and a well-outfitted military force. The country is also regarded for its many advancements in aerospace technology, submersible engineering, and ballistic missile weaponry."
     }
 ]
