@@ -19,7 +19,7 @@ exports.getCountries = function (req, res) {
         .limit(COUNTRY_PAGE_SIZE)
         .exec(function (err, countries) {
             if (err) return res.status(500).end(err);
-            return res.json(countries);
+            return res.json(countries.map(country => country._id));
         });
 };
 

@@ -16,5 +16,5 @@ const POISchema = new mongoose.Schema({
     }
 });
 
-const POI = mongoose.model('POI', CitySchema, 'poi');
+const POI = mongoose.model('POI', POISchema, 'poi');
 module.export = POI;

@@ -1,5 +1,6 @@
-const path = require('path');
 const express = require('express');
+const fs = require('fs');
+const path = require('path');
 const app = express();
 
 // server settings
@@ -29,14 +30,22 @@ app.use(function (req, res, next) {
 
 /* Read */
 
-COUNTRY_PAGE_SIZE = 10;
+const country = require('./controllers/country');
+app.get('/api/countries/', country.getCountries);
+app.get('/api/countries/:id/', country.getCountry);
 
-// get the 10 latest countries
-app.get('/api/countries/', function (req, res) {
-    
-});
+const flag = require('./controllers/flag');
+app.get('/api/countries/:id/flag/', flag.getFlag);
 
-// get a specific country by id
-app.get('/api/countries/:id/', function (req, res) {
+const city = require('./controllers/city');
+app.get('/api/city/', country.getCountries);
+app.get('/api/city/:id/', country.getCountry);
 
+// setup server
+const http = require('http');
+const PORT = 3000;
+
+http.createServer(app).listen(PORT, function (err) {
+    if (err) console.log(err);
+    else console.log("HTTP server on http://localhost:%s", PORT);
 });

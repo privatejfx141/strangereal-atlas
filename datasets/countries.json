@@ -1,0 +1,187 @@
+[
+    {
+        "name": "Amber",
+        "fullname": "Republic of Amber",
+        "type": "Republic",
+        "continent": "Usea"
+    },
+    {
+        "name": "Aurelia",
+        "fullname": "Federal Republic of Aurelia",
+        "type": "Federal republic",
+        "capital": "Griswall",
+        "continent": "Osea"
+    },
+    {
+        "name": "Belka",
+        "fullname": "Principality of Belka",
+        "type": "Principality",
+        "capital": "Dinsmark",
+        "continent": "Osea"
+    },
+    {
+        "name": "Bulgurdarest",
+        "continent": "Usea"
+    },
+    {
+        "name": "Clavis",
+        "continent": "Verusa"
+    },
+    {
+        "name": "Delarus",
+        "continent": "Usea"
+    },
+    {
+        "name": "Emmeria",
+        "fullname": "Republic of Emmeria",
+        "type": "Republic",
+        "capital": "Gracemeria",
+        "continent": "Anea"
+    },
+    {
+        "name": "Erusea",
+        "fullname": "Kingdom of Erusea",
+        "type": "Monarchy",
+        "capital": "Farbanti",
+        "continent": "Usea"
+    },
+    {
+        "name": "Estovakia",
+        "fullname": "Federal Republic of Estovakia",
+        "type": "Federal republic",
+        "continent": "Anea"
+    },
+    {
+        "name": "FATO",
+        "continent": "Osea"
+    },
+    {
+        "name": "FCU",
+        "fullname": "Federation of Central Usea",
+        "type": "Federal state",
+        "continent": "Usea"
+    },
+    {
+        "name": "Gebet",
+        "continent": "Osea"
+    },
+    {
+        "name": "Gratobie"
+    },
+    {
+        "name": "ISAF",
+        "fullname": "Independent State Allied Forces",
+        "type": "Military alliance",
+        "continent": "Usea"
+    },
+    {
+        "name": "Kaluga",
+        "continent": "Verusa"
+    },
+    {
+        "name": "Leasath",
+        "fullname": "Democratic Republic of Leasath",
+        "type": "Republic",
+        "capital": "Alendal",
+        "continent": "Osea"
+    },
+    {
+        "name": "Nordennavic",
+        "fullname": "Kingdom of Nordennavic",
+        "type": "Monarchy",
+        "continent": "Anea"
+    },
+    {
+        "name": "Nordlands",
+        "continent": "Osea"
+    },
+    {
+        "name": "North Point",
+        "capital": "North Point",
+        "continent": "Usea"
+    },
+    {
+        "name": "Osea",
+        "fullname": "Osean Federation",
+        "type": "Federal presidential republic",
+        "capital": "Oured",
+        "continent": "Osea"
+    },
+    {
+        "name": "Ratio",
+        "capital": "Centrum",
+        "continent": "Osea"
+    },
+    {
+        "name": "Recta",
+        "capital": "Cor",
+        "continent": "Osea"
+    },
+    {
+        "name": "Romny",
+        "continent": "Verusa"
+    },
+    {
+        "name": "San Salvacion",
+        "capital": "San Salvacion",
+        "continent": "Usea"
+    },
+    {
+        "name": "Sapin",
+        "fullname": "Kingdom of Sapin",
+        "type": "Monarchy",
+        "capital": "Gran Rugido",
+        "continent": "Osea"
+    },
+    {
+        "name": "Shilage",
+        "fullname": "Grand Duchy of Shilage",
+        "type": "Grand duchy",
+        "continent": "Usea"
+    },
+    {
+        "name": "Sotoa",
+        "continent": "Verusa"
+    },
+    {
+        "name": "Ugellas",
+        "fullname": "Independent State of Ugellas",
+        "continent": "Usea"
+    },
+    {
+        "name": "Ustio",
+        "fullname": "Republic of Ustio",
+        "capital": "Directus",
+        "continent": "Osea"
+    },
+    {
+        "name": "Valka",
+        "fullname": "Kingdom of Valka",
+        "continent": "Verusa"
+    },
+    {
+        "name": "Verusa",
+        "continent": "Verusa"
+    },
+    {
+        "name": "Voslage",
+        "fullname": "Republic of Voslage",
+        "type": "Republic",
+        "continent": "Usea"
+    },
+    {
+        "name": "Wellow",
+        "continent": "Osea"
+    },
+    {
+        "name": "Wielvakia",
+        "continent": "Osea"
+    },
+    {
+        "name": "Yuktobania",
+        "fullname": "Union of Yuktobanian Republics",
+        "type": "Federal parliamentary republic",
+        "capital": "Cinigrad",
+        "continent": "Verusa"
+    }
+]
