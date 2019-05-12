@@ -4,20 +4,398 @@
         "conflictId": "ac04",
         "name": "Operation Umbrella",
         "altname": "Sitting Duck",
-        "date": "2004-09-19T04:00:00.000Z"
+        "date": "2004-09-19T04:00:00.000Z",
+        "location": [0, 0]
     },
     {
         "_id": "ac04_m02",
         "conflictId": "ac04",
         "name": "Operation Harvest",
         "altname": "Imminent Threat",
-        "date": "2004-10-05T04:00:00.000Z"
+        "date": "2004-10-05T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac04_m03",
+        "conflictId": "ac04",
+        "name": "Operation White Out",
+        "altname": "The Northern Eye",
+        "date": "2004-10-10T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac04_m04",
+        "conflictId": "ac04",
+        "name": "Operation Hunting Hawk",
+        "altname": "Blockade",
+        "date": "2004-11-07T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac04_m05",
+        "conflictId": "ac04",
+        "name": "Operation Early Bird",
+        "altname": "Lifeline",
+        "date": "2004-11-19T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac04_m06",
+        "conflictId": "ac04",
+        "name": "Operation Rough Seas",
+        "altname": "Invincible Fleet",
+        "date": "2004-11-23T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac04_m07",
+        "conflictId": "ac04",
+        "name": "Operation Blackout",
+        "altname": "Deep Strike",
+        "date": "2004-12-16T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac04_m08",
+        "conflictId": "ac04",
+        "name": "Operation Countdown",
+        "altname": "Shattered Skies",
+        "date": "2004-12-31T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac04_m09",
+        "conflictId": "ac04",
+        "name": "Operation Bunker Shot",
+        "altname": "Operation Bunker Shot",
+        "date": "2005-01-24T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac04_m10",
+        "conflictId": "ac04",
+        "name": "Operation Woodpecker",
+        "altname": "Tango Line",
+        "date": "2005-02-28T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac04_m11",
+        "conflictId": "ac04",
+        "name": "Operation Noah's Ark",
+        "altname": "Escort",
+        "date": "2005-03-14T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac04_m12",
+        "conflictId": "ac04",
+        "name": "Operation Stone Crusher",
+        "altname": "Stonehenge Offensive",
+        "date": "2005-04-02T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac04_m13",
+        "conflictId": "ac04",
+        "name": "Operation Blindman's Bluff",
+        "altname": "Safe Return",
+        "date": "2005-05-07T04:00:00.000Z"
+    },
+    {
+        "_id": "ac04_m14",
+        "conflictId": "ac04",
+        "name": "Operation Aurora",
+        "altname": "Breaking Arrows",
+        "date": "2005-06-18T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac04_m15",
+        "conflictId": "ac04",
+        "name": "Operation Firefly",
+        "altname": "Emancipation",
+        "date": "2005-07-10T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac04_m16",
+        "conflictId": "ac04",
+        "name": "Operation Sandstorm",
+        "altname": "Whiskey Corridor",
+        "date": "2005-08-15T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac04_m17",
+        "conflictId": "ac04",
+        "name": "Operation Autumn Thunder",
+        "altname": "Siege of Farbanti",
+        "date": "2005-09-19T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac04_m18",
+        "conflictId": "ac04",
+        "name": "Operation Judgement Day",
+        "altname": "Megalith",
+        "date": "2005-09-26T04:00:00.000Z",
+        "location": [0, 0]
     },
     {
         "_id": "ac5_m01",
         "conflictId": "ac5",
         "name": "Operation Lagoon",
         "altname": "Shorebirds",
-        "date": "2010-09-24T04:00:00.000Z"
+        "date": "2010-09-24T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m02",
+        "conflictId": "ac5",
+        "name": "Operation Gyre",
+        "altname": "Open War",
+        "date": "2010-09-27T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m03",
+        "conflictId": "ac5",
+        "name": "Bombing of St. Hewlett",
+        "altname": "Narrow Margin",
+        "date": "2010-09-27T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m04",
+        "conflictId": "ac5",
+        "name": "Bombing of Sand Island",
+        "altname": "First Flight",
+        "date": "2010-09-27T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m05",
+        "conflictId": "ac5",
+        "name": "Operation Whalebird",
+        "altname": "Rendezvous",
+        "date": "2010-09-30T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m06",
+        "conflictId": "ac5",
+        "name": "Operation Silver Bridge",
+        "altname": "White Bird (Part I)",
+        "date": "2010-10-03T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m07",
+        "conflictId": "ac5",
+        "name": "Operation Vanguard",
+        "altname": "Front Line",
+        "date": "2010-10-04T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m08",
+        "conflictId": "ac5",
+        "name": "Akerson Hill incident",
+        "altname": "Handful of Hope",
+        "date": "2010-10-22T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m09",
+        "conflictId": "ac5",
+        "name": "Operation Footprint",
+        "altname": "Lit Fuse",
+        "date": "2010-11-01T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m10",
+        "conflictId": "ac5",
+        "name": "Operation Hammerblow",
+        "altname": "Blind Spot",
+        "date": "2010-11-02T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m11a",
+        "conflictId": "ac5",
+        "name": "Operation Emerald",
+        "altname": "Chain Reaction",
+        "date": "2010-11-04T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m11b",
+        "conflictId": "ac5",
+        "name": "Operation Wisdom",
+        "altname": "Reprisal",
+        "date": "2010-11-04T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m12a",
+        "conflictId": "ac5",
+        "name": "Operation Snake Pit",
+        "altname": "Powder Keg",
+        "date": "2010-11-07T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m12b",
+        "conflictId": "ac5",
+        "name": "Operation Fork Dance",
+        "altname": "Four Horsemen",
+        "date": "2010-11-07T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m13",
+        "conflictId": "ac5",
+        "name": "Operation Long Harpoon",
+        "altname": "Demons of Razgriz",
+        "date": "2010-11-14T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m14",
+        "conflictId": "ac5",
+        "name": "Operation Backhaul",
+        "altname": "Ice Cage",
+        "date": "2010-11-17T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m15",
+        "conflictId": "ac5",
+        "name": "Operation Stray Sheep",
+        "altname": "White Noise",
+        "date": "2010-11-18T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m16a",
+        "conflictId": "ac5",
+        "name": "Operation Desert Arrow",
+        "altname": "Desert Arrow",
+        "date": "2010-11-25T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m16b",
+        "conflictId": "ac5",
+        "name": "Operation Desert Blitz",
+        "altname": "Desert Lightning",
+        "date": "2010-11-25T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m17",
+        "conflictId": "ac5",
+        "name": "Operation Supercircus",
+        "altname": "Journey Home",
+        "date": "2010-11-29T04:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m18",
+        "conflictId": "ac5",
+        "name": "Operation Doodlebug",
+        "altname": "Fortress",
+        "date": "2010-12-06T05:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m18+",
+        "conflictId": "ac5",
+        "name": "Ambush at Vladimir",
+        "altname": "8492",
+        "date": "2010-12-06T05:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m19",
+        "conflictId": "ac5",
+        "name": "Escape from Sand Island",
+        "altname": "Final Option",
+        "date": "2010-12-07T05:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m20",
+        "conflictId": "ac5",
+        "name": "Operation Keynote",
+        "altname": "Ancient Walls",
+        "date": "2010-12-09T05:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m21",
+        "conflictId": "ac5",
+        "name": "Operation Silvereye",
+        "altname": "Solitaire",
+        "date": "2010-12-11T05:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m22",
+        "conflictId": "ac5",
+        "name": "Operation Deepsix",
+        "altname": "Closure",
+        "date": "2010-12-12T05:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m23",
+        "conflictId": "ac5",
+        "name": "Operation Riverbed",
+        "altname": "Ghosts of Razgriz",
+        "date": "2010-12-16T05:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m24",
+        "conflictId": "ac5",
+        "name": "Operation Game Bird",
+        "altname": "White Bird (Part II)",
+        "date": "2010-12-19T05:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m25",
+        "conflictId": "ac5",
+        "name": "Operation Crossroad",
+        "altname": "Heartbreak One",
+        "date": "2010-12-23T05:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m26",
+        "conflictId": "ac5",
+        "name": "Operation Glory Horn",
+        "altname": "Sea of Chaos",
+        "date": "2010-12-29T05:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m27",
+        "conflictId": "ac5",
+        "name": "Battle of Sudentor",
+        "altname": "ACES",
+        "date": "2010-12-30T05:00:00.000Z",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac5_m27+",
+        "conflictId": "ac5",
+        "name": "Operation Arcadia",
+        "altname": "The Unsung War",
+        "date": "2010-12-31T05:00:00.000Z",
+        "location": [0, 0]
     }
 ]

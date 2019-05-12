@@ -2,51 +2,98 @@
     {
         "_id": "anchorhead",
         "countryId": "erusea",
-        "name": "Anchorhead"
+        "name": "Anchorhead",
+        "location": [0, 0]
     },
     {
         "_id": "anfang",
         "countryId": "belka",
-        "name": "Anfang"
+        "name": "Anfang",
+        "location": [0, 0]
     },
     {
         "_id": "banacity",
         "countryId": "osea",
-        "name": "Bana City"
+        "name": "Bana City",
+        "location": [0, 0]
     },
     {
         "_id": "cinigrad",
         "countryId": "yuktobania",
         "name": "Cinigrad",
-        "isCapital": true
+        "isCapital": true,
+        "location": [0, 0]
     },
     {
         "_id": "dinsmark",
         "countryId": "belka",
         "name": "Dinsmark",
-        "isCapital": true
+        "isCapital": true,
+        "location": [0, 0]
     },
     {
         "_id": "directus",
         "countryId": "ustio",
         "name": "Directus",
-        "isCapital": true
+        "isCapital": true,
+        "location": [0, 0]
+    },
+    {
+        "_id": "dresdenne",
+        "countryId": "yuktobania",
+        "name": "Dresdenne",
+        "location": [0, 0]
     },
     {
         "_id": "farbanti",
         "countryId": "erusea",
         "name": "Farbanti",
-        "isCapital": true 
+        "isCapital": true,
+        "location": [0, 0]
+    },
+    {
+        "_id": "gracemeria",
+        "countryId": "emmeria",
+        "name": "Gracemeria",
+        "isCapital": true,
+        "location": [0, 0]
+    },
+    {
+        "_id": "granrugido",
+        "countryId": "sapin",
+        "name": "Gran Rugido",
+        "isCapital": true,
+        "location": [0, 0]
+    },
+    {
+        "_id": "mante",
+        "countryId": "emmeria",
+        "name": "Mante",
+        "location": [0, 0]
     },
     {
         "_id": "novembercity",
         "countryId": "osea",
-        "name": "November City"
+        "name": "November City",
+        "location": [0, 0]
     },
     {
         "_id": "oured",
         "countryId": "osea",
         "name": "Oured",
-        "isCapital": true
+        "isCapital": true,
+        "location": [0, 0]
+    },
+    {
+        "_id": "sandisland",
+        "countryId": "osea",
+        "name": "Sand Island",
+        "location": [0, 0]
+    },
+    {
+        "_id": "solisortus",
+        "countryId": "ustio",
+        "name": "Solis Ortus",
+        "location": [0, 0]
     }
 ]
