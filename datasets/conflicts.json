@@ -1,26 +1,39 @@
 [
     {
         "_id": "ac04",
-        "name": "Continental War"
+        "name": "Continental War",
+        "side1Ids": ["isaf", "northpoint", "sansalvacion"],
+        "side2Ids": ["erusea"]
     },
     {
         "_id": "ac5",
-        "name": "Circum-Pacific War"
+        "name": "Circum-Pacific War",
+        "side1Ids": ["osea"],
+        "side2Ids": ["yuktobania"],
+        "side3Ids": ["belka"]
     },
     {
         "_id": "acz",
-        "name": "Belkan War"
+        "name": "Belkan War",
+        "side1Ids": ["osea", "sapin", "ustio", "yuktobania"],
+        "side2Ids": ["belka"]
     },
     {
         "_id": "acx",
-        "name": "Aurelian War"
+        "name": "Aurelian War",
+        "side1Ids": ["aurelia"],
+        "side2Ids": ["leasath"]
     },
     {
         "_id": "ac6",
-        "name": "Emmeria-Estovakia War"
+        "name": "Emmeria-Estovakia War",
+        "side1Ids": ["emmeria", "nordennavic"],
+        "side2Ids": ["estovakia"]
     },
     {
         "_id": "ac7",
-        "name": "Lighthouse War"
+        "name": "Lighthouse War",
+        "side1Ids": ["osea"],
+        "side2Ids": ["erusea"]
     }
 ]
