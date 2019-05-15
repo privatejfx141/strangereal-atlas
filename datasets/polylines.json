@@ -1,0 +1,17 @@
+[
+    {
+        "_id": "osea-belka",
+        "polyline": [[0, 0], [0, 0]]
+    },
+    {
+        "_id": "osea-ustio",
+        "polyline": [[0, 0], [0, 0]]
+    },
+    {
+        "_id": "belka-ustio",
+        "polyline": [[0, 0], [0, 0]]
+    },
+    {
+        "_id": "verusa-yuktobania"
+    }
+]

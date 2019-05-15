@@ -552,5 +552,126 @@
         "altname": "Zero",
         "date": "1995-12-31",
         "location": [0, 0]
+    },
+
+    {
+        "_id": "ac6_m01",
+        "conflictId": "ac6",
+        "name": "Invasion of Gracemeria",
+        "altname": "Invasion of Gracemeria",
+        "date": "2015-08-30",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac6_m02",
+        "conflictId": "ac6",
+        "name": "Bombing of Vitoze",
+        "altname": "Vitoze Aerial Defense",
+        "date": "2015-11-24",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac6_m03",
+        "conflictId": "ac6",
+        "name": "Battle of Sipli Field",
+        "altname": "Sipli Field",
+        "date": "2015-11-27",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac6_m04",
+        "conflictId": "ac6",
+        "name": "Battle of Bartolomeo Fortress",
+        "altname": "Bartolomeo Fortress",
+        "date": "2015-12-27",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac6_m05",
+        "conflictId": "ac6",
+        "name": "Rargom Beach offensive",
+        "altname": "Anea Landing",
+        "date": "2016-01-26",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac6_m06",
+        "conflictId": "ac6",
+        "name": "Battle of Silvat",
+        "altname": "Siege on Silvat",
+        "date": "2016-02-07",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac6_m07",
+        "conflictId": "ac6",
+        "name": "Battle of the Selumna Peaks",
+        "altname": "Selumna Peak",
+        "date": "2016-02-12",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac6_m08",
+        "conflictId": "ac6",
+        "name": "San Loma Assault",
+        "altname": "San Loma Assault",
+        "date": "2016-02-15",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac6_m09",
+        "conflictId": "ac6",
+        "name": "Assault on the Aerial Fleet",
+        "altname": "Heavy Command Cruiser",
+        "date": "2016-02-20",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac6_m10",
+        "conflictId": "ac6",
+        "name": "Battle of Ragno Fortress",
+        "altname": "Ragno Fortress",
+        "date": "2016-03-06",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac6_m11",
+        "conflictId": "ac6",
+        "name": "Battle of the Moloch Desert",
+        "altname": "The Moloch Desert",
+        "date": "2016-03-23",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac6_m12",
+        "conflictId": "ac6",
+        "name": "Fort Norton infiltration",
+        "altname": "Weapons of Mass Destruction",
+        "date": "2016-03-26",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac6_m13",
+        "conflictId": "ac6",
+        "name": "Operation Free Gracemeria",
+        "altname": "The Liberation of Gracemeria",
+        "date": "2016-03-31",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac6_m14",
+        "conflictId": "ac6",
+        "name": "Gracemeria cruise missile attack",
+        "altname": "Gracemeria Patrol",
+        "date": "2016-03-31",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac6_m15",
+        "conflictId": "ac6",
+        "name": "Battle of Sonne Island",
+        "altname": "Chandelier",
+        "date": "2016-04-01",
+        "location": [0, 0]
     }
 ]
