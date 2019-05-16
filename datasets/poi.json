@@ -673,5 +673,175 @@
         "altname": "Chandelier",
         "date": "2016-04-01",
         "location": [0, 0]
+    },
+
+    {
+        "_id": "ac7_m01",
+        "conflictId": "ac7",
+        "name": "Operation Deer Horn",
+        "altname": "Charge Assault",
+        "date": "2019-05-15",
+        "location": [0, 0],
+        "cityId": "fortgrays"
+    },
+    {
+        "_id": "ac7_m02",
+        "conflictId": "ac7",
+        "name": "Operation Eastern Wind",
+        "altname": "Charge the Enemy",
+        "date": "2019-05-17",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac7_m03",
+        "conflictId": "ac7",
+        "name": "Operation Dual Wielder",
+        "altname": "Two-pronged Strategy",
+        "date": "2019-05-30",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac7_m04",
+        "conflictId": "ac7",
+        "name": "Operation Lighthouse Keeper",
+        "altname": "Rescue",
+        "date": "2019-06-06",
+        "location": [0, 0],
+        "cityId": "selatapura"
+    },
+    {
+        "_id": "ac7_m05",
+        "conflictId": "ac7",
+        "name": "Operation High Card",
+        "altname": "444",
+        "date": "2019-07-01",
+        "location": [0, 0],
+        "cityId": "zapland"
+    },
+    {
+        "_id": "ac7_m06",
+        "conflictId": "ac7",
+        "name": "Operation One Pair",
+        "altname": "Long Day",
+        "date": "2019-07-04",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac7_m07",
+        "conflictId": "ac7",
+        "name": "Operation Two Pairs",
+        "altname": "First Contact",
+        "date": "2019-07-12",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac7_m08",
+        "conflictId": "ac7",
+        "name": "Operation Three of a Kind",
+        "altname": "Pipeline Destruction",
+        "date": "2019-07-22",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac7_m09",
+        "conflictId": "ac7",
+        "name": "Operation Flush",
+        "altname": "Faceless Soldier",
+        "date": "2019-07-27",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac7_m10",
+        "conflictId": "ac7",
+        "name": "Operation Full House",
+        "altname": "Transfer Orders",
+        "date": "2019-08-05",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac7_m11",
+        "conflictId": "ac7",
+        "name": "Operation Siren's Song",
+        "altname": "Fleet Destruction",
+        "date": "2019-08-10",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac7_m12",
+        "conflictId": "ac7",
+        "name": "Operation Dragon Breath",
+        "altname": "Stonehenge Defensive",
+        "date": "2019-08-19",
+        "location": [0, 0],
+        "cityId": "stonehenge"
+    },
+    {
+        "_id": "ac7_m13",
+        "conflictId": "ac7",
+        "name": "Operation Magic Spear",
+        "altname": "Bunker Buster",
+        "date": "2019-09-02",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac7_m14",
+        "conflictId": "ac7",
+        "name": "Operation Werewolf",
+        "altname": "Cape Rainy Assault",
+        "date": "2019-09-11",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac7_m15",
+        "conflictId": "ac7",
+        "name": "Operation Giant's Step",
+        "altname": "Battle for Farbanti",
+        "date": "2019-09-19",
+        "location": [0, 0],
+        "cityId": "farbanti"
+    },
+    {
+        "_id": "ac7_m16",
+        "conflictId": "ac7",
+        "name": "Operation Gorgon",
+        "altname": "Last Hope",
+        "date": "2019-10-01",
+        "location": [0, 0],
+        "cityId": "anchorhead"
+    },
+    {
+        "_id": "ac7_m17",
+        "conflictId": "ac7",
+        "name": "Operation Reflux",
+        "altname": "Homeward",
+        "date": "2019-10-10",
+        "location": [0, 0],
+        "cityId": "tylerisland"
+    },
+    {
+        "_id": "ac7_m18",
+        "conflictId": "ac7",
+        "name": "Operation Beehive",
+        "altname": "Lost Kingdom",
+        "date": "2019-10-24",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ac7_m19",
+        "conflictId": "ac7",
+        "name": "Operation Daredevil",
+        "altname": "Lighthouse",
+        "date": "2019-10-31",
+        "location": [0, 0],
+        "cityId": "selatapura"
+    },
+    {
+        "_id": "ac7_m20",
+        "conflictId": "ac7",
+        "name": "Operation Hush",
+        "altname": "Dark Blue",
+        "date": "2019-11-01",
+        "location": [0, 0],
+        "cityId": "selatapura"
     }
 ]

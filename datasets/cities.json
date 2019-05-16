@@ -25,6 +25,12 @@
         "location": [0, 0]
     },
     {
+        "_id": "crnero",
+        "countryId": "emmeria",
+        "name": "Crnero",
+        "location": [0, 0]
+    },
+    {
         "_id": "dinsmark",
         "countryId": "belka",
         "name": "Dinsmark",
@@ -66,6 +72,12 @@
         "location": [0, 0]
     },
     {
+        "_id": "hoffnung",
+        "countryId": "osea",
+        "name": "Hoffnung",
+        "location": [0, 0]
+    },
+    {
         "_id": "mante",
         "countryId": "emmeria",
         "name": "Mante",
@@ -75,6 +87,18 @@
         "_id": "novembercity",
         "countryId": "osea",
         "name": "November City",
+        "location": [0, 0]
+    },
+    {
+        "_id": "okchabursk",
+        "countryId": "yuktobania",
+        "name": "Okchabursk",
+        "location": [0, 0]
+    },
+    {
+        "_id": "ortara",
+        "countryId": "emmeria",
+        "name": "Ortara",
         "location": [0, 0]
     },
     {
@@ -91,9 +115,20 @@
         "location": [0, 0]
     },
     {
+        "_id": "santaelva",
+        "countryId": "aurelia",
+        "name": "Santa Elva",
+        "location": [0, 0]
+    },
+    {
         "_id": "solisortus",
         "countryId": "ustio",
         "name": "Solis Ortus",
         "location": [0, 0]
+    },
+    {
+        "_id": "vitoze",
+        "countryId": "emmeria",
+        "name": "Vitoze"
     }
 ]
