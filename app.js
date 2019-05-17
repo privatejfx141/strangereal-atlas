@@ -21,7 +21,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.use(express.static('static'));
+app.use(express.static('public'));
 
 app.use(function (req, res, next) {
     console.log("HTTP request", req.method, req.url, req.body);
@@ -38,8 +38,11 @@ const flag = require('./controllers/flag');
 app.get('/api/countries/:id/flag/', flag.getFlag);
 
 const city = require('./controllers/city');
-app.get('/api/city/', country.getCountries);
-app.get('/api/city/:id/', country.getCountry);
+app.get('/api/city/', city.getCities);
+app.get('/api/city/:id/', city.getCity);
+
+const map = require('./controllers/map');
+app.get('/api/maps/strangereal/:z/:x/:y.png', map.checkZXY, map.getTile);
 
 // setup server
 const http = require('http');
