@@ -12,18 +12,65 @@ window.onload = (function () {
         tms: true
     }).addTo(map);
 
-    map.on("contextmenu", function (event) {
-        console.log("Coordinates: " + event.latlng.toString());
-        let marker = L.marker(event.latlng).addTo(map);
-        console.log("added");
+    let marker = L.marker([0,0]).addTo(map);
+
+    L.control.mousePosition().addTo(map);
+
+
+    map.on('click', function (ev) {
+        let latLng = map.mouseEventToLatLng(ev.originalEvent);
+        let lat = Math.round(latLng.lat * 100) / 100;
+        let lng = Math.round(latLng.lng * 100) / 100;
+        console.log(`${lat}, ${lng}`);
     });
 
-    let ll = api.getMapLL(`18°02'34" N, 76°34'55" W`);
-    console.log(ll);
+    var polylinePoints = [
+        [18.26, 61.44], [18.22, 61.06], [18.17, 60.82], [18.05, 60.67],
+        [18.17, 60.33], [18.43, 60.37], [18.1, 59.75], [17.93, 59.42],
+        [18.1, 59.14], [17.82, 59], [17.64, 58.95], [17.68, 58.28],
+        [17.53, 57.93], [17.69, 57.83], [17.97, 57.06], [18.56, 56.02],
+        [18.74, 55.58], [18.6, 55.54], [18.88, 55.27], [19.05, 55.03],
+        [18.94, 54.81], [19.3, 54.62], [19.53, 54.18], [19.84, 53.68],
+        [19.75, 53.4]
+    ];            
+        
+    var polyline = L.polyline(polylinePoints).addTo(map);  
 
-    L.marker([0,0]).addTo(map);
 
-    // 18°02'34" N, 76°34'55" W
+    let dictionary = {};
+
+    map.on('click', e => {
+        let i = Object.keys(dictionary).length;
+        marker = new L.marker(e.latlng, {
+            draggable: 'true'
+        });
+        marker.on('dragend', function (event) {
+            var marker = event.target;
+            var position = marker.getLatLng();
+            marker.setLatLng(new L.LatLng(position.lat, position.lng), {
+                draggable: 'true'
+            });
+            let lat = Math.round(position.lat * 100) / 100;
+            let lng = Math.round(position.lng * 100) / 100;
+            marker.bindPopup(`${lat}, ${lng}`);
+            dictionary[i] = [lat, lng];
+            // map.panTo(new L.LatLng(position.lat, position.lng))
+        });
+        var position = marker.getLatLng();
+        let lat = Math.round(position.lat * 100) / 100;
+        let lng = Math.round(position.lng * 100) / 100;
+        marker.bindPopup(`${lat}, ${lng}`);
+        dictionary[i] = [lat, lng];
+        map.addLayer(marker);
+    });
+    
+    document.body.onkeyup = e => {
+        if (e.keyCode == 32){
+            console.log(dictionary);
+        }
+    };
+
+    /*/ 18°02'34" N, 76°34'55" W
     // [18.04, -76.58]
     let farbanti = L.marker([20.19, 103.45]).addTo(map);
 
@@ -69,6 +116,6 @@ window.onload = (function () {
 
     // 16°11'36" N, 167°08'56" W
     // [16.19, -167.15]
-    let eaglin = L.marker([17.64, 14.61]).addTo(map);
+    let eaglin = L.marker([17.64, 14.61]).addTo(map); */
 
 }());

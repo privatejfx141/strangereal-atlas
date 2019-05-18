@@ -3,7 +3,7 @@
         "_id": "anchorhead",
         "countryId": "erusea",
         "name": "Anchorhead",
-        "latLng": [0, 0],
+        "latLng": [10.58, 117.57],
         "dms": {
             "lat": {
                 "degrees": 8,
@@ -23,7 +23,21 @@
         "_id": "anfang",
         "countryId": "belka",
         "name": "Anfang",
-        "latLng": [0, 0]
+        "latLng": [36.38, 57.07],
+        "dms": {
+            "lat": {
+                "degrees": 34,
+                "minutes": 38,
+                "seconds": 6,
+                "direction": "N"
+            },
+            "lng": {
+                "degrees": 236,
+                "minutes": 52,
+                "seconds": 24,
+                "direction": "E"
+            }
+        }
     },
     {
         "_id": "bana",
@@ -144,7 +158,7 @@
         "countryId": "emmeria",
         "name": "Gracemeria",
         "isCapital": true,
-        "latLng": [47.86, -82.89],
+        "latLng": [48.49, -83.32],
         "dms": {
             "lat": {
                 "degrees": 48,
@@ -232,6 +246,7 @@
                 "seconds": 54,
                 "direction": "E"
             }
+        }
     },
     {
         "_id": "okchabursk",
@@ -287,10 +302,64 @@
         }
     },
     {
+        "_id": "sanloma",
+        "countryId": "emmeria",
+        "name": "San Loma",
+        "latLng": [44.96, -101.25],
+        "dms": {
+            "lat": {
+                "degrees": 45,
+                "minutes": 8,
+                "seconds": 20,
+                "direction": "N"
+            },
+            "lng": {
+                "degrees": 77,
+                "minutes": 0,
+                "seconds": 16,
+                "direction": "E"
+            }
+        }
+    },
+    {
         "_id": "santaelva",
         "countryId": "aurelia",
         "name": "Santa Elva",
-        "latLng": [-49.58, 11.66]
+        "latLng": [-49.58, 11.66],
+        "dms": {
+            "lat": {
+                "degrees": 49,
+                "minutes": 42,
+                "seconds": 0,
+                "direction": "S"
+            },
+            "lng": {
+                "degrees": 191,
+                "minutes": 36,
+                "seconds": 0,
+                "direction": "E"
+            }
+        }
+    },
+    {
+        "_id": "silvat",
+        "countryId": "emmeria",
+        "name": "Silvat Town",
+        "latLng": [45.36, -118],
+        "dms": {
+            "lat": {
+                "degrees": 43,
+                "minutes": 18,
+                "seconds": 21,
+                "direction": "N"
+            },
+            "lng": {
+                "degrees": 58,
+                "minutes": 52,
+                "seconds": 18,
+                "direction": "E"
+            }
+        }
     },
     {
         "_id": "solisortus",
@@ -355,7 +424,22 @@
     {
         "_id": "vitoze",
         "countryId": "emmeria",
-        "name": "Vitoze"
+        "name": "Vitoze",
+        "latLng": [38.32, -153.59],
+        "dms": {
+            "lat": {
+                "degrees": 36,
+                "minutes": 13,
+                "seconds": 27,
+                "direction": "N"
+            },
+            "lng": {
+                "degrees": 26,
+                "minutes": 30,
+                "seconds": 35,
+                "direction": "E"
+            }
+        }
     },
     {
         "_id": "zakat",

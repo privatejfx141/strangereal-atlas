@@ -1,8 +1,20 @@
 [
     {
-        "_id": "osea"
+        "_id": "belka",
+        "polylines": [
+            "belka-sea-we", "belka-fato-ns", "belka-gebet-ns", "belka-recta-ns", "belka-ustio-ew", "belka-osea-sn"
+        ]
     },
     {
-        "_id": "yuktobania"
+        "_id": "sapin",
+        "polylines": [
+            "sapin-sea-we", "ratio-sapin-ew", "sapin-ustio-ew", "osea-sapin-ew"
+        ]
+    },
+    {
+        "_id": "ustio",
+        "polylines": [
+            "belka-ustio-we", "recta-ustio-ns", "ratio-ustio-ns", "sapin-ustio-ew", "osea-ustio-sn"
+        ]
     }
 ]
