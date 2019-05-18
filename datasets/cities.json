@@ -3,132 +3,364 @@
         "_id": "anchorhead",
         "countryId": "erusea",
         "name": "Anchorhead",
-        "location": [0, 0]
+        "latLng": [0, 0],
+        "dms": {
+            "lat": {
+                "degrees": 8,
+                "minutes": 20,
+                "seconds": 44,
+                "direction": "N"
+            },
+            "lng": {
+                "degrees": 61,
+                "minutes": 57,
+                "seconds": 32,
+                "direction": "W"
+            }
+        }
     },
     {
         "_id": "anfang",
         "countryId": "belka",
         "name": "Anfang",
-        "location": [0, 0]
+        "latLng": [0, 0]
     },
     {
-        "_id": "banacity",
+        "_id": "bana",
         "countryId": "osea",
         "name": "Bana City",
-        "location": [0, 0]
+        "latLng": [-10.8, 55.1],
+        "dms": {
+            "lat": {
+                "degrees": 9,
+                "minutes": 5,
+                "seconds": 56,
+                "direction": "N"
+            },
+            "lng": {
+                "degrees": 126,
+                "minutes": 7,
+                "seconds": 35,
+                "direction": "E"
+            }
+        }
     },
     {
         "_id": "cinigrad",
         "countryId": "yuktobania",
         "name": "Cinigrad",
         "isCapital": true,
-        "location": [0, 0]
+        "latLng": [23.05, -99.17]
+    },
+    {
+        "_id": "cor",
+        "countryId": "recta",
+        "name": "Cor",
+        "latLng": [21.28, 71.33]
     },
     {
         "_id": "crnero",
         "countryId": "emmeria",
         "name": "Crnero",
-        "location": [0, 0]
+        "latLng": [45.78, -123.55]
     },
     {
         "_id": "dinsmark",
         "countryId": "belka",
         "name": "Dinsmark",
         "isCapital": true,
-        "location": [0, 0]
+        "latLng": [36.08, 59.55]
     },
     {
         "_id": "directus",
         "countryId": "ustio",
         "name": "Directus",
         "isCapital": true,
-        "location": [0, 0]
+        "latLng": [19.5, 58.5],
+        "dms": {
+            "lat": {
+                "degrees": 17,
+                "minutes": 20,
+                "seconds": 1,
+                "direction": "N"
+            },
+            "lng": {
+                "degrees": 230,
+                "minutes": 25,
+                "seconds": 51,
+                "direction": "E"
+            }
+        }
     },
     {
         "_id": "dresdenne",
         "countryId": "yuktobania",
         "name": "Dresdenne",
-        "location": [0, 0]
+        "latLng": [-0.61, -62.74]
+    },
+    {
+        "_id": "eaglin",
+        "countryId": "osea",
+        "name": "Eaglin Straits",
+        "latLng": [17.64, 14.61],
+        "dms": {
+            "lat": {
+                "degrees": 16,
+                "minutes": 11,
+                "seconds": 36,
+                "direction": "N"
+            },
+            "lng": {
+                "degrees": 167,
+                "minutes": 8,
+                "seconds": 56,
+                "direction": "W"
+            }
+        }
     },
     {
         "_id": "farbanti",
         "countryId": "erusea",
         "name": "Farbanti",
         "isCapital": true,
-        "location": [0, 0]
+        "latLng": [20.19, 103.45],
+        "dms": {
+            "lat": {
+                "degrees": 18,
+                "minutes": 2,
+                "seconds": 34,
+                "direction": "N"
+            },
+            "lng": {
+                "degrees": 76,
+                "minutes": 34,
+                "seconds": 55,
+                "direction": "W"
+            }
+        }
     },
     {
         "_id": "gracemeria",
         "countryId": "emmeria",
         "name": "Gracemeria",
         "isCapital": true,
-        "location": [0, 0]
+        "latLng": [47.86, -82.89],
+        "dms": {
+            "lat": {
+                "degrees": 48,
+                "minutes": 18,
+                "seconds": 35,
+                "direction": "N"
+            },
+            "lng": {
+                "degrees": 95,
+                "minutes": 53,
+                "seconds": 43,
+                "direction": "E"
+            }
+        }
     },
     {
         "_id": "granrugido",
         "countryId": "sapin",
         "name": "Gran Rugido",
         "isCapital": true,
-        "location": [0, 0]
+        "latLng": [11.32, 62.71]
+    },
+    {
+        "_id": "griswall",
+        "countryId": "aurelia",
+        "name": "Griswall",
+        "isCapital": true,
+        "latLng": [-40.07, 15.43],
+        "dms": {
+            "lat": {
+                "degrees": 37,
+                "minutes": 36,
+                "seconds": 0,
+                "direction": "S"
+            },
+            "lng": {
+                "degrees": 195,
+                "minutes": 4,
+                "seconds": 0,
+                "direction": "E"
+            }
+        }
     },
     {
         "_id": "hoffnung",
         "countryId": "osea",
         "name": "Hoffnung",
-        "location": [0, 0]
+        "latLng": [28.1, 57.65],
+        "dms": {
+            "lat": {
+                "degrees": 25,
+                "minutes": 38,
+                "seconds": 18,
+                "direction": "N"
+            },
+            "lng": {
+                "degrees": 237,
+                "minutes": 28,
+                "seconds": 58,
+                "direction": "E"
+            }
+        }
     },
     {
         "_id": "mante",
         "countryId": "emmeria",
         "name": "Mante",
-        "location": [0, 0]
+        "latLng": [52.98, -77.11]
     },
     {
-        "_id": "novembercity",
+        "_id": "november",
         "countryId": "osea",
         "name": "November City",
-        "location": [0, 0]
+        "latLng": [-3.1, 7.2],
+        "dms": {
+            "lat": {
+                "degrees": 3,
+                "minutes": 8,
+                "seconds": 27,
+                "direction": "S"
+            },
+            "lng": {
+                "degrees": 186,
+                "minutes": 2,
+                "seconds": 54,
+                "direction": "E"
+            }
     },
     {
         "_id": "okchabursk",
         "countryId": "yuktobania",
         "name": "Okchabursk",
-        "location": [0, 0]
+        "latLng": [22.40, 69.93]
     },
     {
         "_id": "ortara",
         "countryId": "emmeria",
         "name": "Ortara",
-        "location": [0, 0]
+        "latLng": [0, 0]
     },
     {
         "_id": "oured",
         "countryId": "osea",
         "name": "Oured",
         "isCapital": true,
-        "location": [0, 0]
+        "latLng": [3.3, 55],
+        "dms": {
+            "lat": {
+                "degrees": 3,
+                "minutes": 57,
+                "seconds": 35,
+                "direction": "N"
+            },
+            "lng": {
+                "degrees": 232,
+                "minutes": 15,
+                "seconds": 31,
+                "direction": "E"
+            }
+        }
     },
     {
         "_id": "sandisland",
         "countryId": "osea",
         "name": "Sand Island",
-        "location": [0, 0]
+        "latLng": [8.7, -33.55],
+        "dms": {
+            "lat": {
+                "degrees": 8,
+                "minutes": 1,
+                "seconds": 13,
+                "direction": "N"
+            },
+            "lng": {
+                "degrees": 145,
+                "minutes": 24,
+                "seconds": 34,
+                "direction": "E"
+            }
+        }
     },
     {
         "_id": "santaelva",
         "countryId": "aurelia",
         "name": "Santa Elva",
-        "location": [0, 0]
+        "latLng": [-49.58, 11.66]
     },
     {
         "_id": "solisortus",
         "countryId": "ustio",
         "name": "Solis Ortus",
-        "location": [0, 0]
+        "latLng": [18.95, 57.55],
+        "dms": {
+            "lat": {
+                "degrees": 16,
+                "minutes": 52,
+                "seconds": 7,
+                "direction": "N"
+            },
+            "lng": {
+                "degrees": 237,
+                "minutes": 16,
+                "seconds": 9,
+                "direction": "E"
+            }
+        }
+    },
+    {
+        "_id": "soloisland",
+        "countryId": "osea",
+        "name": "Solo Island",
+        "latLng": [38.68, -25.61],
+        "dms": {
+            "lat": {
+                "degrees": 154,
+                "minutes": 31,
+                "seconds": 15,
+                "direction": "N"
+            },
+            "lng": {
+                "degrees": 35,
+                "minutes": 22,
+                "seconds": 27,
+                "direction": "E"
+            }
+        }
+    },
+    {
+        "_id": "sudentor",
+        "countryId": "osea",
+        "name": "Sudentor",
+        "latLng": [26.7, 54.18],
+        "dms": {
+            "lat": {
+                "degrees": 24,
+                "minutes": 8,
+                "seconds": 59,
+                "direction": "N"
+            },
+            "lng": {
+                "degrees": 234,
+                "minutes": 7,
+                "seconds": 59,
+                "direction": "E"
+            }
+        }
     },
     {
         "_id": "vitoze",
         "countryId": "emmeria",
         "name": "Vitoze"
+    },
+    {
+        "_id": "zakat",
+        "countryId": "yuktobania",
+        "name": "Zakat",
+        "latLng": [17.94, -87.69]
     }
 ]

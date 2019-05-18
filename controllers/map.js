@@ -37,10 +37,11 @@ exports.getTile = function (req, res) {
     let z = req.params.z;
     let x = req.params.x;
     let y = req.params.y;
-    let path = `./assets/maps/strangereal/${z}/${x}/${y}.png`;
-    if (!fs.existsSync(path)) return res.status(404).end(`tile does not exist`);
-    fs.readFile(path, function (err, image) {
-        if (err) return res.status(500).end(err);
+    fs.readFile(`./assets/maps/strangereal/${z}/${x}/${y}.png`, function (err, image) {
+        if (err) {
+            if (err.code === "ENOENT") return res.status(404).end(`tile does not exist`);
+            return res.status(500).end(err);
+        }
         if (!image) return res.status(404).end(`tile does not exist`);
         res.setHeader('Content-Type', 'image/png');
         return res.end(image, 'binary');

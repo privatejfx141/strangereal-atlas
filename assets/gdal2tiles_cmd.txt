@@ -1,0 +1,1 @@
+gdal2tiles.py -p raster -w none sr_borders_8192_sq.jpg
