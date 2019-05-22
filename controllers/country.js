@@ -9,10 +9,11 @@ const mongoose = require('mongoose');
 const CountryModel = mongoose.model('Country');
 
 // populate collection with dataset, if empty
+const INITIALIZATION = false;
 const COUNTRY_DATASET_PATH = './datasets/countries.json';
 CountryModel.countDocuments((err, count) => {
     if (err) throw err;
-    if (count == 0) {
+    if (INITIALIZATION && count === 0) {
         fs.readFile(COUNTRY_DATASET_PATH, (err, data) => {  
             if (err) throw err;
             CountryModel.insertMany(JSON.parse(data), function (err, doc) {

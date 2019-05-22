@@ -16,8 +16,26 @@ const CitySchema = new mongoose.Schema({
         type: Boolean,
         default: false,
     },
-    location: {
-        type: [Number]
+    latLng: {
+        type: [Number, Number]
+    },
+    dms: {
+        degrees: {
+            type: Number,
+            required: true
+        },
+        minutes: {
+            type: Number,
+            required: true
+        },
+        seconds: {
+            type: Number,
+            default: 0
+        },
+        direction: {
+            type: String,
+            required: true
+        }
     },
     desc: {
         type: String,

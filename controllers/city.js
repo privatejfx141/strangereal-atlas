@@ -4,8 +4,25 @@
 /**
  * Module dependencies.
  */
+const fs = require('fs');
 const mongoose = require('mongoose');
 const CityModel = mongoose.model('City');
+
+// populate collection with dataset, if empty
+const INITIALIZATION = false;
+const CITY_DATASET_PATH = './datasets/cities.json';
+CityModel.countDocuments((err, count) => {
+    if (err) throw err;
+    if (INITIALIZATION && count === 0) {
+        fs.readFile(CITY_DATASET_PATH, (err, data) => {  
+            if (err) throw err;
+            CityModel.insertMany(JSON.parse(data), function (err, doc) {
+                if (err) throw err;
+                console.log("City dataset has been initialized.");
+            });
+        });
+    }
+});
 
 // size for pagination
 const CITY_PAGE_SIZE = 10;

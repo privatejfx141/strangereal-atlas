@@ -6,15 +6,29 @@
         ]
     },
     {
+        "_id": "erusea",
+        "polylines": [
+            "erusea-sansalvacion-ns", "amber-erusea-ns", "erusea-gunther-ns", "erusea-sea-sn"
+        ]
+    },
+    {
         "_id": "fato",
         "polylines": [
-            
+            ["fato-sea-ew", "belka-fato-ns", "fato-gebet-we", "fato-wielvakia-we", "fato-nordlands-sn"]
         ]
     },
     {
         "_id": "gebet",
         "polylines": [
-            
+            ["fato-gebet-we", "gebet-wielvakia-ns", "gebet-recta-ew", "belka-gebet-sn"]
+        ]
+    },
+    {
+        "_id": "northpoint",
+        "polylines": [
+            ["northpoint-west-cw"],
+            ["northpoint-east-cw"],
+            ["northpoint-isle-cw"]
         ]
     },
     {
