@@ -20,21 +20,17 @@ const CitySchema = new mongoose.Schema({
         type: [Number, Number]
     },
     dms: {
-        degrees: {
-            type: Number,
-            required: true
+        lat: {
+            degrees: Number,
+            minutes: Number,
+            seconds: Number,
+            direction: String
         },
-        minutes: {
-            type: Number,
-            required: true
-        },
-        seconds: {
-            type: Number,
-            default: 0
-        },
-        direction: {
-            type: String,
-            required: true
+        lng: {
+            degrees: Number,
+            minutes: Number,
+            seconds: Number,
+            direction: String
         }
     },
     desc: {

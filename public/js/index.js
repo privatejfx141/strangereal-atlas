@@ -22,15 +22,7 @@ window.onload = (function () {
         console.log(`${lat}, ${lng}`);
     });
 
-    var polylinePoints = [
-        [19.65, 53.34], [19.43, 53.21], [19.21, 53.08], [19.23, 52.99], [19.29, 52.83], [19.11, 52.54], [19.18, 52.27], [18.64, 51.94]
-    ];
-
-    var polygon = L.polygon(polylinePoints, {
-        color: 'red',
-        smoothFactor: 2.0
-    }).addTo(map);
-    // var polyline = L.polyline(polylinePoints).addTo(map);  
+    api.updateCityLayer();
 
     let dictionary = {};
 
@@ -58,6 +50,12 @@ window.onload = (function () {
         dictionary[i] = [lat, lng];
         map.addLayer(marker);
     });
+
+    var marker1 = new L.marker([0,0]);
+    var marker2 = new L.marker([10,10]);
+
+    L.layerGroup([marker1, marker2])
+        .addTo(map);
 
     document.body.onkeyup = e => {
         if (e.keyCode == 32) {

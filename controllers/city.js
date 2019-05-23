@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 const CityModel = mongoose.model('City');
 
 // populate collection with dataset, if empty
-const INITIALIZATION = false;
+const INITIALIZATION = true;
 const CITY_DATASET_PATH = './datasets/cities.json';
 CityModel.countDocuments((err, count) => {
     if (err) throw err;
@@ -25,7 +25,7 @@ CityModel.countDocuments((err, count) => {
 });
 
 // size for pagination
-const CITY_PAGE_SIZE = 10;
+const CITY_PAGE_SIZE = 100;
 
 // get paginated list of cities ids
 // GET /api/cities/[?page]

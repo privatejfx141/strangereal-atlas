@@ -39,6 +39,10 @@ let api = (function () {
         send("GET", `/api/countries/${countryId}/flag/`, null, callback);
     };
 
+    module.updateCityLayer = function () {
+
+    };
+
     module.addMarker = function (map, dd) {
         dd.lat = dd.lat / 2 - 0.4;
         dd.lng = dd.lng + 1;
@@ -87,6 +91,46 @@ let api = (function () {
         let lng = Math.round(this.convertToDD(vs[3], vs[4], vs[5]) * 100) / 100;
         if (match[8] == "W") lng = -lng;
         return [lat, lng];
+    };
+
+    /* Listeners */
+
+    let errorListeners = [];
+
+    function notifyErrorListeners(err) {
+        errorListeners.forEach(function (listener) {
+            listener(err);
+        });
+    }
+
+    module.onError = function (listener) {
+        errorListeners.push(listener);
+    };
+
+    let cityListeners = [];
+
+    let getCities = function (callback) {
+        send(`GET`, `/api/cities/`, null, (err, cityIds) => {
+            if (err) return console.error(err);
+            cityIds.forEach(cityId => {
+                send(`GET`, `/api/cities/${cityId}/`, null, (err, city) => {
+                    callback(err, city);
+                });
+            });
+        });
+    };
+
+    function notifyCityListeners() {
+        cityListeners.forEach(function (listener) {
+            getCities((err, city) => {
+                if (err) return console.error(err);
+                listener(city);
+            });
+        });
+    }
+
+    module.onCityUpdate = function (listener) {
+        cityListeners.push(listener);
     };
 
     return module;

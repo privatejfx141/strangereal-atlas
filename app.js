@@ -38,8 +38,8 @@ const flag = require('./controllers/flag');
 app.get('/api/countries/:id/flag/', flag.getFlag);
 
 const city = require('./controllers/city');
-app.get('/api/city/', city.getCities);
-app.get('/api/city/:id/', city.getCity);
+app.get('/api/cities/', city.getCities);
+app.get('/api/cities/:id/', city.getCity);
 
 const map = require('./controllers/map');
 app.get('/api/maps/strangereal/:z/:x/:y.png', map.checkZXY, map.getTile);
