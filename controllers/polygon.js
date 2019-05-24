@@ -39,3 +39,13 @@ PolygonModel.countDocuments((err, count) => {
         });
     }
 });
+
+// get polygon of country by id
+// GET /api/polygons/:id/
+exports.getPolygon = function (req, res) {
+    let countryId = req.params.id.toLowerCase();
+    PolygonModel.findOne({ _id: countryId }, function (err, polylines) {
+        if (err) return res.status(500).end(err);
+
+    });
+};

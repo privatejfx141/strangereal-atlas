@@ -25,10 +25,17 @@ POIModel.countDocuments((err, count) => {
 });
 
 // size for pagination
-const POI_PAGE_SIZE = 10;
+const POI_PAGE_SIZE = 50;
 
 exports.getPOIs = function (req, res) {
     let page = parseInt(req.query.page) || 0;
     let conflictId = req.query.conflictId;
     if (conflictId) conflictId = conflictId.toLowerCase();
+    POIModel.find({conflictId: conflictId}, { _id: 1 })
+        .skip(page * POI_PAGE_SIZE)
+        .limit(POI_PAGE_SIZE)
+        .exec((err, data) => {
+            if (err) res.status(500).end(err);
+            return res.json(data);
+        });
 };
