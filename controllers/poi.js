@@ -6,11 +6,12 @@
  */
 const fs = require('fs');;
 const mongoose = require('mongoose');
-const POIModel = require('POI');
+const POIModel = mongoose.model('POI');
 
 // populate collection with dataset, if empty
-const INITIALIZATION = false;
+const INITIALIZATION = true;
 const POI_DATASET_PATH = './datasets/poi.json';
+
 POIModel.countDocuments((err, count) => {
     if (err) throw err;
     if (INITIALIZATION && count === 0) {
@@ -29,9 +30,8 @@ const POI_PAGE_SIZE = 50;
 
 exports.getPOIs = function (req, res) {
     let page = parseInt(req.query.page) || 0;
-    let conflictId = req.query.conflictId;
-    if (conflictId) conflictId = conflictId.toLowerCase();
-    POIModel.find({ conflictId: conflictId}, { _id: 1 })
+    let conflictId = req.params.conflict.toLowerCase();
+    POIModel.find({ conflictId: conflictId })
         .skip(page * POI_PAGE_SIZE)
         .limit(POI_PAGE_SIZE)
         .exec((err, data) => {

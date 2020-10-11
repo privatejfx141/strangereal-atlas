@@ -5,7 +5,17 @@ const POISchema = new mongoose.Schema({
         type: String,
         required: true,
     },
+    conflictId: {
+        type: String,
+        required: true,
+    },
+    cityId: { // Which city does the POI take place in
+        type: String,
+    },
     name: {
+        type: String,
+    },
+    altname: {
         type: String,
     },
     date: {
@@ -13,7 +23,10 @@ const POISchema = new mongoose.Schema({
     },
     desc: {
         type: String,
-    }
+    },
+    location: { // POI adhoc position with respect to the map
+        type: [Number, Number]
+    },
 });
 
 const POI = mongoose.model('POI', POISchema, 'poi');

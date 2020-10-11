@@ -9,28 +9,28 @@ const CitySchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    countryId: { // id of the city's country
+    country: { // name of the city's country
         type: String,
     },
     isCapital: { // whether or not this city is the capital
         type: Boolean,
         default: false,
     },
-    latLng: {
+    latLng: { // city adhoc position with respect to the map
         type: [Number, Number]
     },
-    dms: {
+    dms: { // city DMS position according to lore
         lat: {
-            degrees: Number,
-            minutes: Number,
-            seconds: Number,
-            direction: String
+            d: Number,
+            m: Number,
+            s: Number,
+            dir: String
         },
         lng: {
-            degrees: Number,
-            minutes: Number,
-            seconds: Number,
-            direction: String
+            d: Number,
+            m: Number,
+            s: Number,
+            dir: String
         }
     },
     desc: {

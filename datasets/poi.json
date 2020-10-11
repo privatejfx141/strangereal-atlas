@@ -5,7 +5,7 @@
         "name": "Operation Umbrella",
         "altname": "Sitting Duck",
         "date": "2004-09-19",
-        "location": [0, 0]
+        "location": [24.6, 170.77]
     },
     {
         "_id": "ac04_m02",
@@ -13,7 +13,7 @@
         "name": "Operation Harvest",
         "altname": "Imminent Threat",
         "date": "2004-10-05",
-        "location": [0, 0]
+        "location": [17.47, 165.32]
     },
     {
         "_id": "ac04_m03",
@@ -21,7 +21,7 @@
         "name": "Operation White Out",
         "altname": "The Northern Eye",
         "date": "2004-10-10",
-        "location": [0, 0]
+        "location": [33.76, 156.70]
     },
     {
         "_id": "ac04_m04",
@@ -29,7 +29,7 @@
         "name": "Operation Hunting Hawk",
         "altname": "Blockade",
         "date": "2004-11-07",
-        "location": [0, 0]
+        "location": [4.65, 159.52]
     },
     {
         "_id": "ac04_m05",
@@ -37,7 +37,7 @@
         "name": "Operation Early Bird",
         "altname": "Lifeline",
         "date": "2004-11-19",
-        "location": [0, 0]
+        "location": [3.51, 162.81]
     },
     {
         "_id": "ac04_m06",
@@ -45,7 +45,7 @@
         "name": "Operation Rough Seas",
         "altname": "Invincible Fleet",
         "date": "2004-11-23",
-        "location": [0, 0]
+        "location": [2.24, 162]
     },
     {
         "_id": "ac04_m07",
@@ -53,7 +53,7 @@
         "name": "Operation Blackout",
         "altname": "Deep Strike",
         "date": "2004-12-16",
-        "location": [0, 0]
+        "location": [15.49, 157.36]
     },
     {
         "_id": "ac04_m08",
@@ -61,7 +61,7 @@
         "name": "Operation Countdown",
         "altname": "Shattered Skies",
         "date": "2004-12-31",
-        "location": [0, 0]
+        "location": [-18.1, 163.43]
     },
     {
         "_id": "ac04_m09",
@@ -69,7 +69,7 @@
         "name": "Operation Bunker Shot",
         "altname": "Operation Bunker Shot",
         "date": "2005-01-24",
-        "location": [0, 0]
+        "location": [-11.13, 152.88]
     },
     {
         "_id": "ac04_m10",
@@ -77,7 +77,7 @@
         "name": "Operation Woodpecker",
         "altname": "Tango Line",
         "date": "2005-02-28",
-        "location": [0, 0]
+        "location": [-8.71, 148.66]
     },
     {
         "_id": "ac04_m11",
@@ -85,7 +85,7 @@
         "name": "Operation Noah's Ark",
         "altname": "Escort",
         "date": "2005-03-14",
-        "location": [0, 0]
+        "location": [4.3, 138]
     },
     {
         "_id": "ac04_m12",
@@ -93,14 +93,15 @@
         "name": "Operation Stone Crusher",
         "altname": "Stonehenge Offensive",
         "date": "2005-04-02",
-        "location": [0, 0]
+        "location": [10.74, 130.43]
     },
     {
         "_id": "ac04_m13",
         "conflictId": "ac04",
         "name": "Operation Blindman's Bluff",
         "altname": "Safe Return",
-        "date": "2005-05-07"
+        "date": "2005-05-07",
+        "location": [15.1, 134.2]
     },
     {
         "_id": "ac04_m14",
@@ -108,7 +109,7 @@
         "name": "Operation Aurora",
         "altname": "Breaking Arrows",
         "date": "2005-06-18",
-        "location": [0, 0]
+        "location": [34.66, 149]
     },
     {
         "_id": "ac04_m15",
@@ -116,7 +117,8 @@
         "name": "Operation Firefly",
         "altname": "Emancipation",
         "date": "2005-07-10",
-        "location": [0, 0]
+        "location": [17.51, 130.47],
+        "cityid": "sansalvacion"
     },
     {
         "_id": "ac04_m16",
@@ -124,7 +126,7 @@
         "name": "Operation Sandstorm",
         "altname": "Whiskey Corridor",
         "date": "2005-08-15",
-        "location": [0, 0]
+        "location": [21.57, 114.69]
     },
     {
         "_id": "ac04_m17",
@@ -132,7 +134,7 @@
         "name": "Operation Autumn Thunder",
         "altname": "Siege of Farbanti",
         "date": "2005-09-19",
-        "location": [0, 0],
+        "location": [20.19, 103.45],
         "cityId": "farbanti"
     },
     {
@@ -141,7 +143,7 @@
         "name": "Operation Judgement Day",
         "altname": "Megalith",
         "date": "2005-09-26",
-        "location": [0, 0]
+        "location": [12.67, 105.33]
     },
 
     {
@@ -150,7 +152,7 @@
         "name": "Operation Lagoon",
         "altname": "Shorebirds",
         "date": "2010-09-24",
-        "location": [0, 0]
+        "location": [7.14, -26.41]
     },
     {
         "_id": "ac5_m02",
@@ -158,7 +160,7 @@
         "name": "Operation Gyre",
         "altname": "Open War",
         "date": "2010-09-27",
-        "location": [0, 0],
+        "location": [8.7, -33.55],
         "cityId": "sandisland"
     },
     {
@@ -167,7 +169,7 @@
         "name": "Bombing of St. Hewlett",
         "altname": "Narrow Margin",
         "date": "2010-09-27",
-        "location": [0, 0]
+        "location": [9.70, 1.58]
     },
     {
         "_id": "ac5_m04",
@@ -175,7 +177,7 @@
         "name": "Bombing of Sand Island",
         "altname": "First Flight",
         "date": "2010-09-27",
-        "location": [0, 0],
+        "location": [8.7, -33.55],
         "cityId": "sandisland"
     },
     {
@@ -184,7 +186,7 @@
         "name": "Operation Whalebird",
         "altname": "Rendezvous",
         "date": "2010-09-30",
-        "location": [0, 0]
+        "location": [17.64, 14.61]
     },
     {
         "_id": "ac5_m06",
@@ -192,7 +194,7 @@
         "name": "Operation Silver Bridge",
         "altname": "White Bird (Part I)",
         "date": "2010-10-03",
-        "location": [0, 0]
+        "location": [-2.68, -6.94]
     },
     {
         "_id": "ac5_m07",
@@ -200,7 +202,8 @@
         "name": "Operation Vanguard",
         "altname": "Front Line",
         "date": "2010-10-04",
-        "location": [0, 0]
+        "location": [8.7, -33.55],
+        "cityId": "sandisland"
     },
     {
         "_id": "ac5_m08",
@@ -208,7 +211,7 @@
         "name": "Akerson Hill incident",
         "altname": "Handful of Hope",
         "date": "2010-10-22",
-        "location": [0, 0]
+        "location": [8.05, -11.25]
     },
     {
         "_id": "ac5_m09",
@@ -216,7 +219,7 @@
         "name": "Operation Footprint",
         "altname": "Lit Fuse",
         "date": "2010-11-01",
-        "location": [0, 0]
+        "location": [-5.26, -55.5]
     },
     {
         "_id": "ac5_m10",
@@ -224,7 +227,7 @@
         "name": "Operation Hammerblow",
         "altname": "Blind Spot",
         "date": "2010-11-02",
-        "location": [0, 0]
+        "location": [-0.61, -62.74]
     },
     {
         "_id": "ac5_m11a",
@@ -232,7 +235,7 @@
         "name": "Operation Emerald",
         "altname": "Chain Reaction",
         "date": "2010-11-04",
-        "location": [0, 0]
+        "location": [-5.13, 43.41]
     },
     {
         "_id": "ac5_m11b",
@@ -240,7 +243,7 @@
         "name": "Operation Wisdom",
         "altname": "Reprisal",
         "date": "2010-11-04",
-        "location": [0, 0],
+        "location": [-10.8, 55.1],
         "cityId": "banacity"
     },
     {
@@ -249,7 +252,7 @@
         "name": "Operation Snake Pit",
         "altname": "Powder Keg",
         "date": "2010-11-07",
-        "location": [0, 0]
+        "location": [-3.2, -71.76]
     },
     {
         "_id": "ac5_m12b",
@@ -257,7 +260,7 @@
         "name": "Operation Fork Dance",
         "altname": "Four Horsemen",
         "date": "2010-11-07",
-        "location": [0, 0]
+        "location": [10.01, -66.97]
     },
     {
         "_id": "ac5_m13",
@@ -265,7 +268,7 @@
         "name": "Operation Long Harpoon",
         "altname": "Demons of Razgriz",
         "date": "2010-11-14",
-        "location": [0, 0]
+        "location": [58.26, -82]
     },
     {
         "_id": "ac5_m14",
@@ -273,7 +276,8 @@
         "name": "Operation Backhaul",
         "altname": "Ice Cage",
         "date": "2010-11-17",
-        "location": [0, 0]
+        "location": [13.84, -76.62],
+        "cityId": "glubina"
     },
     {
         "_id": "ac5_m15",
@@ -281,7 +285,8 @@
         "name": "Operation Stray Sheep",
         "altname": "White Noise",
         "date": "2010-11-18",
-        "location": [0, 0]
+        "location": [13.84, -76.62],
+        "cityId": "glubina"
     },
     {
         "_id": "ac5_m16a",
@@ -289,7 +294,7 @@
         "name": "Operation Desert Arrow",
         "altname": "Desert Arrow",
         "date": "2010-11-25",
-        "location": [0, 0]
+        "location": [9.44, -85.12]
     },
     {
         "_id": "ac5_m16b",
@@ -297,7 +302,7 @@
         "name": "Operation Desert Blitz",
         "altname": "Desert Lightning",
         "date": "2010-11-25",
-        "location": [0, 0]
+        "location": [8.71, -86.77]
     },
     {
         "_id": "ac5_m17",
@@ -305,8 +310,8 @@
         "name": "Operation Supercircus",
         "altname": "Journey Home",
         "date": "2010-11-29",
-        "location": [0, 0],
-        "cityId": "novembercity"
+        "location": [-3.1, 7.2],
+        "cityId": "november"
     },
     {
         "_id": "ac5_m18",
@@ -314,7 +319,7 @@
         "name": "Operation Doodlebug",
         "altname": "Fortress",
         "date": "2010-12-06",
-        "location": [0, 0]
+        "location": [23.92, -93.16]
     },
     {
         "_id": "ac5_m18+",
@@ -322,7 +327,7 @@
         "name": "Ambush at Vladimir",
         "altname": "8492",
         "date": "2010-12-06",
-        "location": [0, 0]
+        "location": [23.72, 77.52]
     },
     {
         "_id": "ac5_m19",
@@ -330,7 +335,7 @@
         "name": "Escape from Sand Island",
         "altname": "Final Option",
         "date": "2010-12-07",
-        "location": [0, 0]
+        "location": [38.68, -25.61]
     },
     {
         "_id": "ac5_m20",
@@ -338,7 +343,7 @@
         "name": "Operation Keynote",
         "altname": "Ancient Walls",
         "date": "2010-12-09",
-        "location": [0, 0]
+        "location": [28.8, 52.42]
     },
     {
         "_id": "ac5_m21",
@@ -346,7 +351,8 @@
         "name": "Operation Silvereye",
         "altname": "Solitaire",
         "date": "2010-12-11",
-        "location": [0, 0]
+        "location": [32.28, 48.56],
+        "cityId": "mtschirm"
     },
     {
         "_id": "ac5_m22",
@@ -354,7 +360,8 @@
         "name": "Operation Deepsix",
         "altname": "Closure",
         "date": "2010-12-12",
-        "location": [0, 0]
+        "location": [32.28, 48.56],
+        "cityId": "mtschirm"
     },
     {
         "_id": "ac5_m23",
@@ -362,7 +369,7 @@
         "name": "Operation Riverbed",
         "altname": "Ghosts of Razgriz",
         "date": "2010-12-16",
-        "location": [0, 0]
+        "location": [31.61, -84.11]
     },
     {
         "_id": "ac5_m24",
@@ -370,7 +377,7 @@
         "name": "Operation Game Bird",
         "altname": "White Bird (Part II)",
         "date": "2010-12-19",
-        "location": [0, 0]
+        "location": [24.8, -19.95]
     },
     {
         "_id": "ac5_m25",
@@ -378,7 +385,7 @@
         "name": "Operation Crossroad",
         "altname": "Heartbreak One",
         "date": "2010-12-23",
-        "location": [0, 0]
+        "location": [25, -65.87]
     },
     {
         "_id": "ac5_m26",
@@ -386,7 +393,7 @@
         "name": "Operation Glory Horn",
         "altname": "Sea of Chaos",
         "date": "2010-12-29",
-        "location": [0, 0]
+        "location": [35.92, -28.43]
     },
     {
         "_id": "ac5_m27",
@@ -394,7 +401,7 @@
         "name": "Battle of Sudentor",
         "altname": "ACES",
         "date": "2010-12-30",
-        "location": [0, 0],
+        "location": [26.7, 54.18],
         "cityId": "sudentor"
     },
     {
@@ -403,7 +410,7 @@
         "name": "Operation Arcadia",
         "altname": "The Unsung War",
         "date": "2010-12-31",
-        "location": [0, 0],
+        "location": [3.3, 53],
         "cityId": "oured"
     },
 
@@ -413,7 +420,8 @@
         "name": "Operation Crossbow",
         "altname": "Glacial Skies",
         "date": "1995-04-02",
-        "location": [0, 0]
+        "location": [22.66, 59.81],
+        "cityId": "valais"
     },
     {
         "_id": "acz_m02",
@@ -421,7 +429,7 @@
         "name": "Operation Roselein",
         "altname": "Annex",
         "date": "1995-04-15",
-        "location": [0, 0]
+        "location": [16.92, 54.44]
     },
     {
         "_id": "acz_m03",
@@ -429,7 +437,8 @@
         "name": "Operation Choker One",
         "altname": "The Round Table",
         "date": "1995-04-20",
-        "location": [0, 0]
+        "location": [25.31, 54.4],
+        "cityId": "b7r"
     },
     {
         "_id": "acz_m04",
@@ -437,7 +446,7 @@
         "name": "Battle of Futuro Canal",
         "altname": "Juggernaut",
         "date": "1995-04-20",
-        "location": [0, 0]
+        "location": [16.28, 51.5]
     },
     {
         "_id": "acz_m05",
@@ -445,7 +454,7 @@
         "name": "Operation Varsity",
         "altname": "Flicker of Hope",
         "date": "1995-05-12",
-        "location": [0, 0],
+        "location": [18.95, 57.55],
         "cityId": "solisortus"
     },
     {
@@ -454,7 +463,7 @@
         "name": "Operation Constantine",
         "altname": "Diapason",
         "date": "1995-05-13",
-        "location": [0, 0],
+        "location": [19.5, 58.5],
         "cityId": "directus"
     },
     {
@@ -463,7 +472,7 @@
         "name": "Operation Hell Bound",
         "altname": "Bastion",
         "date": "1995-05-17",
-        "location": [0, 0]
+        "location": [19.8, 52.2]
     },
     {
         "_id": "acz_m08",
@@ -471,7 +480,7 @@
         "name": "Operation Dynamo",
         "altname": "Merlon",
         "date": "1995-05-19",
-        "location": [0, 0]
+        "location": [22.26, 49.7]
     },
     {
         "_id": "acz_m09",
@@ -479,7 +488,7 @@
         "name": "Operation Judgment",
         "altname": "Sword of Annihilation",
         "date": "1995-05-23",
-        "location": [0, 0]
+        "location": [30, 51.5]
     },
     {
         "_id": "acz_m10",
@@ -487,7 +496,8 @@
         "name": "Operation Battle-Axe",
         "altname": "Mayhem",
         "date": "1995-05-28",
-        "location": [0, 0]
+        "location": [25.31, 54.4],
+        "cityId": "b7r"
     },
     {
         "_id": "acz_m11",
@@ -495,7 +505,7 @@
         "name": "Operation Cannibal",
         "altname": "The Inferno",
         "date": "1995-06-01",
-        "location": [0, 0]
+        "location": [28.21, 57.7]
     },
     {
         "_id": "acz_m12",
@@ -503,7 +513,7 @@
         "name": "Operation Ravage",
         "altname": "The Stage of Apocalypse",
         "date": "1995-06-06",
-        "location": [0, 0]
+        "location": [29, 51.9]
     },
     {
         "_id": "acz_m13",
@@ -511,7 +521,7 @@
         "name": "Operation Stone Age",
         "altname": "Lying in Deceit",
         "date": "1995-06-13",
-        "location": [0, 0]
+        "location": [32.87, 48.82]
     },
     {
         "_id": "acz_m14",
@@ -519,7 +529,7 @@
         "name": "Operation Broom",
         "altname": "The Final Overture",
         "date": "1995-06-20",
-        "location": [0, 0]
+        "location": [35, 54.97]
     },
     {
         "_id": "acz_m15",
@@ -527,7 +537,8 @@
         "name": "Operation Valkyrie",
         "altname": "The Talon of Ruin",
         "date": "1995-12-25",
-        "location": [0, 0]
+        "location": [22.66, 59.81],
+        "cityId": "valais"
     },
     {
         "_id": "acz_m16",
@@ -535,7 +546,8 @@
         "name": "Operation Thunderbolt",
         "altname": "The Demon of the Round Table",
         "date": "1995-12-31",
-        "location": [0, 0]
+        "location": [25.31, 54.4],
+        "cityId": "b7r"
     },
     {
         "_id": "acz_m17",
@@ -543,7 +555,8 @@
         "name": "Operation Point Blank",
         "altname": "The Valley of Kings",
         "date": "1995-12-31",
-        "location": [0, 0]
+        "location": [32.35, 54.75],
+        "cityId": "avalon"
     },
     {
         "_id": "acz_m18",
@@ -551,7 +564,8 @@
         "name": "Operation Point Blank",
         "altname": "Zero",
         "date": "1995-12-31",
-        "location": [0, 0]
+        "location": [32.35, 54.75],
+        "cityId": "avalon"
     },
 
     {
@@ -707,7 +721,7 @@
         "altname": "Rescue",
         "date": "2019-06-06",
         "location": [0, 0],
-        "cityId": "selatapura"
+        "cityId": "isev"
     },
     {
         "_id": "ac7_m05",
@@ -833,7 +847,7 @@
         "altname": "Lighthouse",
         "date": "2019-10-31",
         "location": [0, 0],
-        "cityId": "selatapura"
+        "cityId": "isev"
     },
     {
         "_id": "ac7_m20",
@@ -842,6 +856,6 @@
         "altname": "Dark Blue",
         "date": "2019-11-01",
         "location": [0, 0],
-        "cityId": "selatapura"
+        "cityId": "isev"
     }
 ]

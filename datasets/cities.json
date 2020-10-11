@@ -1,449 +1,501 @@
 [
     {
         "_id": "anchorhead",
-        "countryId": "erusea",
+        "country": "Erusea",
         "name": "Anchorhead",
         "latLng": [10.58, 117.57],
         "dms": {
             "lat": {
-                "degrees": 8,
-                "minutes": 20,
-                "seconds": 44,
-                "direction": "N"
+                "d": 8,
+                "m": 20,
+                "s": 44,
+                "dir": "N"
             },
             "lng": {
-                "degrees": 61,
-                "minutes": 57,
-                "seconds": 32,
-                "direction": "W"
+                "d": 61,
+                "m": 57,
+                "s": 32,
+                "dir": "W"
             }
         }
     },
     {
         "_id": "anfang",
-        "countryId": "belka",
+        "country": "belka",
         "name": "Anfang",
         "latLng": [36.38, 57.07],
         "dms": {
             "lat": {
-                "degrees": 34,
-                "minutes": 38,
-                "seconds": 6,
-                "direction": "N"
+                "d": 34,
+                "m": 38,
+                "s": 6,
+                "dir": "N"
             },
             "lng": {
-                "degrees": 236,
-                "minutes": 52,
-                "seconds": 24,
-                "direction": "E"
+                "d": 236,
+                "m": 52,
+                "s": 24,
+                "dir": "E"
             }
         }
     },
     {
         "_id": "bana",
-        "countryId": "osea",
+        "country": "Osea",
         "name": "Bana City",
         "latLng": [-10.8, 55.1],
         "dms": {
             "lat": {
-                "degrees": 9,
-                "minutes": 5,
-                "seconds": 56,
-                "direction": "N"
+                "d": 9,
+                "m": 5,
+                "s": 56,
+                "dir": "N"
             },
             "lng": {
-                "degrees": 126,
-                "minutes": 7,
-                "seconds": 35,
-                "direction": "E"
+                "d": 126,
+                "m": 7,
+                "s": 35,
+                "dir": "E"
             }
-        }
+        },
+        "desc": "Bana City, also known simply as Bana, is a college town located on the southern coast of the Osean Federation, due south of Oured. It is likely one of the most prominent college towns in the country."
     },
     {
         "_id": "cinigrad",
-        "countryId": "yuktobania",
+        "country": "Yuktobania",
         "name": "Cinigrad",
         "isCapital": true,
         "latLng": [23.05, -99.17]
     },
     {
         "_id": "cor",
-        "countryId": "recta",
+        "country": "Recta",
         "name": "Cor",
         "latLng": [21.28, 71.33]
     },
     {
         "_id": "crnero",
-        "countryId": "emmeria",
+        "country": "Emmeria",
         "name": "Crnero",
         "latLng": [45.78, -123.55]
     },
     {
         "_id": "dinsmark",
-        "countryId": "belka",
+        "country": "belka",
         "name": "Dinsmark",
         "isCapital": true,
         "latLng": [36.08, 59.55]
     },
     {
         "_id": "directus",
-        "countryId": "ustio",
+        "country": "Ustio",
         "name": "Directus",
         "isCapital": true,
         "latLng": [19.5, 58.5],
         "dms": {
             "lat": {
-                "degrees": 17,
-                "minutes": 20,
-                "seconds": 1,
-                "direction": "N"
+                "d": 17,
+                "m": 20,
+                "s": 1,
+                "dir": "N"
             },
             "lng": {
-                "degrees": 230,
-                "minutes": 25,
-                "seconds": 51,
-                "direction": "E"
+                "d": 230,
+                "m": 25,
+                "s": 51,
+                "dir": "E"
             }
-        }
+        },
+        "desc": "Directus is the capital of the Republic of Ustio. The city is located in southeastern Ustio and consists of five administrative wards along the Crescere River."
     },
     {
         "_id": "dresdenne",
-        "countryId": "yuktobania",
+        "country": "Yuktobania",
         "name": "Dresdenne",
         "latLng": [-0.61, -62.74]
     },
     {
         "_id": "eaglin",
-        "countryId": "osea",
+        "country": "Osea",
         "name": "Eaglin Straits",
         "latLng": [17.64, 14.61],
         "dms": {
             "lat": {
-                "degrees": 16,
-                "minutes": 11,
-                "seconds": 36,
-                "direction": "N"
+                "d": 16,
+                "m": 11,
+                "s": 36,
+                "dir": "N"
             },
             "lng": {
-                "degrees": 167,
-                "minutes": 8,
-                "seconds": 56,
-                "direction": "W"
+                "d": 167,
+                "m": 8,
+                "s": 56,
+                "dir": "W"
             }
-        }
+        },
+        "desc": "The Eaglin Straits are an important inland waterway on Osea's west coast that connects the Ceres Ocean to the inland Bennion Sea. Located northeast of St. Hewlett, the straits are a major economic and military shipping route for the Osean Federation."
     },
     {
         "_id": "farbanti",
-        "countryId": "erusea",
+        "country": "Erusea",
         "name": "Farbanti",
         "isCapital": true,
         "latLng": [20.19, 103.45],
         "dms": {
             "lat": {
-                "degrees": 18,
-                "minutes": 2,
-                "seconds": 34,
-                "direction": "N"
+                "d": 18,
+                "m": 2,
+                "s": 34,
+                "dir": "N"
             },
             "lng": {
-                "degrees": 76,
-                "minutes": 34,
-                "seconds": 55,
-                "direction": "W"
+                "d": 76,
+                "m": 34,
+                "s": 55,
+                "dir": "W"
             }
-        }
+        },
+        "desc": "Farbanti is the capital of the Kingdom of Erusea. It is located on the western seaboard of the Usean continent and is home to the Erusean military's General Headquarters."
     },
     {
         "_id": "gracemeria",
-        "countryId": "emmeria",
+        "country": "Emmeria",
         "name": "Gracemeria",
         "isCapital": true,
         "latLng": [48.49, -83.32],
         "dms": {
             "lat": {
-                "degrees": 48,
-                "minutes": 18,
-                "seconds": 35,
-                "direction": "N"
+                "d": 48,
+                "m": 18,
+                "s": 35,
+                "dir": "N"
             },
             "lng": {
-                "degrees": 95,
-                "minutes": 53,
-                "seconds": 43,
-                "direction": "E"
+                "d": 95,
+                "m": 53,
+                "s": 43,
+                "dir": "E"
             }
         }
     },
     {
         "_id": "granrugido",
-        "countryId": "sapin",
+        "country": "Sapin",
         "name": "Gran Rugido",
         "isCapital": true,
         "latLng": [11.32, 62.71]
     },
     {
         "_id": "griswall",
-        "countryId": "aurelia",
+        "country": "Aurelia",
         "name": "Griswall",
         "isCapital": true,
         "latLng": [-40.07, 15.43],
         "dms": {
             "lat": {
-                "degrees": 37,
-                "minutes": 36,
-                "seconds": 0,
-                "direction": "S"
+                "d": 37,
+                "m": 36,
+                "s": 0,
+                "dir": "S"
             },
             "lng": {
-                "degrees": 195,
-                "minutes": 4,
-                "seconds": 0,
-                "direction": "E"
+                "d": 195,
+                "m": 4,
+                "s": 0,
+                "dir": "E"
             }
-        }
+        },
+        "desc": "Griswall is the capital of Aurelia. The area that the capital city rests is on the coastal plain of eastern Aurelia."
     },
     {
         "_id": "hoffnung",
-        "countryId": "osea",
+        "country": "Osea",
         "name": "Hoffnung",
         "latLng": [28.1, 57.65],
         "dms": {
             "lat": {
-                "degrees": 25,
-                "minutes": 38,
-                "seconds": 18,
-                "direction": "N"
+                "d": 25,
+                "m": 38,
+                "s": 18,
+                "dir": "N"
             },
             "lng": {
-                "degrees": 237,
-                "minutes": 28,
-                "seconds": 58,
-                "direction": "E"
+                "d": 237,
+                "m": 28,
+                "s": 58,
+                "dir": "E"
             }
-        }
+        },
+        "desc": "Hoffnung is a major city located in southeastern Belka, northeast of Sudentor and west of Belka's border with Recta."
+    },
+    {
+        "_id": "isev",
+        "country": "Gunther",
+        "name": "International Space Elevator",
+        "latLng": [2.49, 123.94],
+        "dms": {
+            "lat": {
+                "d": 2,
+                "m": 23,
+                "s": 22,
+                "dir": "N"
+            },
+            "lng": {
+                "d": 56,
+                "m": 10,
+                "s": 49,
+                "dir": "W"
+            }
+        },
+        "desc": "The International Space Elevator, commonly referred to as the Lighthouse, is a space elevator located next to Selatapura in Gunther Bay, Usea."
     },
     {
         "_id": "mante",
-        "countryId": "emmeria",
+        "country": "Emmeria",
         "name": "Mante",
         "latLng": [52.98, -77.11]
     },
     {
         "_id": "november",
-        "countryId": "osea",
+        "country": "Osea",
         "name": "November City",
         "latLng": [-3.1, 7.2],
         "dms": {
             "lat": {
-                "degrees": 3,
-                "minutes": 8,
-                "seconds": 27,
-                "direction": "S"
+                "d": 3,
+                "m": 8,
+                "s": 27,
+                "dir": "S"
             },
             "lng": {
-                "degrees": 186,
-                "minutes": 2,
-                "seconds": 54,
-                "direction": "E"
+                "d": 186,
+                "m": 2,
+                "s": 54,
+                "dir": "E"
+            }
+        },
+        "desc": "November City is one of the largest cities in the Osean Federation and is located in southern Osea, west of Forster Bay."
+    },
+    {
+        "_id": "okchabursk",
+        "country": "Yuktobania",
+        "name": "Okchabursk",
+        "latLng": [22.40, -69.93]
+    },
+    {
+        "_id": "ortara",
+        "country": "Emmeria",
+        "name": "Ortara",
+        "latLng": [41.17, -128.58],
+        "dms": {
+            "lat": {
+                "d": 40,
+                "m": 45,
+                "s": 30,
+                "dir": "N"
+            },
+            "lng": {
+                "d": 50,
+                "m": 56,
+                "s": 7,
+                "dir": "E"
             }
         }
     },
     {
-        "_id": "okchabursk",
-        "countryId": "yuktobania",
-        "name": "Okchabursk",
-        "latLng": [22.40, 69.93]
-    },
-    {
-        "_id": "ortara",
-        "countryId": "emmeria",
-        "name": "Ortara",
-        "latLng": [0, 0]
-    },
-    {
         "_id": "oured",
-        "countryId": "osea",
+        "country": "Osea",
         "name": "Oured",
         "isCapital": true,
         "latLng": [3.3, 55],
         "dms": {
             "lat": {
-                "degrees": 3,
-                "minutes": 57,
-                "seconds": 35,
-                "direction": "N"
+                "d": 3,
+                "m": 57,
+                "s": 35,
+                "dir": "N"
             },
             "lng": {
-                "degrees": 232,
-                "minutes": 15,
-                "seconds": 31,
-                "direction": "E"
+                "d": 232,
+                "m": 15,
+                "s": 31,
+                "dir": "E"
             }
-        }
+        },
+        "desc": "Oured is the capital of the Osean Federation. The city is located on the coast of Oured Bay at the mouth of the Yarrow River, near the tip of Osea's southeastern peninsula."
     },
     {
         "_id": "sandisland",
-        "countryId": "osea",
+        "country": "Osea",
         "name": "Sand Island",
         "latLng": [8.7, -33.55],
         "dms": {
             "lat": {
-                "degrees": 8,
-                "minutes": 1,
-                "seconds": 13,
-                "direction": "N"
+                "d": 8,
+                "m": 1,
+                "s": 13,
+                "dir": "N"
             },
             "lng": {
-                "degrees": 145,
-                "minutes": 24,
-                "seconds": 34,
-                "direction": "E"
+                "d": 145,
+                "m": 24,
+                "s": 34,
+                "dir": "E"
             }
-        }
+        },
+        "desc": "Sand Island Air Force Base, frequently referred to as simply Sand Island, is an Osean Air Defense Force base located on the eponymous island in the Ceres Ocean, west of Cape Landers."
     },
     {
         "_id": "sanloma",
-        "countryId": "emmeria",
+        "country": "Emmeria",
         "name": "San Loma",
         "latLng": [44.96, -101.25],
         "dms": {
             "lat": {
-                "degrees": 45,
-                "minutes": 8,
-                "seconds": 20,
-                "direction": "N"
+                "d": 45,
+                "m": 8,
+                "s": 20,
+                "dir": "N"
             },
             "lng": {
-                "degrees": 77,
-                "minutes": 0,
-                "seconds": 16,
-                "direction": "E"
+                "d": 77,
+                "m": 0,
+                "s": 16,
+                "dir": "E"
             }
         }
     },
     {
+        "_id": "sansalvacion",
+        "country": "San Salvacion",
+        "name": "San Salvacion",
+        "latLng": [17.51, 130.47]
+    },
+    {
         "_id": "santaelva",
-        "countryId": "aurelia",
+        "country": "Aurelia",
         "name": "Santa Elva",
         "latLng": [-49.58, 11.66],
         "dms": {
             "lat": {
-                "degrees": 49,
-                "minutes": 42,
-                "seconds": 0,
-                "direction": "S"
+                "d": 49,
+                "m": 42,
+                "s": 0,
+                "dir": "S"
             },
             "lng": {
-                "degrees": 191,
-                "minutes": 36,
-                "seconds": 0,
-                "direction": "E"
+                "d": 191,
+                "m": 36,
+                "s": 0,
+                "dir": "E"
             }
         }
     },
     {
         "_id": "silvat",
-        "countryId": "emmeria",
+        "country": "Emmeria",
         "name": "Silvat Town",
         "latLng": [45.36, -118],
         "dms": {
             "lat": {
-                "degrees": 43,
-                "minutes": 18,
-                "seconds": 21,
-                "direction": "N"
+                "d": 43,
+                "m": 18,
+                "s": 21,
+                "dir": "N"
             },
             "lng": {
-                "degrees": 58,
-                "minutes": 52,
-                "seconds": 18,
-                "direction": "E"
+                "d": 58,
+                "m": 52,
+                "s": 18,
+                "dir": "E"
             }
         }
     },
     {
         "_id": "solisortus",
-        "countryId": "ustio",
+        "country": "Ustio",
         "name": "Solis Ortus",
         "latLng": [18.95, 57.55],
         "dms": {
             "lat": {
-                "degrees": 16,
-                "minutes": 52,
-                "seconds": 7,
-                "direction": "N"
+                "d": 16,
+                "m": 52,
+                "s": 7,
+                "dir": "N"
             },
             "lng": {
-                "degrees": 237,
-                "minutes": 16,
-                "seconds": 9,
-                "direction": "E"
+                "d": 237,
+                "m": 16,
+                "s": 9,
+                "dir": "E"
             }
-        }
+        },
+        "desc": "Solis Ortus is an isolated rural town located in the mountains of southern Ustio."
     },
     {
         "_id": "soloisland",
-        "countryId": "osea",
+        "country": "Osea",
         "name": "Solo Island",
         "latLng": [38.68, -25.61],
         "dms": {
             "lat": {
-                "degrees": 154,
-                "minutes": 31,
-                "seconds": 15,
-                "direction": "N"
+                "d": 154,
+                "m": 31,
+                "s": 15,
+                "dir": "N"
             },
             "lng": {
-                "degrees": 35,
-                "minutes": 22,
-                "seconds": 27,
-                "direction": "E"
+                "d": 35,
+                "m": 22,
+                "s": 27,
+                "dir": "E"
             }
         }
     },
     {
         "_id": "sudentor",
-        "countryId": "osea",
+        "country": "Osea",
         "name": "Sudentor",
         "latLng": [26.7, 54.18],
         "dms": {
             "lat": {
-                "degrees": 24,
-                "minutes": 8,
-                "seconds": 59,
-                "direction": "N"
+                "d": 24,
+                "m": 8,
+                "s": 59,
+                "dir": "N"
             },
             "lng": {
-                "degrees": 234,
-                "minutes": 7,
-                "seconds": 59,
-                "direction": "E"
+                "d": 234,
+                "m": 7,
+                "s": 59,
+                "dir": "E"
             }
-        }
+        },
+        "desc": "Sudentor is an industrial city located in North Osea, just south of the border between Osea and present-day southern Belka, south of the Waldreich Mountains."
     },
     {
         "_id": "vitoze",
-        "countryId": "emmeria",
+        "country": "Emmeria",
         "name": "Vitoze",
         "latLng": [38.32, -153.59],
         "dms": {
             "lat": {
-                "degrees": 36,
-                "minutes": 13,
-                "seconds": 27,
-                "direction": "N"
+                "d": 36,
+                "m": 13,
+                "s": 27,
+                "dir": "N"
             },
             "lng": {
-                "degrees": 26,
-                "minutes": 30,
-                "seconds": 35,
-                "direction": "E"
+                "d": 26,
+                "m": 30,
+                "s": 35,
+                "dir": "E"
             }
         }
     },
     {
         "_id": "zakat",
-        "countryId": "yuktobania",
+        "country": "Yuktobania",
         "name": "Zakat",
         "latLng": [17.94, -87.69]
     }

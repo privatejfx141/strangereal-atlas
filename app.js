@@ -5,10 +5,11 @@ const app = express();
 
 // server settings
 const keys = require('./config/keys');
+console.log(keys.mongoURI);
 
 // connect to db
 const mongoose = require('mongoose');
-mongoose.connect(keys.mongoURI, { useNewUrlParser: true, useCreateIndex: true });
+mongoose.connect(keys.mongoURI, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
 
 // initialize all models
 const models = path.join(__dirname, './models');
@@ -38,11 +39,16 @@ const flag = require('./controllers/flag');
 app.get('/api/countries/:id/flag/', flag.getFlag);
 
 const city = require('./controllers/city');
+app.get('/api/allcities/', city.getAllCities);
 app.get('/api/cities/', city.getCities);
 app.get('/api/cities/:id/', city.getCity);
 
 const map = require('./controllers/map');
 app.get('/api/maps/strangereal/:z/:x/:y.png', map.checkZXY, map.getTile);
+
+
+const poi = require('./controllers/poi');
+app.get('/api/poi/:conflict/', poi.getPOIs);
 
 // setup server
 const http = require('http');

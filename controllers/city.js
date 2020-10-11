@@ -60,3 +60,12 @@ exports.getCity = function (req, res) {
         return res.json(city);
     });
 };
+
+// naive approach: get all cities
+exports.getAllCities = function (req, res) {
+    CityModel.find(function (err, cities) {
+        if (err) return res.status(500).end(err);
+        if (!cities) return res.status(404).end(`no cities present`);
+        return res.json(cities); 
+    })
+}
