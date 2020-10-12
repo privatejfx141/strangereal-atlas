@@ -61,6 +61,15 @@ exports.getCity = function (req, res) {
     });
 };
 
+exports.getCitySummary = function (req, res) {
+    let cityId = req.params.id.toLowerCase();
+    CityModel.findOne({ _id: cityId }, function (err, city) {
+        if (err) return res.status(500).end(err);
+        if (!city) return res.status(404).end(`city ${cityId} does not exist`);
+        return res.json(city);
+    });
+};
+
 // naive approach: get all cities
 exports.getAllCities = function (req, res) {
     CityModel.find(function (err, cities) {

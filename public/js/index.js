@@ -66,6 +66,8 @@ window.onload = (function () {
         });
     });
 
+    let landmarks = L.layerGroup();
+
     // Add points of interest
     let poi_ac04 = L.layerGroup();
     initializePOIs("ac04", poi_ac04, markericon.ac04);
@@ -83,16 +85,19 @@ window.onload = (function () {
     initializePOIs("ac6", poi_ac6, markericon.ac6);
 
     let poi_ac7 = L.layerGroup();
+    initializePOIs("ac7", poi_ac7, markericon.ac7);
 
-    L.control.layers(null, {
-        "Countries": countries,
-        "Cities" : cities,
+    L.control.layers({
+        "Default": L.layerGroup(),
         "POIs: Belkan War (1995)": poi_acz,
         "POIs: Continental War (2003-05)": poi_ac04,
         "POIs: Circum-Pacific War (2010)": poi_ac5,
         "POIs: Anean War (2015-16)": poi_ac6,
         "POIs: Lighthouse War (2019)": poi_ac7,
         "POIs: Aurelian War (2020)": poi_acx
+    }, {
+        "Countries": countries,
+        "Cities" : cities
     }).addTo(map);
 
     
@@ -102,13 +107,11 @@ window.onload = (function () {
         options: {
             position: 'bottomleft'
         },
-
         onAdd: function (map) {
             var latlng = L.DomUtil.create('div', 'mouseposition');
             this._latlng = latlng;
             return latlng;
         },
-
         updateHTML: function (lat, lng) {
             var latlng = lat + ", " + lng;
             //this._latlng.innerHTML = "Latitude: " + lat + "   Longitiude: " + lng;
@@ -123,5 +126,20 @@ window.onload = (function () {
         position.updateHTML(lat, lng);
       }
     );
+
+
+    L.Control.textbox = L.Control.extend({
+		onAdd: function(map) {
+		var text = L.DomUtil.create('div');
+		text.id = "info_text";
+		text.innerHTML = "<strong>Strangereal Atlas</strong>"
+		return text;
+		},
+		onRemove: function(map) {
+			// Nothing to do here
+		}
+	});
+	L.control.textbox = function(opts) { return new L.Control.textbox(opts);}
+	L.control.textbox({ position: 'bottomleft' }).addTo(map);
 
 }());

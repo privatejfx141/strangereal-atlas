@@ -93,7 +93,8 @@
         "name": "Operation Stone Crusher",
         "altname": "Stonehenge Offensive",
         "date": "2005-04-02",
-        "location": [10.74, 130.43]
+        "location": [10.74, 130.43],
+        "cityId": "stonehenge"
     },
     {
         "_id": "ac04_m13",
@@ -819,7 +820,7 @@
         "name": "Operation Deer Horn",
         "altname": "Charge Assault",
         "date": "2019-05-15",
-        "location": [0, 0],
+        "location": [-9, 171],
         "cityId": "fortgrays"
     },
     {
@@ -828,7 +829,7 @@
         "name": "Operation Eastern Wind",
         "altname": "Charge the Enemy",
         "date": "2019-05-17",
-        "location": [0, 0]
+        "location": [-3.34, 150]
     },
     {
         "_id": "ac7_m03",
@@ -836,7 +837,7 @@
         "name": "Operation Dual Wielder",
         "altname": "Two-pronged Strategy",
         "date": "2019-05-30",
-        "location": [0, 0]
+        "location": [0.08, 134.8]
     },
     {
         "_id": "ac7_m04",
@@ -844,7 +845,7 @@
         "name": "Operation Lighthouse Keeper",
         "altname": "Rescue",
         "date": "2019-06-06",
-        "location": [0, 0],
+        "location": [2.49, 123.94],
         "cityId": "isev"
     },
     {
@@ -853,7 +854,7 @@
         "name": "Operation High Card",
         "altname": "444",
         "date": "2019-07-01",
-        "location": [0, 0],
+        "location": [-2.81, 158.33],
         "cityId": "zapland"
     },
     {
@@ -862,7 +863,7 @@
         "name": "Operation One Pair",
         "altname": "Long Day",
         "date": "2019-07-04",
-        "location": [0, 0]
+        "location": [2.54, 149.85]
     },
     {
         "_id": "ac7_m07",
@@ -870,7 +871,7 @@
         "name": "Operation Two Pairs",
         "altname": "First Contact",
         "date": "2019-07-12",
-        "location": [0, 0]
+        "location": [8.84, 153.54]
     },
     {
         "_id": "ac7_m08",
@@ -878,7 +879,8 @@
         "name": "Operation Three of a Kind",
         "altname": "Pipeline Destruction",
         "date": "2019-07-22",
-        "location": [0, 0]
+        "location": [-3.47, 139],
+        "cityId": "artiglio"
     },
     {
         "_id": "ac7_m09",
@@ -886,7 +888,7 @@
         "name": "Operation Flush",
         "altname": "Faceless Soldier",
         "date": "2019-07-27",
-        "location": [0, 0]
+        "location": [9.62, 148]
     },
     {
         "_id": "ac7_m10",
@@ -894,7 +896,7 @@
         "name": "Operation Full House",
         "altname": "Transfer Orders",
         "date": "2019-08-05",
-        "location": [0, 0]
+        "location": [13, 165]
     },
     {
         "_id": "ac7_m11",
@@ -902,7 +904,7 @@
         "name": "Operation Siren's Song",
         "altname": "Fleet Destruction",
         "date": "2019-08-10",
-        "location": [0, 0]
+        "location": [27.91, 153.19]
     },
     {
         "_id": "ac7_m12",
@@ -910,7 +912,7 @@
         "name": "Operation Dragon Breath",
         "altname": "Stonehenge Defensive",
         "date": "2019-08-19",
-        "location": [0, 0],
+        "location": [10.74, 130.43],
         "cityId": "stonehenge"
     },
     {
@@ -919,7 +921,33 @@
         "name": "Operation Magic Spear",
         "altname": "Bunker Buster",
         "date": "2019-09-02",
-        "location": [0, 0]
+        "location": [17.89, 126]
+    },
+    {
+        "_id": "ac7_dlc1",
+        "conflictId": "ac7",
+        "name": "Operation Sighthound",
+        "altname": "Unexpected Visitor",
+        "date": "2019-09-04",
+        "location": [-3.47, 139],
+        "cityId": "artiglio"
+    },
+    {
+        "_id": "ac7_dlc2",
+        "conflictId": "ac7",
+        "name": "Operation Domino",
+        "altname": "Anchorhead Raid",
+        "date": "2019-09-10",
+        "location": [10.58, 117.57],
+        "cityId": "anchorhead"
+    },
+    {
+        "_id": "ac7_dlc3",
+        "conflictId": "ac7",
+        "name": "Operation Fisherman",
+        "altname": "Ten Million Relief Plan",
+        "date": "2019-09-14",
+        "location": [0.43, 101]
     },
     {
         "_id": "ac7_m14",
@@ -927,7 +955,7 @@
         "name": "Operation Werewolf",
         "altname": "Cape Rainy Assault",
         "date": "2019-09-11",
-        "location": [0, 0]
+        "location": [29.38, 117.64]
     },
     {
         "_id": "ac7_m15",
@@ -935,7 +963,7 @@
         "name": "Operation Giant's Step",
         "altname": "Battle for Farbanti",
         "date": "2019-09-19",
-        "location": [0, 0],
+        "location": [20.19, 103.45],
         "cityId": "farbanti"
     },
     {
@@ -944,7 +972,7 @@
         "name": "Operation Gorgon",
         "altname": "Last Hope",
         "date": "2019-10-01",
-        "location": [0, 0],
+        "location": [10.58, 117.57],
         "cityId": "anchorhead"
     },
     {
@@ -953,7 +981,7 @@
         "name": "Operation Reflux",
         "altname": "Homeward",
         "date": "2019-10-10",
-        "location": [0, 0],
+        "location": [-2.15, 119.39],
         "cityId": "tylerisland"
     },
     {
@@ -962,7 +990,7 @@
         "name": "Operation Beehive",
         "altname": "Lost Kingdom",
         "date": "2019-10-24",
-        "location": [0, 0]
+        "location": [14.22, 123.48]
     },
     {
         "_id": "ac7_m19",
@@ -970,7 +998,7 @@
         "name": "Operation Daredevil",
         "altname": "Lighthouse",
         "date": "2019-10-31",
-        "location": [0, 0],
+        "location": [2.49, 123.94],
         "cityId": "isev"
     },
     {
@@ -979,7 +1007,7 @@
         "name": "Operation Hush",
         "altname": "Dark Blue",
         "date": "2019-11-01",
-        "location": [0, 0],
+        "location": [2.49, 123.94],
         "cityId": "isev"
     }
 ]

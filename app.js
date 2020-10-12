@@ -42,13 +42,16 @@ const city = require('./controllers/city');
 app.get('/api/allcities/', city.getAllCities);
 app.get('/api/cities/', city.getCities);
 app.get('/api/cities/:id/', city.getCity);
+app.get('/api/cities/:id/summary/', city.getCitySummary);
 
 const map = require('./controllers/map');
 app.get('/api/maps/strangereal/:z/:x/:y.png', map.checkZXY, map.getTile);
 
-
 const poi = require('./controllers/poi');
 app.get('/api/poi/:conflict/', poi.getPOIs);
+
+const polygons = require('./controllers/polygon');
+app.get('/api/polygons/:id/', polygons.getPolygon)
 
 // setup server
 const http = require('http');

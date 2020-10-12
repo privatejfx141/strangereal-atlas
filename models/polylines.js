@@ -6,7 +6,7 @@ const PolylineSchema = new mongoose.Schema({
         required: true,
     },
     latLngs: {
-        type: [Number, Number],
+        type: [[Number, Number]],
         required: true,
     }
 });

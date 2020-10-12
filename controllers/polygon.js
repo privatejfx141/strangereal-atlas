@@ -10,7 +10,7 @@ const PolygonModel = mongoose.model('Polygon');
 const PolylineModel = mongoose.model('Polyline');
 
 // populate collection with dataset, if empty
-const INITIALIZATION = false;
+const INITIALIZATION = true;
 const POLYLINE_DATASET_PATH = './datasets/polylines.json';
 const POLYGON_DATASET_PATH = './datasets/polygons.json';
 
@@ -46,6 +46,13 @@ exports.getPolygon = function (req, res) {
     let countryId = req.params.id.toLowerCase();
     PolygonModel.findOne({ _id: countryId }, function (err, polylines) {
         if (err) return res.status(500).end(err);
-
+        polylines.polylines.forEach(polygon => {
+            PolylineModel.find({ _id: { $in: polygon } }, (err, latLngs) => {
+                if (err) return res.status(500).end(err);
+                if (!latLngs) return res.status(404).end(`no polygons present`);
+                latLngs = latLngs.map(llArrays => llArrays.latLngs);
+                return res.json(latLngs); 
+            });
+        });
     });
 };
