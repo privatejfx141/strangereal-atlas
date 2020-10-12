@@ -27,21 +27,21 @@ let markericon = (function () {
     module.acx = L.icon({
         iconUrl:     'images/markers/marker-acx.png',
         iconSize:    [32, 32],
-        iconAnchor:  [32, 32],
+        iconAnchor:  [16, 32],
         popupAnchor: [0, -32]
     });
 
     module.ac6 = L.icon({
         iconUrl:     'images/markers/marker-ac6.png',
         iconSize:    [32, 32],
-        iconAnchor:  [32, 32],
+        iconAnchor:  [16, 32],
         popupAnchor: [0, -32]
     });
 
     module.ac7 = L.icon({
         iconUrl:     'images/markers/marker-ac7.png',
         iconSize:    [32, 32],
-        iconAnchor:  [32, 32],
+        iconAnchor:  [16, 32],
         popupAnchor: [0, -32]
     });
 

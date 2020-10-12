@@ -327,7 +327,7 @@
         "name": "Ambush at Vladimir",
         "altname": "8492",
         "date": "2010-12-06",
-        "location": [23.72, 77.52]
+        "location": [23.72, -77.52]
     },
     {
         "_id": "ac5_m19",
@@ -569,12 +569,134 @@
     },
 
     {
+        "_id": "acx_m01",
+        "conflictId": "acx",
+        "name": "Battle of Aubrey Air Base",
+        "altname": "Skies of Deception",
+        "date": "2020",
+        "location": [-44, -4]
+    },
+    {
+        "_id": "acx_m02",
+        "conflictId": "acx",
+        "name": "Battle of Puna Base",
+        "altname": "Out of the Fire",
+        "date": "2020",
+        "location": [-47.3, -1.4]
+    },
+    {
+        "_id": "acx_m03",
+        "conflictId": "acx",
+        "name": "Liberation of Port Patterson",
+        "altname": "Prelude",
+        "date": "2020",
+        "location": [-50.9, -2.9]
+    },
+    {
+        "_id": "acx_m04",
+        "conflictId": "acx",
+        "name": "Battle of Kingshill",
+        "altname": "Last Line of Defense",
+        "date": "2020",
+        "location": [-50, -0.57]
+    },
+    {
+        "_id": "acx_m05",
+        "conflictId": "acx",
+        "name": "Battle of Stand Canyon",
+        "altname": "Rolling Thunder",
+        "date": "2020",
+        "location": [-50.6, 5.4]
+    },
+    {
+        "_id": "acx_m06",
+        "conflictId": "acx",
+        "name": "Battle of Terminus Island",
+        "altname": "Ice Bound",
+        "date": "2020",
+        "location": [-53.9, 7.77]
+    },
+    {
+        "_id": "acx_m07",
+        "conflictId": "acx",
+        "name": "Battle of Santa Elva",
+        "altname": "Standoff in the Skies",
+        "date": "2020",
+        "location": [-49.6, 11.8]
+    },
+    {
+        "_id": "acx_m08",
+        "conflictId": "acx",
+        "name": "Battle of the Kalana Steppes",
+        "altname": "Striking Point",
+        "date": "2020",
+        "location": [-48.69, 8.87]
+    },
+    {
+        "_id": "acx_m09",
+        "conflictId": "acx",
+        "name": "Helicopter Raid of Sachana",
+        "altname": "A Diversion",
+        "date": "2020",
+        "location": [-47.55, 11.68]
+    },
+    {
+        "_id": "acx_m10",
+        "conflictId": "acx",
+        "name": "Battle of Monte Breeze",
+        "altname": "Joint Operation",
+        "date": "2020",
+        "location": [-42, 7.8]
+    },
+    {
+        "_id": "acx_m11",
+        "conflictId": "acx",
+        "name": "Destruction of the Nevera Jammer",
+        "altname": "In Pursuit",
+        "date": "2020",
+        "location": [-42.65, 10.67]
+    },
+    {
+        "_id": "acx_m12",
+        "conflictId": "acx",
+        "name": "Battle of Griswall",
+        "altname": "Wild Card",
+        "date": "2020",
+        "location": [-40, 15.42]
+    },
+    {
+        "_id": "acx_m13",
+        "conflictId": "acx",
+        "name": "Ambush at Danern Straits",
+        "altname": "Armada",
+        "date": "2020",
+        "location": [-40.85, 20.96]
+    },
+    {
+        "_id": "acx_m14",
+        "conflictId": "acx",
+        "name": "Battle of Cobalt Cave",
+        "altname": "Fire Storm",
+        "date": "2020",
+        "location": [-46.16, 20.7]
+    },
+    {
+        "_id": "acx_m15",
+        "conflictId": "acx",
+        "name": "Battle of Archelon Fortress",
+        "altname": "End of Deception",
+        "date": "2020",
+        "location": [-46.41, 26]
+    },
+
+    {
         "_id": "ac6_m01",
         "conflictId": "ac6",
         "name": "Invasion of Gracemeria",
         "altname": "Invasion of Gracemeria",
         "date": "2015-08-30",
-        "location": [0, 0]
+        "location": [48.49, -83.32],
+        "cityId": "gracemeria"
     },
     {
         "_id": "ac6_m02",
@@ -582,7 +704,7 @@
         "name": "Bombing of Vitoze",
         "altname": "Vitoze Aerial Defense",
         "date": "2015-11-24",
-        "location": [0, 0]
+        "location": [38.75, -153.98]
     },
     {
         "_id": "ac6_m03",
@@ -590,7 +712,7 @@
         "name": "Battle of Sipli Field",
         "altname": "Sipli Field",
         "date": "2015-11-27",
-        "location": [0, 0]
+        "location": [45.52, -147.74]
     },
     {
         "_id": "ac6_m04",
@@ -598,7 +720,7 @@
         "name": "Battle of Bartolomeo Fortress",
         "altname": "Bartolomeo Fortress",
         "date": "2015-12-27",
-        "location": [0, 0]
+        "location": [48.57, -141.32]
     },
     {
         "_id": "ac6_m05",
@@ -606,7 +728,7 @@
         "name": "Rargom Beach offensive",
         "altname": "Anea Landing",
         "date": "2016-01-26",
-        "location": [0, 0]
+        "location": [40.91, -128.14]
     },
     {
         "_id": "ac6_m06",
@@ -614,7 +736,7 @@
         "name": "Battle of Silvat",
         "altname": "Siege on Silvat",
         "date": "2016-02-07",
-        "location": [0, 0]
+        "location": [44.77, -119]
     },
     {
         "_id": "ac6_m07",
@@ -622,7 +744,7 @@
         "name": "Battle of the Selumna Peaks",
         "altname": "Selumna Peak",
         "date": "2016-02-12",
-        "location": [0, 0]
+        "location": [50.17, -106.78]
     },
     {
         "_id": "ac6_m08",
@@ -630,7 +752,7 @@
         "name": "San Loma Assault",
         "altname": "San Loma Assault",
         "date": "2016-02-15",
-        "location": [0, 0]
+        "location": [45.21, -101.29]
     },
     {
         "_id": "ac6_m09",
@@ -638,7 +760,7 @@
         "name": "Assault on the Aerial Fleet",
         "altname": "Heavy Command Cruiser",
         "date": "2016-02-20",
-        "location": [0, 0]
+        "location": [41, -97]
     },
     {
         "_id": "ac6_m10",
@@ -646,7 +768,7 @@
         "name": "Battle of Ragno Fortress",
         "altname": "Ragno Fortress",
         "date": "2016-03-06",
-        "location": [0, 0]
+        "location": [51.89, -89]
     },
     {
         "_id": "ac6_m11",
@@ -654,7 +776,7 @@
         "name": "Battle of the Moloch Desert",
         "altname": "The Moloch Desert",
         "date": "2016-03-23",
-        "location": [0, 0]
+        "location": [49.72, -88]
     },
     {
         "_id": "ac6_m12",
@@ -662,7 +784,7 @@
         "name": "Fort Norton infiltration",
         "altname": "Weapons of Mass Destruction",
         "date": "2016-03-26",
-        "location": [0, 0]
+        "location": [50.06, -84.24]
     },
     {
         "_id": "ac6_m13",
@@ -670,7 +792,8 @@
         "name": "Operation Free Gracemeria",
         "altname": "The Liberation of Gracemeria",
         "date": "2016-03-31",
-        "location": [0, 0]
+        "location": [48.49, -83.32],
+        "cityId": "gracemeria"
     },
     {
         "_id": "ac6_m14",
@@ -678,7 +801,8 @@
         "name": "Gracemeria cruise missile attack",
         "altname": "Gracemeria Patrol",
         "date": "2016-03-31",
-        "location": [0, 0]
+        "location": [48.49, -83.32],
+        "cityId": "gracemeria"
     },
     {
         "_id": "ac6_m15",
@@ -686,7 +810,7 @@
         "name": "Battle of Sonne Island",
         "altname": "Chandelier",
         "date": "2016-04-01",
-        "location": [0, 0]
+        "location": [60.78, -77.6]
     },
 
     {

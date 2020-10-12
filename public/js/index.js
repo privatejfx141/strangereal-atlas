@@ -7,7 +7,8 @@ function getDateString(olddate) {
 function createPOIPopup(poi) {
     let content = `<h3 style="margin-bottom: 1px;">${poi.name}</h3>`
     content += `<span style="font-style: italic;">${poi.altname}</span>`
-    content += `<br/><span>${getDateString(poi.date)}</span>`
+    // ACX only shows year
+    content += `<br/><span>${poi.conflictId === "acx" ? "2020" : getDateString(poi.date)}</span>`
     return content;
 }
 
@@ -66,20 +67,21 @@ window.onload = (function () {
     });
 
     // Add points of interest
-    citypoi["ac04"] = {};
     let poi_ac04 = L.layerGroup();
     initializePOIs("ac04", poi_ac04, markericon.ac04);
 
-    citypoi["ac5"] = {};
     let poi_ac5 = L.layerGroup();
     initializePOIs("ac5", poi_ac5, markericon.ac5);
 
-    citypoi["acz"] = {};
     let poi_acz = L.layerGroup();
     initializePOIs("acz", poi_acz, markericon.acz);
 
     let poi_acx = L.layerGroup();
+    initializePOIs("acx", poi_acx, markericon.acx);
+
     let poi_ac6 = L.layerGroup();
+    initializePOIs("ac6", poi_ac6, markericon.ac6);
+
     let poi_ac7 = L.layerGroup();
 
     L.control.layers(null, {
