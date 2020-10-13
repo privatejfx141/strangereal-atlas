@@ -9,7 +9,11 @@ const CitySchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    country: { // name of the city's country
+    countryId: { // ID of the city's country
+        type: String,
+        required: true,
+    },
+    location: { // location of the city
         type: String,
     },
     isCapital: { // whether or not this city is the capital
@@ -17,7 +21,7 @@ const CitySchema = new mongoose.Schema({
         default: false,
     },
     latLng: { // city adhoc position with respect to the map
-        type: [Number, Number]
+        type: [Number]
     },
     dms: { // city DMS position according to lore
         lat: {
@@ -34,7 +38,10 @@ const CitySchema = new mongoose.Schema({
         }
     },
     desc: {
-        type: String,
+        type: String
+    },
+    url: {
+        type: String
     }
 });
 

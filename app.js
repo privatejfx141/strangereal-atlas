@@ -39,7 +39,6 @@ const flag = require('./controllers/flag');
 app.get('/api/countries/:id/flag/', flag.getFlag);
 
 const city = require('./controllers/city');
-app.get('/api/allcities/', city.getAllCities);
 app.get('/api/cities/', city.getCities);
 app.get('/api/cities/:id/', city.getCity);
 app.get('/api/cities/:id/summary/', city.getCitySummary);

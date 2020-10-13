@@ -24,6 +24,9 @@ const CountrySchema = new mongoose.Schema({
     },
     desc : {
         type: String,
+    },
+    url: {
+        type: String
     }
 });
 

@@ -25,8 +25,11 @@ const POISchema = new mongoose.Schema({
         type: String,
     },
     location: { // POI adhoc position with respect to the map
-        type: [Number, Number]
+        type: [Number]
     },
+    url: {
+        type: String
+    }
 });
 
 const POI = mongoose.model('POI', POISchema, 'poi');

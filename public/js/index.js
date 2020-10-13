@@ -1,3 +1,37 @@
+const Position = L.Control.extend({
+    _container: null,
+    options: {
+        position: 'bottomleft'
+    },
+    onAdd: function (map) {
+        var latlng = L.DomUtil.create('div', 'mouseposition');
+        this._latlng = latlng;
+        return latlng;
+    },
+    updateHTML: function (lat, lng) {
+        this._latlng.innerHTML = "Coordinates: " + lat + ", " + lng;;
+    }
+});
+
+const Infobox = L.Control.extend({
+    options: {
+        position: 'bottomleft'
+    },
+    onAdd: function (map) {
+        let infobox = L.DomUtil.create('div', 'info-container');
+        this._infobox = infobox;
+        this._infobox.innerHTML = `
+            <span class="info-title" ref="title">
+                <h2>Welcome to the Strangereal Atlas</h2>
+            </span>`
+        L.DomEvent.disableClickPropagation(infobox);
+        return infobox;
+    },
+    updateHTML: function (html) {
+        this._infobox.innerHTML = html
+    }
+});
+
 function getDateString(olddate) {
     const date = new Date(olddate);
     const month = date.toLocaleString('default', { month: 'long' });
@@ -40,6 +74,7 @@ window.onload = (function () {
 
     const URL = "http://localhost:3000";
 
+    // leaflet map
     let map = L.map('map').setView([0, 0], 3);
     L.tileLayer(URL + "/api/maps/strangereal/{z}/{x}/{y}.png", {
         minZoom: 2,
@@ -47,6 +82,18 @@ window.onload = (function () {
         tms: true
     }).addTo(map);
 
+    let position = new Position();
+    map.addControl(position)
+    .addEventListener('mousemove', e => {
+        let lat = Math.round(e.latlng.lat * 1000) / 1000;
+        let lng = Math.round(e.latlng.lng * 1000) / 1000;
+        position.updateHTML(lat, lng);
+      }
+    );
+
+    let infobox = new Infobox();
+    map.addControl(infobox);
+    
     // Country polygons
     let countries = L.layerGroup();
 
@@ -55,14 +102,27 @@ window.onload = (function () {
     api.initializeCities(allcities => {
         allcities.forEach(city => {
             if (!city || !city.latLng) return;
-            let marker = L.marker(city.latLng);
-            let content = `${city.name}${(city.country) ? ", " + city.country : ""}`;
-            // if there is dms or desc provided
-            if (city.dms || city.desc) content += ` <br/> `
-            if (city.dms) content += `${geodesy.getDMSString(city.dms)}`;
-            if (city.desc) content += ` <hr> ${city.desc}`
-            marker.bindPopup(content);
-            marker.addTo(cities);
+            L.marker(city.latLng, { icon: markericon.city })
+            .bindPopup(city.name)
+            .addTo(cities)
+            .on("click", _ => {
+                map.addControl(infobox);
+                api.getCitySummary(city._id, data => {
+                    infobox.updateHTML(`
+                    <span class="info-title" ref="title">
+                        <img class="info-flag" src="/api/countries/${data.countryId}/flag"/>
+                        <h2>${data.name}</h2>
+                    </span>
+                    <div class="info-body">
+                        <h3>${data.isCapital ? "Capital City" : "City"}</h3>
+                        <div>Location: ${data.location}</div>
+                        ${data.dms ? `<div>Coordinates: ${geodesy.getDMSString(data.dms)}</div>` : ""}
+                        <h3>Summary</h3>
+                        <div>${data.desc}</div>
+                        ${data.url ? `<a href="${data.url}">Acepedia</a>` : ""}
+                    </div>`);
+                });
+            });
         });
     });
 
@@ -96,50 +156,8 @@ window.onload = (function () {
         "POIs: Lighthouse War (2019)": poi_ac7,
         "POIs: Aurelian War (2020)": poi_acx
     }, {
-        "Countries": countries,
-        "Cities" : cities
+        "Cities" : cities,
+        "Landmarks": countries,
     }).addTo(map);
-
-    
-    // get real-time coordinates
-    let Position = L.Control.extend({
-        _container: null,
-        options: {
-            position: 'bottomleft'
-        },
-        onAdd: function (map) {
-            var latlng = L.DomUtil.create('div', 'mouseposition');
-            this._latlng = latlng;
-            return latlng;
-        },
-        updateHTML: function (lat, lng) {
-            var latlng = lat + ", " + lng;
-            //this._latlng.innerHTML = "Latitude: " + lat + "   Longitiude: " + lng;
-            this._latlng.innerHTML = "Coordinates: " + latlng;
-        }
-    });
-    let position = new Position();
-    map.addControl(position);
-    map.addEventListener('mousemove', e => {
-        let lat = Math.round(e.latlng.lat * 1000) / 1000;
-        let lng = Math.round(e.latlng.lng * 1000) / 1000;
-        position.updateHTML(lat, lng);
-      }
-    );
-
-
-    L.Control.textbox = L.Control.extend({
-		onAdd: function(map) {
-		var text = L.DomUtil.create('div');
-		text.id = "info_text";
-		text.innerHTML = "<strong>Strangereal Atlas</strong>"
-		return text;
-		},
-		onRemove: function(map) {
-			// Nothing to do here
-		}
-	});
-	L.control.textbox = function(opts) { return new L.Control.textbox(opts);}
-	L.control.textbox({ position: 'bottomleft' }).addTo(map);
 
 }());

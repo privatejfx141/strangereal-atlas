@@ -3,6 +3,12 @@ let markericon = (function () {
 
     let module = {};
 
+    module.city = L.divIcon({
+        html: '<i class="fas fa-city fa-2x"></i>',
+        iconSize: [30, 24],
+        className: "marker-city"
+    });
+
     module.ac04 = L.icon({
         iconUrl:     'images/markers/marker-ac04.png',
         iconSize:    [32, 32],

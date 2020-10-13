@@ -27,28 +27,16 @@ CityModel.countDocuments((err, count) => {
 // size for pagination
 const CITY_PAGE_SIZE = 100;
 
-// get paginated list of cities ids
-// GET /api/cities/[?page]
-exports.getCities = function (req, res) {
-    let page = parseInt(req.query.page) || 0;
-    let countryId = req.query.countryId;
-    if (countryId) countryId = countryId.toLowerCase();
-    let callback = function (err, cities) {
+// get all cities
+// GET /api/cities/
+exports.getCities = function (_, res) {
+    CityModel.find({}, { _id: 1, latLng: 1, name: 1, isCapital: 1 })
+    .exec((err, cities) => {
         if (err) return res.status(500).end(err);
-        return res.json(cities.map(city => city._id));
-    };
-    if (countryId) {
-        CityModel.find({countryId: countryId}, { _id: 1 })
-            .skip(page * CITY_PAGE_SIZE)
-            .limit(CITY_PAGE_SIZE)
-            .exec(callback);
-    } else {
-        CityModel.find({}, { _id: 1 })
-            .skip(page * CITY_PAGE_SIZE)
-            .limit(CITY_PAGE_SIZE)
-            .exec(callback);
-    }
-};
+        if (!cities) return res.status(404).end(`no cities present`);
+        return res.json(cities); 
+    });
+}
 
 // get specific city by id
 // GET /api/cities/:id/
@@ -69,12 +57,3 @@ exports.getCitySummary = function (req, res) {
         return res.json(city);
     });
 };
-
-// naive approach: get all cities
-exports.getAllCities = function (req, res) {
-    CityModel.find(function (err, cities) {
-        if (err) return res.status(500).end(err);
-        if (!cities) return res.status(404).end(`no cities present`);
-        return res.json(cities); 
-    })
-}

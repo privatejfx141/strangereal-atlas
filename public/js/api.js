@@ -55,7 +55,7 @@ let api = (function () {
 
     // gets all cities
     let getCities = function (callback) {
-        send(`GET`, `/api/allcities`, null, (err, cities) => {
+        send(`GET`, `/api/cities`, null, (err, cities) => {
             if (err) return console.error(err);
             callback(cities);
         });
@@ -64,6 +64,13 @@ let api = (function () {
     module.initializeCities = function (listener) {
         getCities(cities => {
             listener(cities);
+        });
+    }
+
+    module.getCitySummary = function (cityid, callback) {
+        send(`GET`, `/api/cities/${cityid}`, null, (err, cities) => {
+            if (err) return console.error(err);
+            callback(cities);
         });
     }
 
