@@ -1,6 +1,7 @@
 [
     {
         "_id": "amber",
+        "datatype": "country",
         "name": "Amber",
         "fullname": "Republic of Amber",
         "type": "Republic",
@@ -8,6 +9,7 @@
     },
     {
         "_id": "aurelia",
+        "datatype": "country",
         "name": "Aurelia",
         "fullname": "Federal Republic of Aurelia",
         "type": "Federal republic",
@@ -16,6 +18,7 @@
     },
     {
         "_id": "belka",
+        "datatype": "country",
         "name": "Belka",
         "fullname": "Principality of Belka",
         "type": "Principality",
@@ -25,21 +28,25 @@
     },
     {
         "_id": "bulgurdarest",
+        "datatype": "country",
         "name": "Bulgurdarest",
         "location": "Usea"
     },
     {
         "_id": "clavis",
+        "datatype": "country",
         "name": "Clavis",
         "location": "Verusa"
     },
     {
         "_id": "delarus",
+        "datatype": "country",
         "name": "Delarus",
         "location": "Usea"
     },
     {
         "_id": "emmeria",
+        "datatype": "country",
         "name": "Emmeria",
         "fullname": "Republic of Emmeria",
         "type": "Republic",
@@ -48,6 +55,7 @@
     },
     {
         "_id": "erusea",
+        "datatype": "country",
         "name": "Erusea",
         "fullname": "Kingdom of Erusea",
         "type": "Monarchy",
@@ -57,6 +65,7 @@
     },
     {
         "_id": "estovakia",
+        "datatype": "country",
         "name": "Estovakia",
         "fullname": "Federal Republic of Estovakia",
         "type": "Federal republic",
@@ -64,33 +73,31 @@
     },
     {
         "_id": "fato",
+        "datatype": "country",
         "name": "FATO",
         "location": "Eastern Osea"
     },
     {
-        "_id": "fcu",
-        "name": "FCU",
-        "fullname": "Federation of Central Usea",
-        "type": "Federal state",
-        "location": "Usea"
-    },
-    {
         "_id": "gebet",
+        "datatype": "country",
         "name": "Gebet",
         "location": "Eastern Osea"
     },
     {
         "_id": "gratobie",
+        "datatype": "country",
         "name": "Gratobie"
     },
     {
         "_id": "gunther",
+        "datatype": "country",
         "name": "Gunther",
         "type": "Trust territory",
         "location": "Usea"
     },
     {
         "_id": "isaf",
+        "datatype": "org",
         "name": "ISAF",
         "fullname": "Independent State Allied Forces",
         "type": "Military alliance",
@@ -98,11 +105,20 @@
     },
     {
         "_id": "kaluga",
+        "datatype": "country",
         "name": "Kaluga",
         "location": "Verusa"
     },
     {
+        "_id": "khesed",
+        "datatype": "region",
+        "parentId": "emmeria",
+        "name": "Khesed Island",
+        "location": "Eastern Emmeria"
+    },
+    {
         "_id": "leasath",
+        "datatype": "country",
         "name": "Leasath",
         "fullname": "Democratic Republic of Leasath",
         "type": "Republic",
@@ -110,7 +126,14 @@
         "location": "Southern Osea"
     },
     {
+        "_id": "newfield",
+        "datatype": "region",
+        "parentId": "usea",
+        "name": "Newfield Island"
+    },
+    {
         "_id": "nordennavic",
+        "datatype": "country",
         "name": "Nordennavic",
         "fullname": "Kingdom of Nordennavic",
         "type": "Monarchy",
@@ -118,17 +141,27 @@
     },
     {
         "_id": "nordlands",
+        "datatype": "country",
         "name": "Nordlands",
         "location": "Osea"
     },
     {
+        "_id": "northosea",
+        "datatype": "region",
+        "parentId": "osea",
+        "name": "North Osea",
+        "location": "Northern Osea"
+    },
+    {
         "_id": "northpoint",
+        "datatype": "country",
         "name": "North Point",
         "capital": "North Point",
         "location": "Usea"
     },
     {
         "_id": "osea",
+        "datatype": "country",
         "name": "Osea",
         "fullname": "Osean Federation",
         "type": "Federal presidential republic",
@@ -138,29 +171,34 @@
     },
     {
         "_id": "ratio",
+        "datatype": "country",
         "name": "Ratio",
         "capital": "Centrum",
         "location": "Eastern Osea"
     },
     {
         "_id": "recta",
+        "datatype": "country",
         "name": "Recta",
         "capital": "Cor",
         "location": "Eastern Osea"
     },
     {
         "_id": "romny",
+        "datatype": "country",
         "name": "Romny",
         "location": "Verusa"
     },
     {
         "_id": "sansalvacion",
+        "datatype": "country",
         "name": "San Salvacion",
         "capital": "San Salvacion",
         "location": "Usea"
     },
     {
         "_id": "sapin",
+        "datatype": "country",
         "name": "Sapin",
         "fullname": "Kingdom of Sapin",
         "type": "Monarchy",
@@ -169,24 +207,50 @@
     },
     {
         "_id": "shilage",
+        "datatype": "region",
+        "parentId": "erusea",
         "name": "Shilage",
         "fullname": "Grand Duchy of Shilage",
         "type": "Grand duchy",
         "location": "Usea"
     },
     {
+        "_id": "sonne",
+        "datatype": "region",
+        "parentId": "estovakia",
+        "name": "Sonne Island"
+    },
+    {
         "_id": "sotoa",
+        "datatype": "country",
         "name": "Sotoa",
         "location": "Verusa"
     },
     {
+        "_id": "tarvo",
+        "datatype": "region",
+        "parentId": "emmeria",
+        "name": "Tarvo",
+        "location": "Southern Emmeria"
+    },
+    {
         "_id": "ugellas",
+        "datatype": "country",
         "name": "Ugellas",
         "fullname": "Independent State of Ugellas",
         "location": "Usea"
     },
     {
+        "_id": "usea",
+        "datatype": "country",
+        "name": "Usea",
+        "fullname": "Federation of Central Usea",
+        "type": "Federal state",
+        "location": "Usea"
+    },
+    {
         "_id": "ustio",
+        "datatype": "country",
         "name": "Ustio",
         "fullname": "Republic of Ustio",
         "capital": "Directus",
@@ -194,17 +258,21 @@
     },
     {
         "_id": "valka",
+        "datatype": "country",
         "name": "Valka",
         "fullname": "Kingdom of Valka",
         "location": "Verusa"
     },
     {
         "_id": "verusa",
+        "datatype": "country",
         "name": "Verusa",
         "location": "Verusa"
     },
     {
         "_id": "voslage",
+        "datatype": "region",
+        "parentId": "erusea",
         "name": "Voslage",
         "fullname": "Republic of Voslage",
         "type": "Republic",
@@ -212,16 +280,19 @@
     },
     {
         "_id": "wellow",
+        "datatype": "country",
         "name": "Wellow",
         "location": "Northern Osea"
     },
     {
         "_id": "wielvakia",
+        "datatype": "country",
         "name": "Wielvakia",
         "location": "Eastern Osea"
     },
     {
         "_id": "yuktobania",
+        "datatype": "country",
         "name": "Yuktobania",
         "fullname": "Union of Yuktobanian Republics",
         "type": "Federal parliamentary republic",

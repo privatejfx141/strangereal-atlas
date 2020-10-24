@@ -4,27 +4,26 @@
 /**
  * Module dependencies.
  */
-const fs = require('fs');
+const fs = require('fs').promises;
 const mongoose = require('mongoose');
 const CountryModel = mongoose.model('Country');
 
 // gets the flag image of the country
-exports.getFlag = function (req, res) {
+exports.getFlag = async function (req, res) {
     let countryId = req.params.id.toLowerCase();
-    CountryModel.findOne({ _id: countryId }, function (err, country) {
-        if (err) return res.status(500).end(err);
+    try {
+        let country = await CountryModel.findOne({ _id: countryId });
         if (!country) return res.status(404).end(`country '${countryId}' does not exist`);
-        fs.readFile(`./assets/flags/${countryId}.png`, function(err, image) {
-            if (err || !image) {
-                fs.readFile(`./assets/unknown.png`, function(err, image) {
-                    if (err) return res.status(500).end(err);
-                    res.setHeader('Content-Type', 'image/png');
-                    return res.end(image, 'binary');
-                });
-            } else { 
-                res.setHeader('Content-Type', 'image/png');
-                return res.end(image, 'binary');
-            }
-        });
-    });
+        let image = null;
+        try {
+            image = await fs.readFile(`./assets/flags/${countryId}.png`);
+        } catch (err) {
+            image = await fs.readFile(`./assets/unknown.png`);
+        } finally {
+            res.setHeader('Content-Type', 'image/png');
+            return res.end(image, 'binary');
+        }
+    } catch (err) {
+        return res.status(500).end(err);
+    }
 };

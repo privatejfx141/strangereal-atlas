@@ -5,6 +5,14 @@ const CountrySchema = new mongoose.Schema({
         type: String,
         required: true,
     },
+    datatype: {
+        type: String,
+        enum: ["country", "region", "org"],
+        required: true
+    },
+    parentId: { // if region, id of parent country
+        type: String,
+    },
     name: { // name of the country (title case)
         type: String,
         required: true,
@@ -19,7 +27,7 @@ const CountrySchema = new mongoose.Schema({
     capitalId: { // id of the country's capital
         type: String,
     },
-    continent: { // continent this country resides
+    location: { // location this country resides
         type: String,
     },
     desc : {

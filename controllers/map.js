@@ -4,7 +4,7 @@
 /**
  * Module dependencies.
  */
-const fs = require('fs');
+const fs = require('fs').promises;
 
 const MIN_ZOOM = 0;
 const MAX_ZOOM = 5;
@@ -22,7 +22,7 @@ exports.checkZXY = function (req, res, next) {
 };
 
 // GET /api/maps/strangereal/
-exports.getMapInfo = function (req, res) {
+exports.getMapInfo = function (_, res) {
     return res.json({
         "mapId": "strangereal",
         "width": 8192,
@@ -33,17 +33,17 @@ exports.getMapInfo = function (req, res) {
 };
 
 // GET /api/maps/strangereal/:z/:x/:y.png
-exports.getTile = function (req, res) {
+exports.getTile = async function (req, res) {
     let z = req.params.z;
     let x = req.params.x;
     let y = req.params.y;
-    fs.readFile(`./assets/maps/strangereal/${z}/${x}/${y}.png`, function (err, image) {
-        if (err) {
-            if (err.code === "ENOENT") return res.status(404).end(`tile does not exist`);
-            return res.status(500).end(err);
-        }
-        if (!image) return res.status(404).end(`tile does not exist`);
+    try {
+        let tile = await fs.readFile(`./assets/maps/strangereal/${z}/${x}/${y}.png`);
+        if (!tile) return res.status(404).end(`tile does not exist`);
         res.setHeader('Content-Type', 'image/png');
-        return res.end(image, 'binary');
-    });
+        return res.end(tile, 'binary');
+    } catch (err) {
+        if (err.code === "ENOENT") return res.status(404).end(`tile does not exist`);
+        return res.status(500).end(err);
+    }
 };

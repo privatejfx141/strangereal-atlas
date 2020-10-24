@@ -1,0 +1,8 @@
+.leaflet-container.crosshair-cursor-enabled {
+    cursor: crosshair;
+}
+
+.leaflet-editing-icon {
+    width: 3px !important;
+    height: 3px !important;
+}

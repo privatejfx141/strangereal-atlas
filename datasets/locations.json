@@ -1,0 +1,1010 @@
+[
+    {
+        "_id": "444",
+        "datatype": "base",
+        "countryId": "yuktobania",
+        "name": "444th Air Base",
+        "dms": {
+            "lat": [-1, 45, 36],
+            "lng": [-21, 13, 47]
+        }
+    },
+    {
+        "_id": "b7r",
+        "datatype": "city",
+        "countryId": "northosea",
+        "name": "Area B7R",
+        "dms": {
+            "lat": [22, 58, 48],
+            "lng": [-125, 30, 35]
+        }
+    },
+    {
+        "_id": "alendal",
+        "datatype": "capital",
+        "countryId": "leasath",
+        "name": "Alendal",
+        "dms": {
+            "lat": [-36, 17, 59],
+            "lng": [-152, 13, 47]
+        },
+        "desc": "Alendal is the capital city of the Leasath located in the southern part of the country, north of the Danern Straits.",
+        "url": "https://acecombat.fandom.com/wiki/Alendal"
+    },
+    {
+        "_id": "allenfort",
+        "datatype": "base",
+        "countryId": "newfield",
+        "name": "Allenfort Air Base",
+        "dms": {
+            "lat": [21, 42, 7],
+            "lng": [-9, 32, 10]
+        }
+    },
+    {
+        "_id": "anchorhead",
+        "datatype": "city",
+        "countryId": "erusea",
+        "name": "Anchorhead",
+        "dms": {
+            "lat": [9, 16, 44],
+            "lng": [-62, 31, 32]
+        },
+        "desc": "Anchorhead is a harbor and port city located on the western coast of Usea, southwest of the Amber Mountains. As a harbor, Anchorhead was a major economic and trading hub on the west coast, as well as an important port of call for various Usean naval forces.",
+        "url": "https://acecombat.fandom.com/wiki/Anchorhead"
+    },
+    {
+        "_id": "anderson",
+        "datatype": "crater",
+        "countryId": "newfield",
+        "name": "Anderson Crater",
+        "dms": {
+            "lat": [21, 55, 19],
+            "lng": [-9, 5, 48]
+        }
+    },
+    {
+        "_id": "anfang",
+        "datatype": "city",
+        "countryId": "belka",
+        "name": "Anfang",
+        "dms": {
+            "lat": [34, 38, 6],
+            "lng": [236, 52, 24]
+        },
+        "desc": "Anfang is a town located on Belka's northeast coastline, southwest of the capital, Dinsmark, and southeast of Crescens Island. In late June 1995, the quiet coastal town became the site of the final battle of the Belkan War.",
+        "url": "https://acecombat.fandom.com/wiki/Anfang"
+    },
+    {
+        "_id": "antenora",
+        "datatype": "crater",
+        "countryId": "sonne",
+        "name": "Antenora Crater",
+        "dms": {
+            "lat": [64, 53, 56],
+            "lng": [103, 37, 22]
+        }
+    },
+    {
+        "_id": "apito",
+        "datatype": "airport",
+        "countryId": "osea",
+        "name": "Apito International Airport",
+        "dms": {
+            "lat": [-4, 20, 59],
+            "lng": [-137, 4, 11]
+        }
+    },
+    {
+        "_id": "arlon",
+        "datatype": "city",
+        "countryId": "sapin",
+        "name": "Arlon",
+        "dms": {
+            "lat": [14, 27, 36],
+            "lng": [-124, 37, 47]
+        }
+    },
+    {
+        "_id": "artiglio",
+        "datatype": "base",
+        "countryId": "usea",
+        "name": "Artiglio Port",
+        "dms": {
+            "lat": [-3, 1, 54],
+            "lng": [-41, 32, 4]
+        }
+    },
+    {
+        "_id": "avalon",
+        "datatype": "superweapon",
+        "countryId": "belka",
+        "name": "Avalon Dam",
+        "dms": {
+            "lat": [29, 55, 38],
+            "lng": [234, 26, 3]
+        }
+    },
+    {
+        "_id": "bana",
+        "datatype": "city",
+        "countryId": "osea",
+        "name": "Bana City",
+        "dms": {
+            "lat": [-9, 16, 56],
+            "lng": [-125, 7, 35]
+        },
+        "desc": "Bana City, also known simply as Bana, is a college town located on the southern coast of the Osean Federation, due south of Oured. It is likely one of the most prominent college towns in the country.",
+        "url": "https://acecombat.fandom.com/wiki/Bana_City"
+    },
+    {
+        "_id": "bassett",
+        "datatype": "airport",
+        "countryId": "osea",
+        "name": "Bassett Space Center",
+        "dms": {
+            "lat": [-2, 14, 24],
+            "lng": [173, 11, 23]
+        }
+    },
+    {
+        "_id": "brunies",
+        "datatype": "capital",
+        "countryId": "fato",
+        "name": "Brunies",
+        "dms": {
+            "lat": [32, 10, 12],
+            "lng": [-108, 56, 23]
+        }
+    },
+    {
+        "_id": "bubnuy",
+        "datatype": "city",
+        "countryId": "yuktobania",
+        "name": "Bubnuy",
+        "dms": {
+            "lat": [5, 21, 36],
+            "lng": [77, 7, 12]
+        }
+    },
+    {
+        "_id": "caperainybase",
+        "datatype": "base",
+        "countryId": "erusea",
+        "name": "Cape Rainy Air Base",
+        "dms": {
+            "lat": [27, 11, 27],
+            "lng": [-69, 15, 28]
+        }
+    },
+    {
+        "_id": "carbonero",
+        "datatype": "city",
+        "countryId": "osea",
+        "name": "Carbonero",
+        "dms": {
+            "lat": [4, 31, 48],
+            "lng": [-134, 15, 0]
+        }
+    },
+    {
+        "_id": "centrum",
+        "datatype": "capital",
+        "countryId": "ratio",
+        "name": "Centrum",
+        "dms": {
+            "lat": [12, 7, 48],
+            "lng": [-107, 50, 24]
+        }
+    },
+    {
+        "_id": "chandelier",
+        "datatype": "superweapon",
+        "countryId": "sonne",
+        "name": "Chandelier",
+        "dms": {
+            "lat": [64, 53, 56],
+            "lng": [103, 37, 22]
+        }
+    },
+    {
+        "_id": "cinigrad",
+        "datatype": "capital",
+        "countryId": "yuktobania",
+        "name": "Cinigrad",
+        "dms": {
+            "lat": [20, 41, 59],
+            "lng": [80, 57, 0]
+        },
+        "desc": "Cinigrad is the capital of the Union of Yuktobanian Republics. The city is situated in Yuktobania's mountainous northern highlands and is protected by Cruik Fortress to the east.",
+        "url": "https://acecombat.fandom.com/wiki/Cinigrad"
+    },
+    {
+        "_id": "ciudad",
+        "datatype": "city",
+        "countryId": "verusa",
+        "name": "Ciudad",
+        "dms": {
+            "lat": [4, 58, 11],
+            "lng": [54, 50, 24]
+        }
+    },
+    {
+        "_id": "clavis",
+        "datatype": "city",
+        "countryId": "clavis",
+        "name": "Clavis",
+        "dms": {
+            "lat": [-44, 1, 48],
+            "lng": [52, 49, 11]
+        },
+        "desc": "Clavis is a city located on the southwestern edge of the Verusan continent, south of Sotoa and southwest of Verusa.",
+        "url": "https://acecombat.fandom.com/wiki/Clavis"
+    },
+    {
+        "_id": "comberth",
+        "datatype": "base",
+        "countryId": "usea",
+        "name": "Comberth Harbor",
+        "dms": {
+            "lat": [2, 3, 20],
+            "lng": [-18, 22, 8]
+        }
+    },
+    {
+        "_id": "cor",
+        "datatype": "capital",
+        "countryId": "recta",
+        "name": "Cor",
+        "dms": {
+            "lat": [18, 58, 48],
+            "lng": [-108, 43, 11]
+        }
+    },
+    {
+        "_id": "cranston",
+        "datatype": "city",
+        "countryId": "osea",
+        "name": "Cranston",
+        "dms": {
+            "lat": [14, 3, 36],
+            "lng": [-151, 7, 47]
+        }
+    },
+    {
+        "_id": "crnero",
+        "datatype": "capital",
+        "countryId": "fato",
+        "name": "Crnero",
+        "dms": {
+            "lat": [44, 54, 36],
+            "lng": [56, 39, 0]
+        }
+    },
+    {
+        "_id": "cruik",
+        "datatype": "base",
+        "countryId": "yuktobania",
+        "name": "Cruik Fortress",
+        "dms": {
+            "lat": [21, 16, 11],
+            "lng": [87, 3, 36]
+        }
+    },
+    {
+        "_id": "dennis",
+        "datatype": "city",
+        "countryId": "erusea",
+        "name": "Dennis",
+        "dms": {
+            "lat": [17, 13, 48],
+            "lng": [-73, 31, 11]
+        }
+    },
+    {
+        "_id": "dinsmark",
+        "datatype": "capital",
+        "countryId": "belka",
+        "name": "Dinsmark",
+        "dms": {
+            "lat": [33, 37, 11],
+            "lng": [-120, 32, 23]
+        },
+        "desc": "Dinsmark is the capital and administrative center of the Principality of Belka. The city is located in Belka's historic birthplace, \"Nord Belka\", east of Anfang. Points of interest within Dinsmark include the famous Belkan Knight monument and the University of Dinsmark.",
+        "url": "https://acecombat.fandom.com/wiki/Belka"
+    },
+    {
+        "_id": "directus",
+        "datatype": "capital",
+        "countryId": "ustio",
+        "name": "Directus",
+        "dms": {
+            "lat": [17, 20, 1],
+            "lng": [238, 25, 51]
+        }
+    },
+    {
+        "_id": "dresdene",
+        "datatype": "city",
+        "countryId": "yuktobania",
+        "name": "Dresdene",
+        "dms": {
+            "lat": [-2, 39, 14],
+            "lng": [117, 31, 59]
+        },
+        "desc": "Dresdene is a temperate mountainous region located in southeastern Yuktobania, northwest of the Bastok Peninsula and due west of the city of Istochnik. The area is the site of an unspecified civilian engineering college.",
+        "url": "https://acecombat.fandom.com/wiki/Dresdene"
+    },
+    {
+        "_id": "durant",
+        "datatype": "city",
+        "countryId": "osea",
+        "name": "Durant",
+        "dms": {
+            "lat": [36, 38, 59],
+            "lng": [-144, 45, 35]
+        }
+    },
+    {
+        "_id": "ekvatal",
+        "datatype": "city",
+        "countryId": "yuktobania",
+        "name": "Ekvatal City",
+        "dms": {
+            "lat": [0, 52, 47],
+            "lng": [96, 9, 0]
+        }
+    },
+    {
+        "_id": "expo",
+        "datatype": "city",
+        "countryId": "bulgurdarest",
+        "name": "Expo City",
+        "dms": {
+            "lat": [9, 5, 59],
+            "lng": [-16, 44, 24]
+        },
+        "desc": "Expo City is a major Usean city located in eastern Usea. A major landmark in Expo City is New Ark Airport, which acts as the headquarters for the Universal Peace Enforcement Organization.",
+        "url": "https://acecombat.fandom.com/wiki/Expo_City"
+    },
+    {
+        "_id": "farbanti",
+        "datatype": "capital",
+        "countryId": "erusea",
+        "name": "Farbanti",
+        "dms": {
+            "lat": [18, 2, 34],
+            "lng": [-76, 34, 55]
+        },
+        "desc": "Farbanti is the capital of the Kingdom of Erusea. It is located on the western seaboard of the Usean continent and is home to the Erusean military's General Headquarters.",
+        "url": "https://acecombat.fandom.com/wiki/Farbanti"
+    },
+    {
+        "_id": "fairwether",
+        "datatype": "city",
+        "countryId": "osea",
+        "name": "Fairwether",
+        "dms": {
+            "lat": [40, 28, 11],
+            "lng": [166, 43, 47]
+        }
+    },
+    {
+        "_id": "fortgrays",
+        "datatype": "airport",
+        "countryId": "fortgrays",
+        "name": "Fort Grays Airport",
+        "dms": {
+            "lat": [-6, 53, 18],
+            "lng": [-6, 13, 36]
+        }
+    },
+    {
+        "_id": "fortgraysbase",
+        "datatype": "base",
+        "countryId": "fortgrays",
+        "name": "Fort Grays Air Base",
+        "dms": {
+            "lat": [-8, 30, 48],
+            "lng": [-9, 26, 7]
+        }
+    },
+    {
+        "_id": "gatewood",
+        "datatype": "capital",
+        "countryId": "perbla",
+        "name": "Gatewood",
+        "dms": {
+            "lat": [-18, 37, 47],
+            "lng": [-156, 52, 47]
+        }
+    },
+    {
+        "_id": "glatisant",
+        "datatype": "base",
+        "countryId": "northosea",
+        "name": "Glatisant",
+        "dms": {
+            "lat": [17, 8, 24],
+            "lng": [-128, 0, 35]
+        }
+    },
+    {
+        "_id": "gracemeria",
+        "datatype": "capital",
+        "countryId": "emmeria",
+        "name": "Gracemeria",
+        "dms": {
+            "lat": [48, 18, 35],
+            "lng": [95, 53, 43]
+        },
+        "desc": "Gracemeria is the capital city of the Republic of Emmeria, located on the southern coast of the Anean continent. The citizens living in the city enjoy prosperity and follow peaceful everyday lives. Gracemeria was a key component in the Emmeria-Estovakia War. It was the first city Estovakia's military invaded, and the last-known city Emmerian forces liberated prior to the war's conclusion.",
+        "url": "https://acecombat.fandom.com/wiki/Gracemeria"
+    },
+    {
+        "_id": "granrugido",
+        "datatype": "city",
+        "countryId": "sapin",
+        "name": "Gran Rugido",
+        "dms": {
+            "lat": [9, 55, 47],
+            "lng": [-117, 25, 12]
+        },
+        "desc": "Gran Rugido is the capital of the Kingdom of Sapin. It is the birthplace of Marcela Vasquez, a mercenary pilot of the Sapin Air Forces 11th Tactical Fighter Squadron and later part of the A World With No Boundaries in the Belkan War.",
+        "url": "https://acecombat.fandom.com/wiki/Sapin"
+    },
+    {
+        "_id": "griswall",
+        "datatype": "capital",
+        "countryId": "aurelia",
+        "name": "Griswall",
+        "dms": {
+            "lat": [-37, 36, 0],
+            "lng": [195, 4, 0]
+        },
+        "desc": "Griswall is the capital of Aurelia. The area that the capital city rests is on the coastal plain of eastern Aurelia. A notable landmark in Griswall is the Gaiuss Tower, a symbol of peace and unity for Aurelia and a widely recognizable structure. It is the tallest structure in Aurelia.",
+        "url": "https://acecombat.fandom.com/wiki/Griswall"
+    },
+    {
+        "_id": "gunizudo",
+        "datatype": "city",
+        "countryId": "yuktobania",
+        "name": "Gunizudo",
+        "dms": {
+            "lat": [-9, 50, 23],
+            "lng": [91, 24, 35]
+        }
+    },
+    {
+        "_id": "heierlark",
+        "datatype": "base",
+        "countryId": "osea",
+        "name": "Heierlark Air Base",
+        "dms": {
+            "lat": [29, 37, 12],
+            "lng": [-136, 34, 47]
+        }
+    },
+    {
+        "_id": "hoffnung",
+        "datatype": "city",
+        "countryId": "belka",
+        "name": "Hoffnung",
+        "dms": {
+            "lat": [25, 38, 18],
+            "lng": [237, 28, 58]
+        },
+        "desc": "Hoffnung is a major city located in southeastern Belka, northeast of Sudentor and west of Belka's border with Recta. At the height of the Belkan War, Hoffnung was one the foremost arms-production centers for the Belkan war effort.",
+        "url": "https://acecombat.fandom.com/wiki/Hoffnung"
+    },
+    {
+        "_id": "hollister",
+        "datatype": "city",
+        "countryId": "osea",
+        "name": "Hollister",
+        "dms": {
+            "lat": [23, 54, 36],
+            "lng": [-179, 28, 11]
+        }
+    },
+    {
+        "_id": "intolerance",
+        "datatype": "superweapon",
+        "countryId": "northpoint",
+        "name": "Fortress Intolerance",
+        "dms": {
+            "lat": [29, 58, 11],
+            "lng": [-8, 45, 0]
+        }
+    },
+    {
+        "_id": "kijera",
+        "datatype": "city",
+        "countryId": "emmeria",
+        "name": "Kijera Oil Fields",
+        "dms": {
+            "lat": [40, 45, 30],
+            "lng": [50, 56, 7]
+        }
+    },
+    {
+        "_id": "krylo",
+        "datatype": "base",
+        "countryId": "yuktobania",
+        "name": "Krylo Airfield",
+        "dms": {
+            "lat": [22, 58, 33],
+            "lng": [113, 41, 11]
+        }
+    },
+    {
+        "_id": "isev",
+        "datatype": "airport",
+        "countryId": "gunther",
+        "name": "International Space Elevator",
+        "dms": {
+            "lat": [2, 17, 24],
+            "lng": [-56, 20, 24]
+        }
+    },
+    {
+        "_id": "laurus",
+        "datatype": "city",
+        "countryId": "sapin",
+        "name": "Laurus",
+        "dms": {
+            "lat": [4, 7, 47],
+            "lng": [-109, 12, 0]
+        }
+    },
+    {
+        "_id": "loscanas",
+        "datatype": "city",
+        "countryId": "usea",
+        "name": "loscanas",
+        "dms": {
+            "lat": [3, 52, 12],
+            "lng": [-34, 3, 36]
+        }
+    },
+    {
+        "_id": "lumen",
+        "datatype": "city",
+        "countryId": "northosea",
+        "name": "Lumen",
+        "dms": {
+            "lat": [17, 58, 11],
+            "lng": [-130, 28, 11]
+        }
+    },
+    {
+        "_id": "mcnealy",
+        "datatype": "base",
+        "countryId": "osea",
+        "name": "McNealy Air Base",
+        "dms": {
+            "lat": [0, 25, 53],
+            "lng": [165, 45, 42]
+        }
+    },
+    {
+        "_id": "mante",
+        "datatype": "city",
+        "countryId": "emmeria",
+        "name": "Mante",
+        "dms": {
+            "lat": [54, 29, 24],
+            "lng": [102, 57, 35]
+        }
+    },
+    {
+        "_id": "megalith",
+        "datatype": "superweapon",
+        "countryId": "twinkle",
+        "name": "Megalith",
+        "dms": {
+            "lat": [11, 22, 48],
+            "lng": [-74, 58, 11]
+        }
+    },
+    {
+        "_id": "murska",
+        "datatype": "base",
+        "countryId": "yuktobania",
+        "name": "Murska Air Base",
+        "dms": {
+            "lat": [17, 28, 44],
+            "lng": [124, 32, 27]
+        }
+    },
+    {
+        "_id": "newarrows",
+        "datatype": "base",
+        "countryId": "usea",
+        "name": "New Arrows Air Base",
+        "dms": {
+            "lat": [6, 40, 23],
+            "lng": [-15, 12, 18]
+        }
+    },
+    {
+        "_id": "newman",
+        "datatype": "crater",
+        "countryId": "fortgrays",
+        "name": "Newman Crater",
+        "dms": {
+            "lat": [-7, 30, 12],
+            "lng": [-8, 54, 28]
+        }
+    },
+    {
+        "_id": "mccord",
+        "datatype": "city",
+        "countryId": "osea",
+        "name": "Mccord",
+        "dms": {
+            "lat": [5, 40, 11],
+            "lng": [-158, 4, 11]
+        }
+    },
+    {
+        "_id": "mons",
+        "datatype": "capital",
+        "countryId": "gebet",
+        "name": "Mons",
+        "dms": {
+            "lat": [23, 43, 48],
+            "lng": [-113, 19, 47]
+        }
+    },
+    {
+        "_id": "northpoint",
+        "datatype": "capital",
+        "countryId": "northpoint",
+        "name": "North Point",
+        "dms": {
+            "lat": [25, 52, 47],
+            "lng": [-8, 39, 35]
+        }
+    },
+    {
+        "_id": "november",
+        "datatype": "city",
+        "countryId": "osea",
+        "name": "November City",
+        "dms": {
+            "lat": [-2, 30, 27],
+            "lng": [-172, 58, 54]
+        },
+        "desc": "November City is one of the largest cities in the Osean Federation and is located in southern Osea, west of Forster Bay.",
+        "url": "https://acecombat.fandom.com/wiki/November_City"
+    },
+    {
+        "_id": "okchabursk",
+        "datatype": "city",
+        "countryId": "yuktobania",
+        "name": "Okchabursk",
+        "dms": {
+            "lat": [20, 2, 23],
+            "lng": [110, 15, 36]
+        }
+    },
+    {
+        "_id": "ortara",
+        "datatype": "city",
+        "countryId": "emmeria",
+        "name": "Ortara",
+        "dms": {
+            "lat": [40, 0, 0],
+            "lng": [50, 37, 47]
+        }
+    },
+    {
+        "_id": "oured",
+        "datatype": "capital",
+        "countryId": "osea",
+        "name": "Oured",
+        "dms": {
+            "lat": [3, 4, 48],
+            "lng": [-125, 12, 0]
+        },
+        "desc": "Oured is the capital of the Osean Federation. The city is located on the coast of Oured Bay at the mouth of the Yarrow River, near the tip of Osea's southeastern peninsula.",
+        "url": "https://acecombat.fandom.com/wiki/Oured"
+    },
+    {
+        "_id": "patterson",
+        "datatype": "city",
+        "countryId": "aurelia",
+        "name": "Port Patterson",
+        "dms": {
+            "lat": [-51, 25, 12],
+            "lng": [177, 0, 35]
+        }
+    },
+    {
+        "_id": "portedwards",
+        "datatype": "city",
+        "countryId": "usea",
+        "name": "Port Edwards",
+        "dms": {
+            "lat": [19, 17, 23],
+            "lng": [-22, 24, 35]
+        }
+    },
+    {
+        "_id": "redmill",
+        "datatype": "city",
+        "countryId": "osea",
+        "name": "Redmill",
+        "dms": {
+            "lat": [-3, 46, 47],
+            "lng": [-118, 28, 47]
+        }
+    },
+    {
+        "_id": "riass",
+        "datatype": "airport",
+        "countryId": "comona",
+        "name": "Riass Space Center",
+        "dms": {
+            "lat": [-15, 46, 47],
+            "lng": [-16, 44, 24]
+        }
+    },
+    {
+        "_id": "rutherford",
+        "datatype": "city",
+        "countryId": "osea",
+        "name": "Rutherford",
+        "dms": {
+            "lat": [14, 54, 0],
+            "lng": [-130, 18, 0]
+        }
+    },
+    {
+        "_id": "sand",
+        "datatype": "base",
+        "countryId": "aurelia",
+        "name": "Sand Island Air Base",
+        "dms": {
+            "lat": [7, 43, 48],
+            "lng": [146, 39, 0]
+        }
+    },
+    {
+        "_id": "sanloma",
+        "datatype": "city",
+        "countryId": "tarvo",
+        "name": "San Loma",
+        "dms": {
+            "lat": [44, 4, 47],
+            "lng": [78, 42, 16]
+        },
+        "desc": "San Loma is a city located in Tarvo, an industrial region on the southern coast of Emmeria. The city became a pivotal battleground during the Emmeria-Estovakia War.",
+        "url": "https://acecombat.fandom.com/wiki/San_Loma"
+    },
+    {
+        "_id": "sarsfield",
+        "datatype": "city",
+        "countryId": "osea",
+        "name": "Sarsfield",
+        "dms": {
+            "lat": [29, 0, 0],
+            "lng": [-144, 32, 23]
+        }
+    },
+    {
+        "_id": "sansalvacion",
+        "datatype": "capital",
+        "countryId": "sansalvacion",
+        "name": "San Salvacion",
+        "dms": {
+            "lat": [15, 30, 35],
+            "lng": [-50, 16, 12]
+        },
+        "desc": "San Salvacion is the capital of the nation of San Salvacion in western Usea. In August 2003, the city was invaded and occupied by the former Federal Republic of Erusea. This violation of San Salvacion's sovereignty became one of the instigating factors in the Continental War.",
+        "url": "https://acecombat.fandom.com/wiki/San_Salvacion_(city)"
+    },
+    {
+        "_id": "santaelva",
+        "datatype": "city",
+        "countryId": "aurelia",
+        "name": "Santa Elva",
+        "dms": {
+            "lat": [-49, 42, 0],
+            "lng": [191, 36, 0]
+        },
+        "desc": "Santa Elva is located in southern Aurelia, where the Lenal River runs through it. During the Aurelian War, Santa Elva was captured and subsequently used by Leasathian forces as a base for their airborne fortress, the Gleipnir.",
+        "url": "https://acecombat.fandom.com/wiki/Santa_Elva"
+    },
+    {
+        "_id": "selatapura",
+        "datatype": "city",
+        "countryId": "gunther",
+        "name": "Selatapura",
+        "dms": {
+            "lat": [2, 35, 23],
+            "lng": [-56, 25, 48]
+        }
+    },
+    {
+        "_id": "shannon",
+        "datatype": "city",
+        "countryId": "osea",
+        "name": "Shannon",
+        "dms": {
+            "lat": [-6, 51, 36],
+            "lng": [-153, 58, 47]
+        }
+    },
+    {
+        "_id": "shilage",
+        "datatype": "city",
+        "countryId": "shilage",
+        "name": "Shilage Castle",
+        "dms": {
+            "lat": [10, 40, 47],
+            "lng": [57, 47, 24]
+        }
+    },
+    {
+        "_id": "shubrick",
+        "datatype": "city",
+        "countryId": "osea",
+        "name": "Shubrick",
+        "dms": {
+            "lat": [17, 29, 23],
+            "lng": [-178, 25, 12]
+        }
+    },
+    {
+        "_id": "silvat",
+        "datatype": "city",
+        "countryId": "emmeria",
+        "name": "Silvat Town",
+        "dms": {
+            "lat": [42, 47, 21],
+            "lng": [63, 27, 35]
+        },
+        "desc": "Silvat Town, or simply Silvat, is a small town located on the western mainland of Emmeria, Anea. The town is situated in the grassy Rawllins Plain. It became an important stepping stone for Emmeria's counterattack during the Emmeria-Estovakia War.",
+        "url": "https://acecombat.fandom.com/wiki/Silvat_Town"
+    },
+    {
+        "_id": "sipli",
+        "datatype": "city",
+        "countryId": "khesed",
+        "name": "Sipli Field",
+        "dms": {
+            "lat": [44, 58, 0],
+            "lng": [34, 19, 36]
+        }
+    },
+    {
+        "_id": "solisortus",
+        "datatype": "city",
+        "countryId": "ustio",
+        "name": "Solis Ortus",
+        "dms": {
+            "lat": [16, 52, 7],
+            "lng": [237, 16, 9]
+        },
+        "desc": "Solis Ortus is an isolated rural town located in the mountains of southern Ustio. During the Belkan War in 1995, Solis Ortus was occupied by the Belkan Army and later liberated by the Allied Forces. \"Solis ortus\" is Latin for \"sunrise\".",
+        "url": "https://acecombat.fandom.com/wiki/Solis_Ortus"
+    },
+    {
+        "_id": "stark",
+        "datatype": "city",
+        "countryId": "usea",
+        "name": "St. Ark",
+        "dms": {
+            "lat": [27, 33, 0],
+            "lng": [-18, 45, 35]
+        }
+    },
+    {
+        "_id": "sthewlett",
+        "datatype": "city",
+        "countryId": "osea",
+        "name": "St. Hewlett",
+        "dms": {
+            "lat": [0, 25, 53],
+            "lng": [165, 45, 42]
+        }
+    },
+    {
+        "_id": "stier",
+        "datatype": "city",
+        "countryId": "belka",
+        "name": "Stier Castle",
+        "dms": {
+            "lat": [26, 11, 24],
+            "lng": [-127, 50, 24]
+        }
+    },
+    {
+        "_id": "stonehenge",
+        "datatype": "superweapon",
+        "countryId": "usea",
+        "name": "Stonehenge",
+        "dms": {
+            "lat": [9, 31, 53],
+            "lng": [-50, 21, 40]
+        }
+    },
+    {
+        "_id": "sudentor",
+        "datatype": "city",
+        "countryId": "northosea",
+        "name": "Sudentor",
+        "dms": {
+            "lat": [24, 8, 59],
+            "lng": [234, 7, 59]
+        },
+        "desc": "Sudentor is an industrial city located in North Osea, just south of the border between Osea and present-day southern Belka, south of the Waldreich Mountains. Sudentor is the headquarters of Gründer Industries, formerly the South Belka Munitions Factory, which maintains a large research, manufacturing, and storage facility north of downtown.",
+        "url": "https://acecombat.fandom.com/wiki/Sudentor"
+    },
+    {
+        "_id": "valais",
+        "datatype": "base",
+        "countryId": "Ustio",
+        "name": "Valais Air Base",
+        "dms": {
+            "lat": [20, 28, 28],
+            "lng": [-120, 48, 20]
+        }
+    },
+    {
+        "_id": "vitoze",
+        "datatype": "city",
+        "countryId": "khesed",
+        "name": "Vitoze",
+        "dms": {
+            "lat": [36, 13, 27],
+            "lng": [26, 30, 35]
+        },
+        "desc": "Vitoze is a medieval city located in the Brilliante Heights, southwestern Khesed Island. The city itself is old and surrounded by mountains. East of the city is Campagna Airport, which became a vital asset to Emmerian forces during the Emmeria-Estovakia War.",
+        "url": "https://acecombat.fandom.com/wiki/Vitoze"
+    },
+    {
+        "_id": "virjunui",
+        "datatype": "city",
+        "countryId": "yuktobania",
+        "name": "Virjunui",
+        "dms": {
+            "lat": [-5, 34, 48],
+            "lng": [116, 14, 24]
+        }
+    },
+    {
+        "_id": "wadsworth",
+        "datatype": "city",
+        "countryId": "osea",
+        "name": "Wadsworth",
+        "dms": {
+            "lat": [-13, 29, 24],
+            "lng": [-147, 44, 24]
+        }
+    },
+    {
+        "_id": "wesson",
+        "datatype": "city",
+        "countryId": "osea",
+        "name": "Wesson",
+        "dms": {
+            "lat": [20, 47, 23],
+            "lng": [-136, 58, 34]
+        }
+    },
+    {
+        "_id": "zakat",
+        "datatype": "city",
+        "countryId": "yuktobania",
+        "name": "Zakat",
+        "dms": {
+            "lat": [16, 2, 23],
+            "lng": [92, 30, 0]
+        },
+        "desc": "Zakat is a city in Yuktobania situated north of the Jilachi Desert.",
+        "url": "https://acecombat.fandom.com/wiki/Jilachi_Desert"
+    }
+]

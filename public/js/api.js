@@ -34,57 +34,18 @@ let api = (function () {
 
     let module = {};
 
-    // get country flag by id
-    let getFlag = function (countryId, callback) {
-        send("GET", `/api/countries/${countryId}/flag/`, null, callback);
-    };
-
-    /* Listeners */
-
-    let errorListeners = [];
-
-    function notifyErrorListeners(err) {
-        errorListeners.forEach(function (listener) {
-            listener(err);
-        });
-    }
-
-    module.onError = function (listener) {
-        errorListeners.push(listener);
-    };
-
-    // gets all cities
-    let getCities = function (callback) {
-        send(`GET`, `/api/cities`, null, (err, cities) => {
+    // gets all locations
+    module.getLocations = function (callback) {
+        send(`GET`, `/api/locations`, null, (err, locations) => {
             if (err) return console.error(err);
-            callback(cities);
+            callback(locations);
         });
     }
 
-    module.initializeCities = function (listener) {
-        getCities(cities => {
-            listener(cities);
-        });
-    }
-
-    module.getCitySummary = function (cityid, callback) {
-        send(`GET`, `/api/cities/${cityid}`, null, (err, cities) => {
+    module.getLocationSummary = function (id, callback) {
+        send(`GET`, `/api/locations/${id}`, null, (err, location) => {
             if (err) return console.error(err);
-            callback(cities);
-        });
-    }
-
-    // gets all POIs
-    let getPOIs = function (conflict, callback) {
-        send(`GET`, `/api/poi/${conflict}/`, null, (err, poi) => {
-            if (err) return console.error(err);
-            callback(poi);
-        });
-    }
-
-    module.initializePOIs = function (conflict, listener) {
-        getPOIs(conflict, poi => {
-            listener(poi);
+            callback(location);
         });
     }
 

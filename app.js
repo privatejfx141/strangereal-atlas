@@ -29,28 +29,27 @@ app.use(function (req, res, next) {
     next();
 });
 
-/* Read */
-
+// country
 const country = require('./controllers/country');
 app.get('/api/countries/', country.getCountries);
 app.get('/api/countries/:id/', country.getCountry);
 
+// flag
 const flag = require('./controllers/flag');
-app.get('/api/countries/:id/flag/', flag.getFlag);
+app.get('/api/countries/:id/flag.png', flag.getFlag);
 
-const city = require('./controllers/city');
-app.get('/api/cities/', city.getCities);
-app.get('/api/cities/:id/', city.getCity);
-app.get('/api/cities/:id/summary/', city.getCitySummary);
+// map tile
+const icon = require('./controllers/icon');
+app.get('/api/icons/:id.png', icon.getIcon);
 
+// location (city, base, airport, superweapon)
+const location = require('./controllers/location');
+app.get('/api/locations/', location.getLocations);
+app.get('/api/locations/:id/', location.getLocation);
+
+// map tile
 const map = require('./controllers/map');
 app.get('/api/maps/strangereal/:z/:x/:y.png', map.checkZXY, map.getTile);
-
-const poi = require('./controllers/poi');
-app.get('/api/poi/:conflict/', poi.getPOIs);
-
-const polygons = require('./controllers/polygon');
-app.get('/api/polygons/:id/', polygons.getPolygon)
 
 // setup server
 const http = require('http');
