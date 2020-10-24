@@ -96,6 +96,16 @@
         }
     },
     {
+        "_id": "archelon",
+        "datatype": "base",
+        "countryId": "leasath",
+        "name": "Archelon Fortress",
+        "dms": {
+            "lat": [-45, 10, 32],
+            "lng": [-153, 43, 14]
+        }
+    },
+    {
         "_id": "arlon",
         "datatype": "city",
         "countryId": "sapin",
@@ -113,6 +123,26 @@
         "dms": {
             "lat": [-3, 1, 54],
             "lng": [-41, 32, 4]
+        }
+    },
+    {
+        "_id": "aubrey",
+        "datatype": "city",
+        "countryId": "aurelia",
+        "name": "Cape Aubrey",
+        "dms": {
+            "lat": [-42, 40, 15],
+            "lng": [176, 5, 19]
+        }
+    },
+    {
+        "_id": "aubreybase",
+        "datatype": "base",
+        "countryId": "aurelia",
+        "name": "Aubrey Air Base",
+        "dms": {
+            "lat": [-42, 13, 53],
+            "lng": [175, 54, 47]
         }
     },
     {
@@ -188,6 +218,16 @@
         }
     },
     {
+        "_id": "cavallia",
+        "datatype": "base",
+        "countryId": "emmeria",
+        "name": "Cavallia Air Base",
+        "dms": {
+            "lat": [44, 4, 37],
+            "lng": [79, 14, 0]
+        }
+    },
+    {
         "_id": "centrum",
         "datatype": "capital",
         "countryId": "ratio",
@@ -203,8 +243,8 @@
         "countryId": "sonne",
         "name": "Chandelier",
         "dms": {
-            "lat": [64, 53, 56],
-            "lng": [103, 37, 22]
+            "lat": [66, 47, 57],
+            "lng": [103, 32, 6]
         }
     },
     {
@@ -289,6 +329,16 @@
         "dms": {
             "lat": [21, 16, 11],
             "lng": [87, 3, 36]
+        }
+    },
+    {
+        "_id": "darina",
+        "datatype": "city",
+        "countryId": "yuktobania",
+        "name": "Darina",
+        "dms": {
+            "lat": [34, 53, 33],
+            "lng": [88, 43, 32]
         }
     },
     {
@@ -390,6 +440,16 @@
         }
     },
     {
+        "_id": "fensalir",
+        "datatype": "city",
+        "countryId": "emmeria",
+        "name": "Fensalir",
+        "dms": {
+            "lat": [66, 24, 4],
+            "lng": [79, 53, 33]
+        }
+    },
+    {
         "_id": "fortgrays",
         "datatype": "airport",
         "countryId": "fortgrays",
@@ -440,6 +500,16 @@
         },
         "desc": "Gracemeria is the capital city of the Republic of Emmeria, located on the southern coast of the Anean continent. The citizens living in the city enjoy prosperity and follow peaceful everyday lives. Gracemeria was a key component in the Emmeria-Estovakia War. It was the first city Estovakia's military invaded, and the last-known city Emmerian forces liberated prior to the war's conclusion.",
         "url": "https://acecombat.fandom.com/wiki/Gracemeria"
+    },
+    {
+        "_id": "gracemeriabase",
+        "datatype": "base",
+        "countryId": "emmeria",
+        "name": "Gracemeria Air Force Base",
+        "dms": {
+            "lat": [48, 22, 34],
+            "lng": [96, 22, 19]
+        }
     },
     {
         "_id": "granrugido",
@@ -668,6 +738,16 @@
         }
     },
     {
+        "_id": "norton",
+        "datatype": "base",
+        "countryId": "emmeria",
+        "name": "Fort Norton",
+        "dms": {
+            "lat": [49, 52, 16],
+            "lng": [95, 45, 24]
+        }
+    },
+    {
         "_id": "november",
         "datatype": "city",
         "countryId": "osea",
@@ -687,6 +767,16 @@
         "dms": {
             "lat": [20, 2, 23],
             "lng": [110, 15, 36]
+        }
+    },
+    {
+        "_id": "onslow",
+        "datatype": "city",
+        "countryId": "osea",
+        "name": "Onslow",
+        "dms": {
+            "lat": [49, 34, 13],
+            "lng": [-166, 59, 31]
         }
     },
     {
@@ -732,6 +822,26 @@
         }
     },
     {
+        "_id": "puna",
+        "datatype": "base",
+        "countryId": "aurelia",
+        "name": "Puna Base",
+        "dms": {
+            "lat": [-46, 21, 44],
+            "lng": [177, 53, 26]
+        }
+    },
+    {
+        "_id": "ragno",
+        "datatype": "base",
+        "countryId": "emmeria",
+        "name": "Ragno Fortress",
+        "dms": {
+            "lat": [54, 58, 32],
+            "lng": [89, 57, 21]
+        }
+    },
+    {
         "_id": "redmill",
         "datatype": "city",
         "countryId": "osea",
@@ -759,6 +869,16 @@
         "dms": {
             "lat": [14, 54, 0],
             "lng": [-130, 18, 0]
+        }
+    },
+    {
+        "_id": "sachana",
+        "datatype": "base",
+        "countryId": "aurelia",
+        "name": "Sachana Air Base",
+        "dms": {
+            "lat": [-45, 29, 0],
+            "lng": [-168, 52, 54]
         }
     },
     {
@@ -903,12 +1023,12 @@
     },
     {
         "_id": "sthewlett",
-        "datatype": "city",
+        "datatype": "base",
         "countryId": "osea",
         "name": "St. Hewlett",
         "dms": {
-            "lat": [0, 25, 53],
-            "lng": [165, 45, 42]
+            "lat": [8, 26, 15],
+            "lng": [-177, 21, 47]
         }
     },
     {
@@ -942,6 +1062,26 @@
         },
         "desc": "Sudentor is an industrial city located in North Osea, just south of the border between Osea and present-day southern Belka, south of the Waldreich Mountains. Sudentor is the headquarters of Gründer Industries, formerly the South Belka Munitions Factory, which maintains a large research, manufacturing, and storage facility north of downtown.",
         "url": "https://acecombat.fandom.com/wiki/Sudentor"
+    },
+    {
+        "_id": "terminus",
+        "datatype": "city",
+        "countryId": "aurelia",
+        "name": "Terminus Oilfields",
+        "dms": {
+            "lat": [-55, 32, 48],
+            "lng": [-172, 2, 45]
+        }
+    },
+    {
+        "_id": "tigre",
+        "datatype": "base",
+        "countryId": "yuktobania",
+        "name": "Tigre Port",
+        "dms": {
+            "lat": [3, 23, 1],
+            "lng": [116, 16, 45]
+        }
     },
     {
         "_id": "valais",
