@@ -53,6 +53,7 @@ window.onload = (function () {
         locations.forEach(location => {
             let latLng = L.DMS(location.dms);
             let marker = L.marker(latLng, {
+                name: location.name,
                 icon: new _icon({ iconUrl: `/api/icons/${location.datatype}.png` })
             }).bindPopup(location.name)
               .on("click", _ => {
@@ -71,5 +72,22 @@ window.onload = (function () {
         "Superweapons": layerGroups["superweapon"],
         "Ulysses impacts": layerGroups["crater"]
     }).addTo(map);
+
+    L.control.search({
+        firstTipSubmit: true,
+        layer: L.featureGroup([
+            layerGroups["city"],
+            layerGroups["base"],
+            layerGroups["airport"],
+            layerGroups["superweapon"],
+            layerGroups["crater"]]),
+        initial: false,
+        propertyName: 'name',
+        zoom: 5
+    }).addTo(map)
+    .on("search:locationfound", results => {
+        let marker = results.layer;
+        marker.fire('click');
+    });
 
 }());
