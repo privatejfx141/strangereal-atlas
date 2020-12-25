@@ -11,6 +11,8 @@ An interactive world map of Strangereal from Bandai Namco's [*Ace Combat*](https
 
 ## Setup
 
+For local development, Strangereal Atlas uses the [MongoDB Compass](https://www.mongodb.com/try/download/compass) for the NoSQL database.
+
 To install all Node.js dependencies, enter the following command:
 
 ```bash

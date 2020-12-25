@@ -12,7 +12,7 @@ window.onload = (function () {
     L.tileLayer(URL + "/api/maps/strangereal/{z}/{x}/{y}.png", {
         continuousWorld: true,
         minZoom: 3,
-        maxZoom: 5,
+        maxZoom: 6,
         tileSize: 256,
         bounds: mapBounds,
         noWrap: true,
@@ -29,6 +29,9 @@ window.onload = (function () {
         let dms = convertToDMS(lat, lng);
         position.updateHTML(getDMSString(dms), [lat, lng]);
     });
+
+    let infobox = new Infobox();
+    map.addControl(infobox);
 
     // layer groups
     let cities = L.layerGroup();
@@ -52,6 +55,11 @@ window.onload = (function () {
             let marker = L.marker(latLng, {
                 icon: new _icon({ iconUrl: `/api/icons/${location.datatype}.png` })
             }).bindPopup(location.name)
+              .on("click", _ => {
+                  api.getLocationSummary(location._id, data => {
+                    infobox.updateHTML(data);
+                  });
+              })
               .addTo(layerGroups[location.datatype]);
         });
     });
@@ -63,13 +71,5 @@ window.onload = (function () {
         "Superweapons": layerGroups["superweapon"],
         "Ulysses impacts": layerGroups["crater"]
     }).addTo(map);
-
-    map.on("click", (event) => {
-        let lat = event.latlng.lat;
-        let lng = event.latlng.lng;
-        let dms = convertToDMS(lat, lng);
-        let res = `[${dms.lat[0]}, ${dms.lat[1]}, ${dms.lat[2]}], [${dms.lng[0]}, ${dms.lng[1]}, ${dms.lng[2]}]`
-        console.log(res);
-    });
 
 }());

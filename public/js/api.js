@@ -49,6 +49,14 @@ let api = (function () {
         });
     }
 
+    // get geojson object
+    module.getGeoJSON = function (id, callback) {
+        send(`GET`, `/api/geojson/${id}`, null, (err, geojson) => {
+            if (err) return console.error(err);
+            callback(geojson);
+        });
+    }
+
     return module;
 
 })();

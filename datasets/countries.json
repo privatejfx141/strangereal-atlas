@@ -39,6 +39,12 @@
         "location": "Verusa"
     },
     {
+        "_id": "comona",
+        "parentId": "usea",
+        "datatype": "region",
+        "name": "Comona Island"
+    },
+    {
         "_id": "delarus",
         "datatype": "country",
         "name": "Delarus",
@@ -78,6 +84,12 @@
         "location": "Eastern Osea"
     },
     {
+        "_id": "fortgrays",
+        "parentId": "usea",
+        "datatype": "region",
+        "name": "Fort Grays Island"
+    },
+    {
         "_id": "gebet",
         "datatype": "country",
         "name": "Gebet",
@@ -90,10 +102,10 @@
     },
     {
         "_id": "gunther",
-        "datatype": "country",
+        "datatype": "region",
+        "parentId": "usea",
         "name": "Gunther",
-        "type": "Trust territory",
-        "location": "Usea"
+        "type": "Trust territory"
     },
     {
         "_id": "isaf",
@@ -168,6 +180,11 @@
         "capital": "Oured",
         "location": "Western Osea",
         "desc": "Osea is a massive country and international superpower located on the Osean continent. Osea is a highly developed country that possesses a large population, an extensive infrastructure, a thriving economy, and a well-outfitted military force, the Osean Defense Forces. Osea is also considered one of the world's foremost leaders in aeronautics and space-exploration development."
+    },
+    {
+        "_id": "perbla",
+        "datatype": "country",
+        "name": "Perbla"
     },
     {
         "_id": "ratio",
@@ -299,5 +316,11 @@
         "capital": "Cinigrad",
         "location": "Verusa",
         "desc": "Yuktobania is a large nation and international superpower located on the Verusan continent. It is a highly developed nation that possesses a large population, industrialized economy, and a well-outfitted military force. The country is also regarded for its many advancements in aerospace technology, submersible engineering, and ballistic missile weaponry."
+    },
+    {
+        "_id": "zapland",
+        "datatype": "region",
+        "parentId": "usea",
+        "name": "Zapland"
     }
 ]

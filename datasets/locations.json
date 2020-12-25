@@ -2,7 +2,7 @@
     {
         "_id": "444",
         "datatype": "base",
-        "countryId": "yuktobania",
+        "countryId": "zapland",
         "name": "444th Air Base",
         "dms": {
             "lat": [-1, 45, 36],
@@ -153,7 +153,9 @@
         "dms": {
             "lat": [29, 55, 38],
             "lng": [234, 26, 3]
-        }
+        },
+        "desc": "Avalon Dam is a massive hydroelectric dam and missile silo complex located in Mund Valley in central Belka. At the end of December 1995, Avalon Dam became the site of the decisive final engagement between the Allied Forces and the rebel organization A World With No Boundaries.",
+        "url": "https://acecombat.fandom.com/wiki/Avalon_Dam,_Belka"
     },
     {
         "_id": "bana",
@@ -221,11 +223,13 @@
         "_id": "cavallia",
         "datatype": "base",
         "countryId": "emmeria",
-        "name": "Cavallia Air Base",
+        "name": "Cavallia Air Force Base",
         "dms": {
             "lat": [44, 4, 37],
             "lng": [79, 14, 0]
-        }
+        },
+        "desc": "Cavallia Air Force Base is a military installation located within the city of San Loma.",
+        "url": "https://acecombat.fandom.com/wiki/Cavallia_Air_Force_Base"
     },
     {
         "_id": "centrum",
@@ -245,7 +249,9 @@
         "dms": {
             "lat": [66, 47, 57],
             "lng": [103, 32, 6]
-        }
+        },
+        "desc": "The Chandelier was a giant railgun created by Estovakia capable of firing capsules containing multiple cruise missiles. It was one of many large-scale weapons constructed to combat the 1994XF04 Ulysses asteroid.",
+        "url": "https://acecombat.fandom.com/wiki/Chandelier"
     },
     {
         "_id": "cinigrad",
@@ -289,7 +295,9 @@
         "dms": {
             "lat": [2, 3, 20],
             "lng": [-18, 22, 8]
-        }
+        },
+        "desc": "Comberth Harbor is a major city and harbor on the Usean continent. During the Continental War, Erusea deployed its 'invincible' Aegir Fleet to Comberth in preparation for an invasion of North Point. The city also saw at least one battle during the Lighthouse War.",
+        "url": "https://acecombat.fandom.com/wiki/Comberth_Harbor"
     },
     {
         "_id": "cor",
@@ -312,14 +320,26 @@
         }
     },
     {
+        "_id": "craterlake",
+        "datatype": "crater",
+        "countryId": "usea",
+        "name": "Crater Lake",
+        "dms": {
+            "lat": [0, 8, 29],
+            "lng": [-45, 29, 0]
+        } 
+    },
+    {
         "_id": "crnero",
-        "datatype": "capital",
-        "countryId": "fato",
+        "datatype": "city",
+        "countryId": "emmeria",
         "name": "Crnero",
         "dms": {
             "lat": [44, 54, 36],
             "lng": [56, 39, 0]
-        }
+        },
+        "desc": "Crnero is a city in Emmeria on the western side of the Anean mainland. It is located west of Rawllins Plain.",
+        "url": "https://acecombat.fandom.com/wiki/Crnero"
     },
     {
         "_id": "cruik",
@@ -329,7 +349,9 @@
         "dms": {
             "lat": [21, 16, 11],
             "lng": [87, 3, 36]
-        }
+        },
+        "desc": "Cruik Fortress is a large, fortified military installation located in northern-central Yuktobania, northeast of Cinigrad and west of the Vladimir Mountains. Cruik is one of the Yuktobanian capital's primary defensive positions. Its daunting size and impressive fortifications earned Cruik a reputation for being nearly 'impregnable'.",
+        "url": "https://acecombat.fandom.com/wiki/Cruik_Fortress"
     },
     {
         "_id": "darina",
@@ -371,7 +393,9 @@
         "dms": {
             "lat": [17, 20, 1],
             "lng": [238, 25, 51]
-        }
+        },
+        "desc": "Directus is the capital of the Republic of Ustio. The city is located in southeastern Ustio and consists of five administrative wards along the Crescere River.",
+        "url": "https://acecombat.fandom.com/wiki/Directus"
     },
     {
         "_id": "dresdene",
@@ -396,6 +420,16 @@
         }
     },
     {
+        "_id": "emmeriacrater",
+        "datatype": "crater",
+        "countryId": "emmeria",
+        "name": "Emmerian Crater",
+        "dms": {
+            "lat": [57, 46, 52],
+            "lng": [97, 4, 30]
+        }
+    },
+    {
         "_id": "ekvatal",
         "datatype": "city",
         "countryId": "yuktobania",
@@ -404,6 +438,18 @@
             "lat": [0, 52, 47],
             "lng": [96, 9, 0]
         }
+    },
+    {
+        "_id": "excalibur",
+        "datatype": "superweapon",
+        "countryId": "belka",
+        "name": "Excalibur",
+        "dms": {
+            "lat": [26, 48, 23],
+            "lng": [-126, 10, 1]
+        },
+        "desc": "Excalibur, also known as the Sword of Annihilation, was a chemical laser weapon constructed by Belka between the late 1980s and early 1990s. Excalibur was originally conceived as a long-range, anti-ICBM defense system. During the Belkan War, it was used as an anti-aircraft weapon to moderate success until its destruction in May 1995.",
+        "url": "https://acecombat.fandom.com/wiki/Excalibur_(Strangereal)"
     },
     {
         "_id": "expo",
@@ -490,6 +536,16 @@
         }
     },
     {
+        "_id": "goldberg",
+        "datatype": "crater",
+        "countryId": "usea",
+        "name": "Goldberg Crater",
+        "dms": {
+            "lat": [19, 9, 17],
+            "lng": [-64, 51, 47]
+        } 
+    },
+    {
         "_id": "gracemeria",
         "datatype": "capital",
         "countryId": "emmeria",
@@ -509,7 +565,9 @@
         "dms": {
             "lat": [48, 22, 34],
             "lng": [96, 22, 19]
-        }
+        },
+        "desc": "Gracemeria Air Force Base is located within the Emmeria's capital city, Gracemeria. It served as the base of operations for the Emmerian Air Force's Eastern Region Air Defense force which included Garuda Team.",
+        "url": "https://acecombat.fandom.com/wiki/Gracemeria_Air_Force_Base"
     },
     {
         "_id": "granrugido",
@@ -544,6 +602,16 @@
             "lat": [-9, 50, 23],
             "lng": [91, 24, 35]
         }
+    },
+    {
+        "_id": "hattiescrater",
+        "datatype": "crater",
+        "countryId": "usea",
+        "name": "Hatties Crater",
+        "dms": {
+            "lat": [9, 20, 46],
+            "lng": [-50, 37, 30]
+        } 
     },
     {
         "_id": "heierlark",
@@ -588,23 +656,13 @@
         }
     },
     {
-        "_id": "kijera",
-        "datatype": "city",
-        "countryId": "emmeria",
-        "name": "Kijera Oil Fields",
-        "dms": {
-            "lat": [40, 45, 30],
-            "lng": [50, 56, 7]
-        }
-    },
-    {
-        "_id": "krylo",
+        "_id": "istas",
         "datatype": "base",
-        "countryId": "yuktobania",
-        "name": "Krylo Airfield",
+        "countryId": "usea",
+        "name": "Istas Fortress",
         "dms": {
-            "lat": [22, 58, 33],
-            "lng": [113, 41, 11]
+            "lat": [-7, 10, 30],
+            "lng": [-32, 23, 15]
         }
     },
     {
@@ -615,6 +673,38 @@
         "dms": {
             "lat": [2, 17, 24],
             "lng": [-56, 20, 24]
+        },
+        "desc": "The International Space Elevator, commonly referred to as Lighthouse, is a space elevator located next to Selatapura in Gunther Bay, Usea. Its primary purpose is to transmit solar energy collected in the atmosphere and distribute it to power plants on Earth. This energy is used to help Usea's reconstruction following the damage from Ulysses 1994XF04's impact that continues to plague the continent.",
+        "url": "https://acecombat.fandom.com/wiki/International_Space_Elevator"
+    },
+    {
+        "_id": "kijera",
+        "datatype": "city",
+        "countryId": "emmeria",
+        "name": "Kijera Oil Fields",
+        "dms": {
+            "lat": [40, 45, 30],
+            "lng": [50, 56, 7]
+        }
+    },
+    {
+        "_id": "krasinsky",
+        "datatype": "crater",
+        "countryId": "usea",
+        "name": "Krasinsky Crater",
+        "dms": {
+            "lat": [30, 42, 44],
+            "lng": [-24, 49, 44]
+        }
+    },
+    {
+        "_id": "krylo",
+        "datatype": "base",
+        "countryId": "yuktobania",
+        "name": "Krylo Airfield",
+        "dms": {
+            "lat": [22, 58, 33],
+            "lng": [113, 41, 11]
         }
     },
     {
@@ -631,7 +721,7 @@
         "_id": "loscanas",
         "datatype": "city",
         "countryId": "usea",
-        "name": "loscanas",
+        "name": "Los Canas",
         "dms": {
             "lat": [3, 52, 12],
             "lng": [-34, 3, 36]
@@ -646,6 +736,16 @@
             "lat": [17, 58, 11],
             "lng": [-130, 28, 11]
         }
+    },
+    {
+        "_id": "mackenzie",
+        "datatype": "crater",
+        "countryId": "usea",
+        "name": "Mackenzie Crater",
+        "dms": {
+            "lat": [13, 7, 42],
+            "lng": [-21, 58, 21]
+        } 
     },
     {
         "_id": "mcnealy",
@@ -675,6 +775,18 @@
         "dms": {
             "lat": [11, 22, 48],
             "lng": [-74, 58, 11]
+        },
+        "desc": "Megalith was a missile-launch facility built on the Twinkle Islands by Erusea in the early 21st century. It was created in secret and immediately activated following Erusea's defeat in the Continental War as a retaliatory weapon of mass destruction.",
+        "url": "https://acecombat.fandom.com/wiki/Megalith_(facility)"
+    },
+    {
+        "_id": "montebreeze",
+        "datatype": "city",
+        "countryId": "aurelia",
+        "name": "Monte Breeze",
+        "dms": {
+            "lat": [-38, 59, 36],
+            "lng": [-172, 8, 1]
         }
     },
     {
@@ -725,6 +837,16 @@
         "dms": {
             "lat": [23, 43, 48],
             "lng": [-113, 19, 47]
+        }
+    },
+    {
+        "_id": "nordencrater",
+        "datatype": "crater",
+        "countryId": "nordennavic",
+        "name": "Nordennavic Crater",
+        "dms": {
+            "lat": [58, 10, 36],
+            "lng": [58, 45, 17]
         }
     },
     {
@@ -872,6 +994,16 @@
         }
     },
     {
+        "_id": "ryker",
+        "datatype": "crater",
+        "countryId": "erusea",
+        "name": "Ryker Crater",
+        "dms": {
+            "lat": [18, 48, 8],
+            "lng": [-77, 25, 53]
+        }
+    },
+    {
         "_id": "sachana",
         "datatype": "base",
         "countryId": "aurelia",
@@ -884,7 +1016,7 @@
     {
         "_id": "sand",
         "datatype": "base",
-        "countryId": "aurelia",
+        "countryId": "osea",
         "name": "Sand Island Air Base",
         "dms": {
             "lat": [7, 43, 48],
@@ -964,7 +1096,7 @@
         "name": "Shilage Castle",
         "dms": {
             "lat": [10, 40, 47],
-            "lng": [57, 47, 24]
+            "lng": [-57, 47, 24]
         }
     },
     {
@@ -997,7 +1129,9 @@
         "dms": {
             "lat": [44, 58, 0],
             "lng": [34, 19, 36]
-        }
+        },
+        "desc": "Sipli Field is a snowy field located in the center of Khesed Island in western Anea. Sipli became a frontline base for the Estovakians during the Emmeria-Estovakia War.",
+        "url": "https://acecombat.fandom.com/wiki/Sipli_Field"
     },
     {
         "_id": "solisortus",
@@ -1039,7 +1173,9 @@
         "dms": {
             "lat": [26, 11, 24],
             "lng": [-127, 50, 24]
-        }
+        },
+        "desc": "Stier Castle is an historic Belkan castle positioned on the southern edge of the border between Belka and North Osea (formerly South Belka) in the Waldreich Mountains, northwest of Sudentor.",
+        "url": "https://acecombat.fandom.com/wiki/Stier_Castle"
     },
     {
         "_id": "stonehenge",
@@ -1049,7 +1185,9 @@
         "dms": {
             "lat": [9, 31, 53],
             "lng": [-50, 21, 40]
-        }
+        },
+        "desc": "Stonehenge, also known as the Spaceguard Turret Network, is a railgun complex constructed in western Usea. It is located in the Hatties Desert and in close proximity to San Salvacion. It is the primary weapon developed at the end of the 20th century to address the threat of the Ulysses 1994XF04 asteroid. Its eight railguns succeeded in destroying some Ulysses fragments but could not protect Usea completely, and one of its railguns was disabled by one such fragment.",
+        "url": "https://acecombat.fandom.com/wiki/Stonehenge_(Strangereal)"
     },
     {
         "_id": "sudentor",
@@ -1086,7 +1224,7 @@
     {
         "_id": "valais",
         "datatype": "base",
-        "countryId": "Ustio",
+        "countryId": "ustio",
         "name": "Valais Air Base",
         "dms": {
             "lat": [20, 28, 28],

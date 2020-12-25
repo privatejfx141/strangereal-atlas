@@ -7,7 +7,7 @@
 const fs = require('fs').promises;
 
 const MIN_ZOOM = 0;
-const MAX_ZOOM = 5;
+const MAX_ZOOM = 6;
 
 // integer validator for getting tile at coordinates
 exports.checkZXY = function (req, res, next) {

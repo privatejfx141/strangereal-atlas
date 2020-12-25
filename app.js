@@ -47,6 +47,10 @@ const location = require('./controllers/location');
 app.get('/api/locations/', location.getLocations);
 app.get('/api/locations/:id/', location.getLocation);
 
+// geojson
+const geojson = require('./controllers/geojson');
+app.get('/api/geojson/:id', geojson.getGeoJSON);
+
 // map tile
 const map = require('./controllers/map');
 app.get('/api/maps/strangereal/:z/:x/:y.png', map.checkZXY, map.getTile);

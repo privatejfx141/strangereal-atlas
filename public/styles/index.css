@@ -6,3 +6,45 @@
     width: 3px !important;
     height: 3px !important;
 }
+
+.infobox {
+    border-radius: 5px;
+    background: #fff;
+    bottom: 0;
+    width: 500px;
+    overflow-y: hidden;
+    border: 2px solid rgba(0,0,0,0.2);
+    background-clip: padding-box;
+}
+
+.infobox-title {
+    align-items: center;
+    background: #e5e5e5;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.infobox-title h2 {
+    font-size: 1.6rem;
+    margin: 0;
+    margin-left: 6px;
+}
+
+.infobox-body {
+    font-size: 0.8rem;
+    height: 16vh;
+    margin: 0;
+    padding: 6px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.infobox-body h3:first-child {
+    margin-top: 0;
+}
+
+.infobox-body h3 {
+    margin: 0;
+    margin-top: 4px;
+}
