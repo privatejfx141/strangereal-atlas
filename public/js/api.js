@@ -49,11 +49,11 @@ let api = (function () {
         });
     }
 
-    // get geojson object
-    module.getGeoJSON = function (id, callback) {
-        send(`GET`, `/api/geojson/${id}`, null, (err, geojson) => {
+    // get polygon
+    module.getPolygon = function (id, callback) {
+        send(`GET`, `/api/polygons/${id}`, null, (err, polygon) => {
             if (err) return console.error(err);
-            callback(geojson);
+            callback(polygon);
         });
     }
 
